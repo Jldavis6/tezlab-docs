@@ -1,8 +1,15 @@
 # Necessary Software
 
-This guide will assume its reader essentially has no software beyond factory defaults downloaded upon start. To get the TezLab mobile app successfully running on a simulator, much needs to be downloaded and set up.
+This guide will assume its reader essentially has no software beyond factory defaults and VSCode downloaded upon start. To get the TezLab mobile app successfully running on a simulator, much needs to be downloaded and set up.
 
 **Assumed**: MacOS operating system.
+
+## Setting Up TezLab Repos
+
+Create a local directory on your machine to house the repositories you're about to clone. Navigate into that directory.
+
+- To clone tesla-web, open a terminal window and run `git clone https://github.com/BrooklynRunningCompany/tesla-web`.
+- To clone tesla-mobile, run `git clone -b main https://github.com/BrooklynRunningCompany/tesla-mobile`. Currently, most changes to tesla-mobile are pushed to `main`, but this may change in the future, which would alter the cloning command; this should be self-explanatory should that time come, though.
 
 ## Homebrew
 
