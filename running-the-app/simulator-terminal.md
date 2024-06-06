@@ -24,7 +24,7 @@ Now that you've added those secrets to your system, run `npm install --force`. T
 
 ### Installing pods
 
-From `.../tesla-mobile', run `cd ios`, then `pod install` (if you haven't already, or if you've already run `pod deintegrate`; else, best to just go for `pod deintegrate && pod install`). This will install all the dependencies outlined in `tesla-mobile/ios/Podfile`.
+From `.../tesla-mobile'`, run `cd ios`, then `pod install` (if you haven't already, or if you've already run `pod deintegrate`; else, best to just go for `pod deintegrate && pod install`). This will install all the dependencies outlined in `tesla-mobile/ios/Podfile`.
 
 ### npm start
 
