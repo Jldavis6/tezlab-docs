@@ -15,7 +15,10 @@ Now let's get to it. You'll see here, in a DFS style, a list of all the screens,
   - **Filter Screen** - `tracking/FilterScreen/index.js`
 - **Timestamps Above Usage Maps** - `util.js.returnSection`
 - **Usage/Usage Map** - `shared/Cards/Usage.js` and `shared/Cards/UsageMap.js`
+  - **Usage Report** (click on Usage/Usage map) - `profile/ChargeReportScreen/index.js`
 - **Drive Banners** (i.e. leaf icon --> Brooklyn, NY to Brooklyn, NY --> 1.0 mi) - `tracking/TrackingBatteryUsage/DriveCard.js`
+  - **Drive Details** (double click/press and hold drive banner) - `shared/DriveDetailsModal/index.js`
+    - **Stats** - `shared/DriveDetailsModal/Card.js`
 - **Charge Card** - `shared/Cards/Charge.js`
 - **Export** - `shared/ExportButton.js`
 - **New Post** - `social/NewPostModal/index.js`
