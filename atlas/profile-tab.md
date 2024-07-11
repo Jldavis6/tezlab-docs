@@ -43,6 +43,12 @@ Now let's get to it. You'll see here, in a DFS style, a list of all the screens,
   - **Range Settings Menu** (click lock/sentry icon/battery, range) - `profile/HomeScreen/RangeSettingsMenu.js`
   - **Current Drive** - `shared/CurrentTripDashboard.js`
   - **Current Charge** - `shared/CurrentChargeDashboard/index.js`
+    - *Header* (range, time remaining, etc) - `shared/CurrentChargeDashboard/HeaderSection.js`
+    - *Range and Power* (graph of same name) - `shared/Cards/RangeAndPower.js`
+    - *Carbon Impact Section* - `shared/Cards/CharbonImpactCard.js` (not a typo)
+    - *Power Mix Section* - `shared/CurrentChargeDashboard/PowerMixSection.js`
+    - *Charge Metrics* - `shared/ChargeReportModal/NerdData.js`
+    - *Footer* - `shared/CurrentChargeDashboard/Footer.js`
   - **Controls** - `controls/MiniControls.js`
   - **Notification Card** - `profile/HomeScreen/NotificationsPane.js`
     - **Notification Page** - `profile/Notifications.js`
