@@ -42,7 +42,7 @@ Now let's get to it. You'll see here, in a DFS style, a list of all the screens,
   - **Switch Vehicle** (if applicable) - `shared/SwitchVehicleMenu.js`
   - **Range Settings Menu** (click lock/sentry icon/battery, range) - `profile/HomeScreen/RangeSettingsMenu.js`
   - **Current Drive** - `shared/CurrentTripDashboard.js`
-  - **Current Charge** - `shared/CurrentChargeReportCard.js`
+  - **Current Charge** - `shared/CurrentChargeDashboard/index.js`
   - **Controls** - `controls/MiniControls.js`
   - **Notification Card** - `profile/HomeScreen/NotificationsPane.js`
     - **Notification Page** - `profile/Notifications.js`
