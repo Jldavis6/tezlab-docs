@@ -20,5 +20,22 @@ Now let's get to it. You'll see here, in a DFS style, a list of all the screens,
   - **Drive Details** (double click/press and hold drive banner) - `shared/DriveDetailsModal/index.js`
     - **Stats** - `shared/DriveDetailsModal/Card.js`
 - **Charge Card** - `shared/Cards/Charge.js`
+    - **Charge Report** - `shared/ChargeReportModal/index.js`
+      - *Header* (range added, duration, etc) - `shared/ChargeReportModal/Header.js`
+      - *Range and Power* (graph of same name) - `shared/Cards/RangeAndPower.js`
+      - *Carbon Impact Section* - `shared/Cards/CharbonImpactCard.js` (not a typo)
+      - *Power Mix Section* - `shared/PowerMixCard.js`
+      - *Charge Metrics* - `shared/ChargeReportModal/NerdData.js`
 - **Export** - `shared/ExportButton.js`
 - **New Post** - `social/NewPostModal/index.js`
+  
+**Road trips** (NB: I have not made a road trip; this information is incomplete)
+- **Empty state homepage** - `tracking/RoadTripList/EmptyList.js`
+- **Create road trip** - `tracking/RoadTripModal/index.js`
+- **View road trip** - `tracking/RoadTripView/index.js`
+  
+**Charge Locations**
+-  **Index/Homepage** - `tracking/TrackingLocations/index.js`
+  - **Individual Charge Location** - `tracking/TrackingLocations/LocationCard.js`
+    - *Public Charger/Supercharger*
+      - 
