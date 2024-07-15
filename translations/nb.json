@@ -1,0 +1,2858 @@
+{
+    "language": "Engelsk",
+    "stacks": {
+        "profile": {
+            "badgesInfo": {
+                "title": "Merker",
+                "latestHeader": "De nyeste merkene",
+                "mineHeader": "Mine merker"
+            },
+            "badgeTimeline": {
+                "earned": "Opptjent {{at}}",
+                "lastAwarded": "Sist tildelt {{time}}"
+            },
+            "effVsOthers": {
+                "loading": "Laster...",
+                "span_one": "Siste {{frame}}",
+                "span_other": "Laster...",
+                "comparatorText": "{{compare}}",
+                "comp_one": "vs {{model}}",
+                "comp_other": "Laster...",
+                "comparisons": {
+                    "last": "Siste ",
+                    "selectTime": "Velg tid",
+                    "timeframesBackend": {
+                        "week": "7 dager",
+                        "month": "30 dager"
+                    },
+                    "selectComp": "Velg sammenligning",
+                    "comparisonModelsBackend": {
+                        "s": "Modell S",
+                        "3": "Modell 3",
+                        "x": "Modell X",
+                        "y": "Modell Y",
+                        "cybertruck": "Cybertruck",
+                        "r1s": "R1S",
+                        "r1t": "R1T",
+                        "all": "Alle"
+                    },
+                    "you": "Du",
+                    "localDrivers": "Lokal {{type}} Sjåfører"
+                },
+                "versus": "Du vs. andre",
+                "infoAlert": {
+                    "title": "Regional sammenligning",
+                    "content": "Din nåværende region bestemmes av den sist kjente posisjonen til kjøretøyet ditt, og utvides automatisk for å prøve å finne andre sjåfører i ditt område.\n\nKjøreeffektiviteten varierer med kjørestil (f.eks. akselerasjon, hastighet, avstand) og miljøfaktorer (f.eks. temperatur)."
+                },
+                "stats": {
+                    "efficiency": "Gjennomsnittlig effektivitet",
+                    "temp": "Gjennomsnittlig temperatur",
+                    "distance": "Gjennomsnittlig avstand",
+                    "speed": "Gjennomsnittlig hastighet"
+                }
+            },
+            "home": {
+                "index": {
+                    "settings": "Innstillinger og preferanser",
+                    "profile": "Min profil",
+                    "pictureLibrary": "Legg til kjøretøybilde fra biblioteket",
+                    "pictureCamera": "Legg til bilde av kjøretøyet fra kameraet"
+                },
+                "cards": {
+                    "stats": {
+                        "title": "Statistikk",
+                        "emptyStateBody": "Kjør minst én gang for å aktivere denne widgeten.",
+                        "eff_one": "{{eff}}",
+                        "eff_other": "N/A",
+                        "overall": "Samlet effekt."
+                    },
+                    "usageReport": {
+                        "title": "Bruksrapport",
+                        "emptyStateBody": "Denne widgeten vil snart låses opp."
+                    },
+                    "effVsOthers": {
+                        "title": "Du vs. andre",
+                        "emptyStateBody_one": "{{message}}",
+                        "emptyStateBody_other": "Fortsett å kjøre! Sammenligningen din vil være tilgjengelig etter noen dager.",
+                        "undefined": "Ingen data for sammenligning"
+                    },
+                    "latestBadge": {
+                        "title": "Siste merke",
+                        "emptyStateBody": "Du har ingen merker... ennå"
+                    },
+                    "sustainability": {
+                        "title": "Bærekraft",
+                        "emptyStateBody": "Lad bilen din for å se karbonpåvirkningen.",
+                        "trees": "Trær"
+                    },
+                    "trends": {
+                        "title": "Trender",
+                        "emptyStateBody": "Kjør én gang for å aktivere denne widgeten.",
+                        "emptyFooter": "Ingen data ennå!",
+                        "days": {
+                            "M": "M",
+                            "T": "Ti",
+                            "W": "O",
+                            "Th": "To",
+                            "F": "F",
+                            "Sa": "L",
+                            "Su": "S"
+                        }
+                    }
+                },
+                "carInfoCard": {
+                    "schedule": "Ladingen starter {{when}}"
+                },
+                "notifications": {
+                    "title": "Varsler",
+                    "view": "Se alle",
+                    "allRead": "Dere er alle fanget opp!"
+                },
+                "panel": {
+                    "charge": {
+                        "starting": "Beregning av startavgift",
+                        "remaining": "{{rem}} Gjenværende"
+                    },
+                    "drive": {
+                        "starting": "Beregning av startdrev",
+                        "current": "Nåværende stasjon",
+                        "estRange": "Est. Område"
+                    },
+                    "location": {
+                        "parked": "Parkert",
+                        "viewMap": "Vis kart"
+                    },
+                    "pollingDisabled": {
+                        "message": "Datafangst er deaktivert for dette kjøretøyet.",
+                        "button": "Gå til innstillinger"
+                    },
+                    "notFound": {
+                        "prevTracked": "Dette er et tidligere beltegående kjøretøy.",
+                        "deprecated_vehicle": "Dette kjøretøyet vises ikke lenger på kjøretøykontoen din og spores ikke lenger. Du kan fortsette å vise historisk informasjon.",
+                        "deprecated_tesla": "Dette kjøretøyet vises ikke lenger på Tesla-kontoen din og spores ikke lenger. Du kan fortsette å vise historisk informasjon.",
+                        "deprecated_rivian": "Dette kjøretøyet vises ikke lenger på Rivian-kontoen din og spores ikke lenger. Du kan fortsette å se historisk informasjon.",
+                        "remove": "Du kan fjerne dette kjøretøyet fra kontoen din under",
+                        "settings": " innstillinger.",
+                        "about": "Om tidligere sporede kjøretøy"
+                    }
+                },
+                "rangeSettings": {
+                    "text_one": "Basert på din effektivitet i den virkelige verden på {{estimate}} % i løpet av de siste to ukene.",
+                    "text_other": "Vi trenger litt mer kjøreaktivitet for å gi deg et nøyaktig estimat. For øyeblikket rapporterer bilen din en rekkevidde på {{range}}.",
+                    "info": "Trykk på disse ikonene ⤴ på dashbordet når som helst for å endre innstillingene dine",
+                    "realWorld": "Rekkevidde i den virkelige verden",
+                    "rated": "Nominell rekkevidde",
+                    "show": "Vis dette området",
+                    "upgrade": "Lås opp for rask effektivitet",
+                    "ratedBlurb_tesla": "Dette er rekkevidden bilen din og Elon tror du vil få ... hvis du kjører nedoverbakke og hopper over lunsjen.",
+                    "ratedBlurb_rivian": "Dette er rekkevidden bilen din og RJ tror du vil få ... hvis du kjører nedoverbakke og hopper over lunsjen."
+                },
+                "recent": {
+                    "drives": "Drivverk",
+                    "charges": "Avgifter",
+                    "emptyDriveTitle_pro": "Ingen stasjoner ennå",
+                    "emptyDriveTitle_free": "Ingen stasjoner de siste sju dagene!",
+                    "emptyDriveBody": "Ta en tur, så dukker den opp her!",
+                    "emptyChargeBody": "Plugg inn og lad, så dukker den opp her!",
+                    "title": "Nylig sporet",
+                    "view": "Se alle"
+                },
+                "updateConnection": {
+                    "legacy": "For å opprettholde kommunikasjonen med kjøretøyet må du oppdatere tilkoblingen til Tesla-kontoen din.",
+                    "button": "Oppdater tilkobling",
+                    "info": "Mer informasjon"
+                },
+                "upgrade": {
+                    "plug": "Bli en TezLab Pro",
+                    "caption": "Lås opp ubegrenset kjøre- og ladehistorikk, rekkevidderinger, kjørekart, rutematching, bilturer, proffklima, automatiseringer og mye mer.",
+                    "button": "Oppgrader nå"
+                },
+                "vehicleCarousel": {
+                    "menuTake": "Ta et bilde",
+                    "menuAdd": "Legg til bilde fra kamerarullen",
+                    "cancel": "Avbryt",
+                    "add": "Trykk for å legge til bilde av kjøretøyet",
+                    "defaultSubtitle_name": "Trykk og hold inne for å forsøke å vekke og koble til {{vehicle}}",
+                    "defaultSubtitle_vehicle": "Trykk og hold inne for å forsøke å vekke og koble til kjøretøyet"
+                },
+                "vehicleImage": {
+                    "menuTake": "Ta et bilde",
+                    "menuAdd": "Legg til bilde fra kamerarullen",
+                    "cancel": "Avbryt",
+                    "add": "Trykk for å legge til bilde av kjøretøyet",
+                    "defaultSubtitle_name": "Trykk og hold inne for å forsøke å vekke og koble til kjøretøyet",
+                    "defaultSubtitle_vehicle": "Trykk og hold inne for å forsøke å vekke og koble til kjøretøyet"
+                }
+            },
+            "location": {},
+            "notifications": {
+                "menu": {
+                    "header": "Varsler",
+                    "title": "Meny for varsling",
+                    "editSettings": "Rediger varslingsinnstillinger",
+                    "delete": "Slett alle",
+                    "markRead": "Merk alt som lest"
+                }
+            },
+            "notificationSettings": {
+                "header": {
+                    "android": {
+                        "sectionHeader": "Innstillinger for push-varsling",
+                        "deviceManaged": "Push-varsler administreres av enheten din.",
+                        "manage": "Administrer push-varsler",
+                        "inApp": "Innstillinger for varslinger i appen",
+                        "control": "Kontroller hvilke varsler som skal vises i varslingsdelen i appen."
+                    },
+                    "ios": {
+                        "noPush": "Innstillingene på enheten din tillater for øyeblikket ikke push-varsler for TezLab.",
+                        "openSettings": "Åpne enhetsinnstillinger"
+                    }
+                },
+                "profileSettings": "Varslingsinnstillinger"
+            },
+            "privacy": {
+                "loading": "Takk for at du besøker Personvern. Du vil bli ført til den siden om et øyeblikk.",
+                "title": "{{top}}"
+            },
+            "termsChanged": {
+                "alert": {
+                    "header": "Oppdatering av vilkår",
+                    "description": "Det har blitt gjort oppdateringer i våre tjenestevilkår og/eller personvernerklæring.",
+                    "request": "Ta deg tid til å lese gjennom og godkjenne disse dokumentene."
+                },
+                "buttons": {
+                    "terms": "Vilkår for bruk",
+                    "privacy": "Merknad om personvern",
+                    "agree": "Jeg er enig"
+                }
+            },
+            "terms": {
+                "loading": "Takk for at du besøker Vilkår. Du vil bli ført til den siden om et øyeblikk.",
+                "title": "{{top}}"
+            },
+            "trends": {
+                "title": "Trender",
+                "rangeComparison": {
+                    "title": "Område lagt til vs. brukt",
+                    "distance": {
+                        "word_km": "Kilometer",
+                        "word_mile": "Miles",
+                        "abbrev_km": "km",
+                        "abbrev_mi": "mi"
+                    },
+                    "time": {
+                        "weekly": "Ukentlig",
+                        "monthly": "Månedlig",
+                        "daily": "Daglig"
+                    },
+                    "kwh": "kWh",
+                    "actions": {
+                        "compare": {
+                            "title": "Sammenlign",
+                            "description_power": "Se både tilført og brukt strøm",
+                            "description_range": "Se både utvalg som er lagt til og brukt"
+                        },
+                        "added": {
+                            "title": "Lagt til",
+                            "description_power": "Se tilført strøm under lading",
+                            "description_range": "Vis rekkevidde lagt til under lading"
+                        },
+                        "used": {
+                            "title": "Brukt",
+                            "description_power": "Vis strømforbruk etter effektivitetstype",
+                            "description_range": "Vis rekkevidde brukt etter effektivitetstype"
+                        }
+                    },
+                    "emptyState": {
+                        "title": "Område lagt til vs. brukt",
+                        "body": "Kjør og lad minst én gang for å aktivere denne widgeten."
+                    },
+                    "info": {
+                        "title": "Brukt rekkevidde",
+                        "content": "\nBlå - Rekkevidde brukt under kjøring med >= 90 % virkningsgrad (høy).\n\nLilla - Rekkevidde brukt under kjøring ved >= 60-89 % effektivitet (med).\n\nRød - Rekkevidde brukt under kjøring med < 59 % effektivitet (lav).\n\nGrå - Rekkevidde brukt på tomgang."
+                    },
+                    "view": "Utsikt",
+                    "interval": "Intervall",
+                    "units": "Enheter"
+                },
+                "batteryPerformance": {
+                    "emptyState": {
+                        "title": "Batteriets rekkevidde og ytelse",
+                        "body": "Lad minst én gang fra 60 % eller mindre til 90 % eller mer i én enkelt lading for å beregne maksimal rekkevidde."
+                    },
+                    "full": {
+                        "title": "Batteriets rekkevidde og ytelse",
+                        "maxRange": "Beregnet maksimal rekkevidde på {{range}} {{units}} etter {{odometer}} {{units}}",
+                        "info": {
+                            "title": "Om Max Range Trend",
+                            "body_ev": "Mange elbileiere er interessert i hvordan batteriets maksimale kapasitet endrer seg over tid. Noen kaller dette \"batterihelse\", selv om det teknisk sett ikke er mulig å fastslå batteriets faktiske kjemiske tilstand ut fra dataene fra kjøretøyet.\n\nMaks rekkevidde er en ekstrapolert beregning av kjøretøyets maksimale rapporterte rekkevidde ved 100 % lading. Denne verdien beregnes på utvalgte ladinger og registreres over tid.\n\nFor å få en så nøyaktig ekstrapolering som mulig og for å unngå å kartlegge normale svingninger, estimerer TezLab batterikapasiteten på ladeøkter der en betydelig mengde energi har blitt tilført batteriet (minst 25 %) og der ladetilstanden er 90 % eller høyere. For eksempel vil en lading fra 65-91 % utløse en beregning av maksimal rekkevidde.",
+                            "body_tesla": "Mange Tesla-eiere er interessert i endringen i batteriets maksimale kapasitet over tid. Noen kaller dette \"batterihelse\", selv om det teknisk sett ikke er mulig å fastslå batteriets sanne kjemiske helse ut fra dataene bilen leverer.\n\nMaks rekkevidde er en ekstrapolert beregning av kjøretøyets maksimale rapporterte rekkevidde ved 100 % lading. Denne verdien beregnes på utvalgte ladinger og registreres over tid.\n\nFor å få en så nøyaktig ekstrapolering som mulig og for å unngå å kartlegge normale svingninger, estimerer TezLab batterikapasiteten på ladeøkter der en betydelig mengde energi har blitt tilført batteriet (minst 25 %) og der ladetilstanden er 90 % eller høyere. For eksempel vil en lading fra 65-91 % utløse en beregning av maksimal rekkevidde.",
+                            "body_rivian": "Mange Rivian-eiere er interessert i hvordan batteriets maksimale kapasitet endrer seg over tid. Noen kaller dette \"batteriets tilstand\", selv om det teknisk sett ikke er mulig å fastslå batteriets virkelige kjemiske tilstand ut fra de dataene kjøretøyet leverer.\n\nMaks rekkevidde er en ekstrapolert beregning av kjøretøyets maksimale rapporterte rekkevidde ved 100 % lading. Denne verdien beregnes på utvalgte ladinger og registreres over tid.\n\nFor å få en så nøyaktig ekstrapolering som mulig og for å unngå å kartlegge normale svingninger, estimerer TezLab batterikapasiteten på ladeøkter der en betydelig mengde energi har blitt tilført batteriet (minst 25 %) og der ladetilstanden er 90 % eller høyere. For eksempel vil en lading fra 65-91 % utløse en beregning av maksimal rekkevidde."
+                        }
+                    },
+                    "zoom_out": "Zoom ut",
+                    "zoom_in": "Zoom inn"
+                },
+                "temperature": {
+                    "title": "Drive Eff. vs. Avg. Temp",
+                    "emptyStateBody": "Kjør i minst 7 dager for å aktivere.",
+                    "periodMenu": {
+                        "title": "Periode",
+                        "period": "Siste {{time}}",
+                        "period_week": "Siste Uke",
+                        "period_threeMonths": "Siste 3 Måneder",
+                        "period_sixMonths": "Siste 6 Måneder",
+                        "period_year": "Siste År"
+                    },
+                    "avgEff": "Gjennomsnittlig Effektivitet",
+                    "avgTemp": "Gj.sn. temp.",
+                    "onePoint": "Det ser ut til at vi bare har ett datapunkt for det siste {{interval}}. Ikke bekymre deg! Fortsett å kjøre, så har vi mer data til deg snart.",
+                    "fetching": "Henter data",
+                    "proOnly": " (Kun for Pro)"
+                }
+            },
+            "vehicleConnection": {
+                "title": "Tilkoblinger til kjøretøy",
+                "description": "Opprett en sikker tilkobling til EV-en din.",
+                "help": "Hvordan fungerer dette?",
+                "connected": {
+                    "success": "Tilkoblet",
+                    "menuTitle": "Meny for tilkoblet konto",
+                    "teslaDisconnect": "Koble fra Tesla-kontoen din",
+                    "rivianDisconnect": "Koble fra Rivian-kontoen din"
+                },
+                "available": {
+                    "connectTesla": "Koble til Tesla-konto",
+                    "connectRivian": "Koble til Rivian-konto"
+                }
+            }
+        },
+        "tracking": {
+            "filter": {
+                "title": "Filtrere",
+                "type": {
+                    "title": "Etter type",
+                    "all": "Alle rapporter",
+                    "drives": {
+                        "title": "Kun stasjoner",
+                        "filter": "Av tagger",
+                        "short": "Vis korte kjøreturer"
+                    },
+                    "charges": {
+                        "title": "Kun kostnader",
+                        "filter": "Etter sted",
+                        "textField": "Ladeplassering",
+                        "short": "Vis korte kostnader"
+                    }
+                },
+                "dates": {
+                    "title": "Etter datointervall",
+                    "custom": "Tilpasset",
+                    "Last Week": "Forrige uke",
+                    "Last Month": "Forrige måned",
+                    "Last 7 Days": "Siste 7 dager",
+                    "Last 30 Days": "De siste 30 dagene"
+                },
+                "clear": "Tøm filtre",
+                "apply": "Bruk filtre"
+            },
+            "locationFilter": {
+                "title": "Velg ladested",
+                "placeholder": "Søk etter steder",
+                "finding": "Finne steder",
+                "location_private": "Privat lader",
+                "location_display": "{{name}}",
+                "location_default": "Lader"
+            },
+            "tracking": {
+                "activity": "Aktivitet",
+                "roadTrips": "Road Trips",
+                "locations": "Steder",
+                "all": "Alle rapporter",
+                "drives": "Drivverk",
+                "charges": "Kun kostnader",
+                "roadTrip": "Opprett Road Trip",
+                "post": "Opprett et innlegg",
+                "filter": "Filtrer og oppsummer"
+            },
+            "trackingExports": {
+                "alert": "Enheten din støtter ikke åpning av denne typen URL",
+                "report": {
+                    "created": "Opprettet: ",
+                    "until": "Tilgjengelig frem til: "
+                },
+                "processing": "Behandling",
+                "menu": {
+                    "title": "Alternativer for eksport",
+                    "share": "Del eksportfil",
+                    "open": "Åpne eksportfil"
+                },
+                "none": "Ingen eksport",
+                "exports": "Eksport"
+            }
+        },
+        "control": {
+            "controls": {
+                "rivian": {
+                    "soon": "Kommer snart...",
+                    "adding": "Jobber med å legge til bilkontroller for Rivian."
+                }
+            },
+            "heater": {
+                "heatButtons": {
+                    "heat": "Varme",
+                    "cool": "Kult",
+                    "auto": "Bil"
+                }
+            },
+            "awaitingResponse": "Venter på svar fra kjøretøyet...",
+            "overheat": {
+                "start": "Fjernstart",
+                "keyless": "La bilen kjøre uten nøkkel i de neste 2 minuttene.",
+                "button_active": "Aktiv",
+                "button_activate": "Aktiver",
+                "active": "Aktiv",
+                "valet": "Betjent",
+                "valetBlurb": "Begrens akselerasjon og hastighet, deaktiver autopilot, lås hanskerom og bagasjerom, og skjul personlig informasjon.",
+                "protection": "Beskyttelse mot overoppheting av kupeen",
+                "threshold": "Aktiveres når hytta overskrider {{threshold}}",
+                "fan": "Kun vifte",
+                "noAC": "Ingen klimaanlegg sparer energi, men kjøler kanskje ikke like effektivt",
+                "valetMode": "BETJENERMODUS",
+                "enter": "Angi PIN-kode",
+                "pin": "PIN-KODE"
+            },
+            "carHeader": {
+                "pollingDisabled": "Kontrollene er ikke tilgjengelige når polling er deaktivert.",
+                "tracked": "Kontrollene er ikke tilgjengelige for tidligere sporede kjøretøy. Bytt til et aktuelt kjøretøy fra dashbordet.",
+                "connected": "Tilkoblet",
+                "offline": "Frakoblet",
+                "deepSleep": "Deep Sleep Assist Aktiv",
+                "deepSleepAssist": "Deep Sleep Assist",
+                "pluggedIn": "Plugget inn"
+            },
+            "charging": {
+                "charging": "Lading",
+                "scheduled": "Lading Planlagt",
+                "stopped": "Stoppet",
+                "unplugged": "Unplugged",
+                "completing_remaining": "{{when}}",
+                "completing_default": "Fullfører Charge",
+                "max": "Maks ladenivå:",
+                "range": "Rekkevidde:",
+                "stop": "Stopp lading",
+                "start": "Start lading",
+                "chargeButton_start": "Start lading",
+                "chargeButton_stop": "Stopp lading"
+            },
+            "climate": {
+                "lo": "LO",
+                "hi": "HI",
+                "mode": "{keeper}} Modus",
+                "keepOn": "Hold klimaet på",
+                "off": "Av",
+                "inside": "På innsiden: ",
+                "outside": "Utenfor: ",
+                "pro": "Pro Klima",
+                "unlock": "Lås opp klimaplanlegging og funksjonen for vekking for å starte.",
+                "unlockPro": "Lås opp Pro Climate",
+                "controls": "Klimakontroller",
+                "activating": "Klimaaktivering"
+            },
+            "locks": {
+                "unknown": "Ukjent",
+                "locked": "Låst",
+                "unlocked": "Ulåst",
+                "unlock": "Trykk og hold for å låse opp",
+                "open": "Dørene er åpne"
+            },
+            "homelink": {
+                "alert": "HomeLink",
+                "alertText_success": "Suksess",
+                "alertText_failReason": "Homelink mislyktes: {{reason}}",
+                "alertText_again": "Homelink mislyktes: Vennligst prøv igjen."
+            },
+            "mini": {
+                "sentry": "Vaktpost",
+                "windows": "Vinduer",
+                "frunk": "Frunk",
+                "trunk": "Bagasjerom",
+                "chargePort": "Ladeport",
+                "vent": "Ventilasjon",
+                "remote": "Fjernstart",
+                "valet": "Betjent",
+                "horn": "Horn",
+                "flash": "Flash",
+                "climate": "Klima",
+                "lock": "Lås",
+                "controls": "Klimakontroller",
+                "activating": "Klimaaktivering",
+                "customize": "Trykk og hold inne kontrollene for å tilpasse",
+                "customizeQuick": "Tilpass hurtigkontrollene",
+                "done": "Ferdig"
+            },
+            "noAccess": {
+                "enable_name": "Aktiver bilkontroller for {{car}}",
+                "enable_default": "Aktiver bilkontroller for bilen din",
+                "signed": "Den nyeste Tesla API-en gjør det mulig å legge til ekstra sikkerhet ved å bruke signerte kommandoer.",
+                "step1": "STEP 1",
+                "car_name": "{{car}}",
+                "car_default": "bilen din",
+                "step2": "STEP 2",
+                "clickStart": "Klikk på Kom i gang nedenfor, og følg instruksjonene for å aktivere tilgang.",
+                "getStarted": "Kom i gang",
+                "permissions": "Viktig: Tillatelser kan bare aktiveres av kjøretøyets eier. ",
+                "share": "Del lenke med eieren",
+                "confirm": "Bekreft at ",
+                "isSelected": " er det valgte kjøretøyet/produktet i Tesla-appen din."
+            },
+            "scheduleStatus": {
+                "start": "{{car}} er planlagt å starte kondisjonering {{when}}",
+                "momentarily": "et øyeblikk"
+            },
+            "scheduleMenu": {
+                "timer": "Timer",
+                "departure": "Avgangstid",
+                "menuTitle": "{{title}}",
+                "in": "i...",
+                "wake": "Wake & Start",
+                "start": "Start Klima",
+                "startButton_wake": "Wake & Start",
+                "startButton_climate": "Start Klima",
+                "defrost": "Defrost",
+                "keep": "Fortsett",
+                "dog": "Hund",
+                "camp": "Leir",
+                "schedule": "Planlegg klima basert på",
+                "20": "på 20 minutter",
+                "40": "på 40 minutter",
+                "hour": "om 1 time",
+                "90": "om 1,5 timer",
+                "2hours": "om 2 timer",
+                "selectTime": "Velg et avreisetidspunkt innenfor de neste 24 timene.",
+                "upgrade": "Oppgrader til Pro for å planlegge klima med en tidtaker eller neste avgangstid."
+            },
+            "startingDeep": "Starter Deep Sleep Assist",
+            "toggle": {
+                "sentry": "Vaktpost",
+                "on": "På",
+                "off": "Av",
+                "windows": "Vinduer",
+                "vented": "Ventilert",
+                "closed": "Stengt",
+                "frunk": "Frunk",
+                "opened": "Åpnet",
+                "trunk": "Bagasjerom",
+                "port": "Ladeport",
+                "portOn_locked": "Låst",
+                "portOn_open": "Åpne",
+                "vent": "Ventilasjon",
+                "remote": "Fjernstart",
+                "active": "Aktiv",
+                "valet": "Betjent",
+                "honk": "Tutehorn",
+                "horn": "Horn",
+                "flashLights": "Blitslys",
+                "flash": "Flash",
+                "climate": "Klima",
+                "climateOn_temp": "På / {{temp}}",
+                "climateOn_default": "På",
+                "climateOff_temp": "Av / {{temp}}",
+                "climateOff_default": "Av",
+                "lock": "Lås",
+                "locked": "Låst",
+                "unlocked": "Ulåst",
+                "sleep": "Søvnassistanse",
+                "defrost": "Defrost",
+                "enter": "Angi PIN-kode",
+                "pin": "PIN-KODE",
+                "enableKeyless": "AKTIVER NØKKELLØS",
+                "needPW": "Tesla-passord kreves for å starte 2 minutter med nøkkelfri kjøring.",
+                "pw": "PASSORD"
+            },
+            "inService": "Kontrollene er utilgjengelige mens de er i bruk.",
+            "wake": {
+                "waking": "Våkne kjøretøy",
+                "title_waking": "Våkne kjøretøy",
+                "title_default": "{{standard}}",
+                "title_asleep": "Bilen din sover",
+                "title_offline": "Bilen din er frakoblet",
+                "wakingUp": "Vi vekker kjøretøyet ditt for å slå på klimaanlegget",
+                "press": "Trykk og hold for å vekke",
+                "ellipsis": "Å våkne opp..."
+            }
+        },
+        "map": {
+            "mapService": {},
+            "mapSettings": {
+                "title": "Kartalternativer",
+                "header": "Range Rings",
+                "park": "Sett bilen i parkering for å se rekkevidderinger",
+                "realWorld": "Bruk estimert rekkevidde i den virkelige verden",
+                "rated": "Vis nominell rekkevidde",
+                "unlock": "Lås opp Range Rings",
+                "styles": {
+                    "header": "Kartstil",
+                    "outdoors": "Utendørs",
+                    "satellite": "Satellitt",
+                    "dark": "Mørk",
+                    "beta": "Beta"
+                },
+                "permission": {
+                    "header": "Stedstillatelser",
+                    "caption": "Du har slått av tillatelser for enhetsplassering. Oppdater innstillingene hvis du ønsker å endre dette."
+                },
+                "upgrade": "Oppgrader til TezLab Pro i dag og lås opp Range Rings!"
+            },
+            "legend": {
+                "type_real": "Real World Est.",
+                "type_range": "Kjøretøyets rekkevidde"
+            },
+            "nearbyChargerMap": {
+                "panel": {
+                    "kw": "{{kw}} kW",
+                    "private": "Dette er en privat ladelokasjon som bare er synlig for deg.",
+                    "open": "{{available}}/{{total}} Åpen",
+                    "lastUpdated": "Sist oppdatert {{when}}"
+                },
+                "header": {
+                    "loading": "Lasteringer"
+                }
+            }
+        },
+        "activity": {
+            "activity": {
+                "index": {
+                    "yours": "Laster inn innleggene dine...",
+                    "timeline": "Samler det siste...",
+                    "groups": "Laster inn grupper...",
+                    "own": "Egen",
+                    "timelineTab": "Tidslinje",
+                    "groupsTab": "Grupper"
+                },
+                "friends": {
+                    "empty": {
+                        "header": "Ingen innlegg å vise",
+                        "caption": "Når vennene dine legger ut innhold, vises det her..."
+                    }
+                },
+                "yours": {
+                    "header": "Opprett ditt første innlegg",
+                    "caption": "Du kan dele en stasjon, lade, bruksrapport, Zap og mye mer...",
+                    "new": "Nytt innlegg"
+                },
+                "groups": {
+                    "index": {
+                        "others_yes": "Andre grupper",
+                        "others_no": "",
+                        "none": "Ingen grupper funnet",
+                        "search": "Søk i grupper",
+                        "mine": "Mine grupper",
+                        "footer": {
+                            "start": "Ønsker du å starte en gruppe?",
+                            "caption": "Skap et rom der du og gruppen din kan utveksle historier og bilder",
+                            "button": "Opprett ny gruppe"
+                        }
+                    },
+                    "card": {
+                        "member_one": "1 medlem",
+                        "member_other": "{{count}} Medlemmer"
+                    },
+                    "nearby": {
+                        "suggested": "Foreslåtte grupper"
+                    },
+                    "newClub": {
+                        "new": "Ny gruppe",
+                        "take": "Ta bilde",
+                        "addRoll": "Legg til bilde fra kamerarullen",
+                        "addPhoto": "Legg til et bilde",
+                        "namePlaceholder": "Gruppens navn",
+                        "captionPlaceholder": "Beskrivelse",
+                        "private": "Privat gruppe",
+                        "official": "Offisiell Tesla-klubb",
+                        "create": "Opprett gruppe",
+                        "yn_yes": "Ja",
+                        "yn_no": "Nei"
+                    }
+                }
+            },
+            "infoTag": {
+                "owner": "Eier",
+                "admin": "Administrator",
+                "member": "Medlem",
+                "open": "Åpen"
+            },
+            "verificationBadge": "Verifisert"
+        },
+        "auth": {
+            "communicating": {
+                "header": "Kommunikasjon med kjøretøy..."
+            },
+            "deepSleep": {
+                "yourCar": "Din bil",
+                "active": "Deep Sleep Assist Aktiv",
+                "explanation": "Kommunikasjonen med {{name}} settes på pause i noen minutter for å la den sove. I løpet av denne tiden vil ikke sporing finne sted, men vil gjenopptas når bilen enten sovner eller ikke klarer å sovne etter noen få forsøk.",
+                "resume": "Når du kobler til, gjenopptas sporingen og bilens kontroller aktiveres, men søvnperioden utsettes.\n\n Vil du koble deg til bilen din?",
+                "reawaken": "Koble til og våkne",
+                "async": "Bruk TezLab uten å koble til"
+            },
+            "giftModal": {
+                "redeem": "Løs inn en gave",
+                "enterCode": "Skriv inn innløsningskoden nedenfor for å løse inn gaven din.",
+                "codePlaceholder": "Innløsningskode",
+                "pinPlaceholder": "Hemmelig PIN-kode",
+                "redeemNow": "Løs inn nå",
+                "cantRedeem": "Denne gaven kan ikke innløses",
+                "support": "Kontakt support",
+                "congrats": "Gratulerer med dagen! Gaven din har blitt innløst!",
+                "retry": "Prøv på nytt",
+                "issues": "Har du problemer med å løse inn gaven din?",
+                "contactUs": "Kontakt oss"
+            },
+            "ratingRequest": {
+                "share": "Vil du dele?",
+                "committed": "Hos TezLab er vi dypt engasjert i både bærekraftig transport og i å skape en best mulig opplevelse for deg og din elbil. Tilbakemeldingene dine er svært nyttige.\n\nSå langt, liker du TezLab?",
+                "like": "Yes, I like TezLab!",
+                "dislike": "Nei, jeg liker ikke TezLab.",
+                "na": "Jeg foretrekker å ikke svare.",
+                "sorryToHear": "Vi beklager å høre at du ikke liker TezLab.\n\nVi setter pris på alle kommentarer du måtte ha, og vi kan også hjelpe deg hvis du støter på et problem.",
+                "contactUs": "Kontakt oss",
+                "dismiss": "Avskjed",
+                "reachOut": "Ta kontakt med oss på support@tezlabapp.com",
+                "alert": "Kan vi hjelpe deg?"
+            },
+            "logoutOverlay": {
+                "header": "Frakobling av kjøretøy og utlogging"
+            },
+            "noVehicle": {
+                "type_tesla": "Tesla",
+                "type_rivian": "Rivian",
+                "type_default": "EV",
+                "header": "Ingen kjøretøy funnet.",
+                "refresh": "Oppdater",
+                "troubleshooting": "Feilsøking",
+                "purchased": "Nylig kjøpt",
+                "disclaimer": "Ved kjøp av et nytt {{make}} (gratulerer!) må leveransen fullføres i {{make}}s system før den kan kobles til. I noen tilfeller kan det hende at du må logge ut og inn igjen etter at leveransen er fullført for å autorisere {{make}}-kontoen din på nytt, slik at TezLab kan koble seg til bilen din.",
+                "accountProblem": "{{make}} Konto Problem",
+                "missingCars": "I noen sjeldne tilfeller kan biler forsvinne fra {{make}}-kontoer. Kontroller at du kan se bilen din i {{make}}-appen, og trykk på oppdater for å prøve igjen.",
+                "logOut": "Log Out"
+            },
+            "purchaseModal": {
+                "index": {
+                    "proSlogan": "Pioner i elbil-livsstilen som en proff",
+                    "trial": "Alle førstegangsabonnementer starter med en 14-dagers gratis prøveperiode med full tilgang.",
+                    "redeem": "Løs inn en gave",
+                    "versus": "Pro vs. Free",
+                    "pro": "TezLab Pro",
+                    "current": "Nåværende plan",
+                    "free": "Gratis",
+                    "newFeatures": "Pro-brukere får regelmessig nye funksjoner",
+                    "selectOffer": "Velg et tilbud ovenfor",
+                    "regularPricing": "Abonner med vanlige priser",
+                    "upgrade": "Oppgrader til TezLab Pro",
+                    "ok": "OK",
+                    "perMonth": "*{{price}}/måned",
+                    "billedAnnually": "*{{howMuch}} Faktureres årlig",
+                    "annually": "{{price}} Årlig"
+                },
+                "offerDetails": "Vis detaljer",
+                "tiltedLoading": "Laster inn bilde..."
+            },
+            "welcomeWagon": {}
+        },
+        "login": {
+            "appAuth": {
+                "signIn": "Logg inn",
+                "create": "Opprett konto",
+                "resetEmail": "En lenke for tilbakestilling av passord vil bli sendt til {{email}} hvis det finnes en konto med den e-postadressen."
+            },
+            "accountConnection": {
+                "index": {
+                    "allScopes": "Du må velge alle områder. Vennligst prøv igjen",
+                    "add": "Legg til et kjøretøy",
+                    "connect": "Sikker tilkobling til kjøretøyet ditt",
+                    "howButton": "Hvordan fungerer dette?",
+                    "connectTesla": "Koble til Tesla-konto",
+                    "chinese": "Kinesiske Tesla-kontoinnehavere",
+                    "chineseClick": "Klikk her",
+                    "connectRivian": "Koble til Rivian-konto",
+                    "comingSoon": "Rivian kommer snart",
+                    "noEV": "Fortsett uten EV"
+                },
+                "privacyModal": {
+                    "secure": "Sikker tilkobling av kjøretøy",
+                    "tesla": "Tesla",
+                    "rivian": "Rivian",
+                    "dismiss": "Avskjed"
+                },
+                "resetTeslaScopes": {
+                    "frunked": "Noe ble ødelagt!",
+                    "grantPermissions": "For at TezLab skal fungere som den skal, må alle de forespurte tillatelsene være gitt. ",
+                    "followSteps": "Følg trinnene nedenfor for å koble til bilen din.",
+                    "revokeLink_open": "Trykk nedenfor for å åpne skjermbildet Tilbakekall tredjeparts tilgang på Tesla-kontoen din.",
+                    "revokeLink_login": "Trykk nedenfor for å logge inn på Tesla-kontoen din.",
+                    "revokeLink_manage": "Administrer TezLab i Tesla-kontoen",
+                    "revokeLink_go": "Gå til Tesla-konto",
+                    "step1": "STEP 1",
+                    "step2": "STEP 2",
+                    "step3": "STEP 3",
+                    "removeAccess": "Når du er logget på Tesla-kontoen din, blar du til bunnen og trykker på Fjern tilgang.",
+                    "head": "Gå til ",
+                    "tapRemove": "\nTrykk på Fjern tilgang nederst.",
+                    "revoked": "Når du har opphevet tillatelsen, kan du gå tilbake til denne siden og starte prosessen på nytt.",
+                    "startOver": "Begynn på nytt",
+                    "buttons": "Sikkerhet og tredjepartsapper Administrer"
+                },
+                "rivianAuth": {
+                    "signIn": "Logg inn",
+                    "connect": "Koble til Rivian-konto",
+                    "security": "Sikkerhet er viktig for oss",
+                    "email": "E-post til Rivian-konto",
+                    "password": "Passord for Rivian-konto",
+                    "code": "Rivian Kontokode",
+                    "connectButton": "Koble til",
+                    "seriousSecurity": "Vi tar sikkerhet svært alvorlig. Rivian-legitimasjonen din krypteres og brukes kun én gang for å opprette en sikker tilkobling til Rivian-kontoen din. De lagres aldri på enheten din eller på serverne våre.",
+                    "ok": "OK"
+                }
+            },
+            "autoLoginRetry": {
+                "hmm": "Hmmm...",
+                "noConnection": "Det ser ikke ut til at vi klarer å opprette en forbindelse mellom enheten din og serverne våre. Vennligst prøv igjen om et øyeblikk.",
+                "tryAgain": "Prøv igjen",
+                "stumbled": "Å nei! Vi har visst snublet.",
+                "attempting": "Forsøker å logge deg inn",
+                "dusting": "Vi tørker støv av oss og prøver igjen om en {{time}}..."
+            },
+            "login": {
+                "header": "Logg inn på TezLab",
+                "email": "E-post",
+                "password": "Passord",
+                "signIn": "Logg inn",
+                "forgot": "Har du glemt passordet ditt? ",
+                "reset": "Tilbakestill passord",
+                "noAccount": "Har du ikke en konto? ",
+                "create": "Opprett konto"
+            },
+            "logoutOverlay": "Frakobling av kjøretøy og utlogging",
+            "resetPassword": {
+                "reset": "Tilbakestill passord",
+                "error": "En feil har oppstått, vennligst prøv igjen.",
+                "email": "E-post",
+                "submitEmail": "Send inn e-postadressen din for å få tilsendt en lenke for å tilbakestille passordet ditt."
+            },
+            "signup": {
+                "takePhoto": "Ta bilde",
+                "select": "Velg fra biblioteket",
+                "remove": "Fjern bilde",
+                "message_provide": "Oppgi et profilbilde for å opprette en TezLab-konto.",
+                "message_error": "{{error}}",
+                "message_unable": "Registreringen kunne ikke behandles. Kontroller at du har fylt ut alle feltene, og prøv på nytt.",
+                "header": "Ny konto",
+                "addPfp": "Legg til et profilbilde",
+                "noName": "Vennligst skriv inn et navn",
+                "noEmail": "Vennligst skriv inn en gyldig e-post",
+                "email": "E-postadresse",
+                "password": "Passord",
+                "badPW": "Vennligst skriv inn et passord på minst 5 tegn",
+                "noMatch": "Passordene stemmer ikke overens",
+                "confirmation": "Bekreftelse av passord",
+                "agreeToTerms": "Vennligst godta vilkårene",
+                "agree": "Jeg er enig i ",
+                "tos": "Vilkår for bruk",
+                "comma": ", ",
+                "privacy": "Retningslinjer for personvern, ",
+                "receiveEmails": "og for å motta e-post fra TezLab",
+                "create": "Opprett konto",
+                "already": "Har du allerede en konto? ",
+                "signIn": "Logg inn",
+                "profilePhoto": "Profilbilde"
+            },
+            "splash": "Banebrytende elbil-livsstil",
+            "vehicleAuth": {
+                "step1": "STEP 1",
+                "signIn": "Logg på Tesla-kontoen din",
+                "step2": "STEP 2",
+                "allow": "Tillat de forespurte tillatelsene",
+                "why": "Hvorfor trenger vi dette?",
+                "because": "Tillatelser er påkrevd for at sporing av kjøring/ladning og bilkontroller skal fungere som de skal",
+                "gotIt": "Jeg har den!"
+            }
+        }
+    },
+    "sharedPages": {
+        "chargeLocation": {
+            "base": {
+                "mergeStarted": "Sammenslåing startet",
+                "merging": "Stedene dine blir nå slått sammen. Det vil ta flere minutter før informasjonen er fullstendig oppdatert. ",
+                "ok": "Ok",
+                "mergeInfo": "Merge Info",
+                "error": "Det har oppstått en feil. Hvis dette vedvarer, vennligst kontakt support@tezlabapp.com",
+                "confirm": "Bekreft sammenslåing",
+                "loading": "Sammenslåingen til denne lokasjonen tar noen minutter og skjer i bakgrunnen. All kostnadsinformasjon som er knyttet til den sammenslåtte posisjonen, vil bli forkastet, og innstillingene for denne posisjonen vil gjelde. Denne lokasjonens deteksjonsradius oppdateres tilsvarende. Denne prosessen kan ikke reverseres.",
+                "stop": "Stopp",
+                "away": " borte",
+                "chargesMerge": "kostnader",
+                "chargeMerge": "siktelse",
+                "merge": "Slå sammen",
+                "estimate": "Estimer tidligere kostnader",
+                "pastCharges": "Det er ikke sikkert at tidligere ladinger inkluderer data om energiforbruk. I disse tilfellene vil TezLab estimere basert på energitilleggsverdien, og energien vil ikke bli inkludert i den samlede beregningen av ladeeffektivitet for dette stedet.\n\nGjør eventuelle endringer i kostnadene før du fortsetter.\n\nEstimeringsprosessen vil foregå i bakgrunnen og kan ta flere minutter å fullføre. Denne prosessen kan ikke reverseres og kan bare gjøres én gang.",
+                "cancel": "Avbryt",
+                "estimateNow": "Estimer nå",
+                "estimating": "Estimering pågår",
+                "estimateText_progress": "Estimering pågår",
+                "estimateText_auto": "Estimerer automatisk kostnadene for kostnader som har oppstått på dette stedet før kostnadssporing ble aktivert.",
+                "pastEstimates": "Tidligere kostnader har blitt estimert basert på priser per {{when}}",
+                "charges_one": "Ladning",
+                "charges_other": "Avgifter",
+                "howMuch_money": "{{cost}}",
+                "howMuch_none": "N/A",
+                "cost": "Total kostnad",
+                "na": "N/A",
+                "added": "Område lagt til",
+                "avgSesh": "Gjennomsnittlig ladetid",
+                "warning": "Advarsel: ",
+                "nightMode": "Nattmodus er for øyeblikket aktivert, noe som kan føre til unøyaktige beregninger eller tapte nattladninger.",
+                "viewMine": "Se mine kostnader",
+                "chargeCost": "Kostnader for lading",
+                "trackingDisabled": "Kostnadssporing er ikke aktivert for dette stedet.",
+                "zeroCost": "Rekkevidden som legges til her, regnes som kostnadsfri.",
+                "editLocation": "Rediger innstillinger for plassering",
+                "mergeNearby": "Slå sammen steder i nærheten"
+            },
+            "basePrice": {
+                "youSure": "Er du sikker?",
+                "differencePrice": "Dette avgiftsstedet bruker for øyeblikket en annen pristype. Hvis du endrer pristypen, fjernes alle eksisterende prisinnstillinger som du har angitt.",
+                "switch": "Bytt til {{type}}",
+                "keep": "Ikke endre",
+                "perMinute": "Pris per minutt",
+                "perKwh": "Pris per kWh",
+                "perSesh": "Pris per økt",
+                "setBase": "Fastsett grunnpris",
+                "min": "Pris/Min",
+                "kwh": "Pris/kWh",
+                "sesh": "For sesjon",
+                "setPrice": "Fast pris",
+                "perSession": "For sesjon",
+                "pricePerMinute": "Pris/Minutt",
+                "currentSetting_active": "Gjeldende innstilling: {{setting}}{{units}}",
+                "currentSetting_default": "",
+                "noneSet": "Ingen priser er for øyeblikket satt for dette stedet.",
+                "baseSettings": "Innstillinger for grunnpris",
+                "setFree": "Sett som fri",
+                "leaveBlank": "La stå tomt for gratis."
+            }
+        },
+        "chargeLocationSettings": {
+            "couldntSave": "Endringene dine kunne ikke lagres. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com",
+            "alertText_when": "Motta et varsel hvis bilen er parkert og frakoblet på dette stedet med et batterinivå som er lavere enn {{level}} % med start {{when}} på {{days}}.",
+            "alertText_specified": "Motta et varsel hvis bilen er parkert og frakoblet på dette stedet med et batterinivå som er lavere enn {{level}} % med start {{when}} på angitte dager.",
+            "alertText_free": "Motta et varsel hvis bilen din er under et angitt ladenivå og frakoblet på dette stedet.",
+            "settings": "Innstillinger for plassering",
+            "locationName": "Stedsnavn",
+            "tracking": "Sporing av kostnader",
+            "addRates": "Legg til priser for brukstid",
+            "zeroEmission": "Nullutslippskompensasjon",
+            "blurb": "Zero Emission Offset er prosentandelen av elektrisiteten på dette stedet som kommer fra nullutslippskilder, for eksempel solenergi. Den brukes til å justere det estimerte karbonutslippet som produseres under lading på dette stedet.",
+            "offsetFactor": "Offset-faktor (%)",
+            "offsetDescription": "% av elektrisitet fra nullutslippskilder (f.eks. solenergi)",
+            "updatePast": "Oppdater tidligere kostnader",
+            "proOptions": "Pro-alternativer",
+            "plugIn": "Påminnelse om plug-in",
+            "configure": "Konfigurer varsel",
+            "sentryOff": "Sentry Auto-Off",
+            "sentryBlurb": "Slå av Sentry Mode automatisk hvis kjøretøyet er parkert med Sentry Mode på på dette stedet."
+        },
+        "chargeDisplayCard": {
+            "sun": "Søn",
+            "mon": "Mån",
+            "tue": "Tir",
+            "wed": "Ons",
+            "thu": "Tor",
+            "fri": "Fre",
+            "sat": "Lør",
+            "addPrice": "Legg til pris",
+            "time": "{{time}}"
+        },
+        "chargeReport": {
+            "index": {
+                "content": "Dette diagrammet viser deg hvordan rekkevidden du har brukt opp (utvisket hvit), står i forhold til distansen du har kjørt (hvit).\n\nJo mer effektiv kjøringen din har vært, desto mindre vil det hvite området være!\n\nBatteridelen (grønn) viser start- og slutthistorikken som en andel av hele batteriet.",
+                "title": "Bruksrapport",
+                "unlockPro": "Rapport om bruk av Unlock Pro",
+                "breakdown": "Fordeling av bruk",
+                "regenerated": "Rekkevidde Regenerert",
+                "regenBlurb": "Bilen din bruker regenerativ bremsing (\"regen\") for å bremse ned kjøretøyet og fange opp kinetisk energi som kan brukes umiddelbart eller lagres i batteriet.\n\nBilens rekkeviddeforutsigelse forutsetter at en viss mengde regenerering vil finne sted, og dette er allerede tatt hensyn til i tallet for brukt rekkevidde på hver kjøretur.",
+                "estCost": "Anslått energikostnad",
+                "estSavings": "Anslått drivstoffbesparelse",
+                "distanceVsBattery": "Avstand vs. batteri",
+                "driven": "{{howMuch}} Drevet",
+                "energyUsed": "{{howMuch}} Brukt energi",
+                "drives": "Drivverk",
+                "avgEff": "Gjennomsnittlig effektivitet",
+                "numDrives": "# Antall stasjoner",
+                "longest": "Lengste kjøretur",
+                "avgTemp": "Gjennomsnittlig temperatur",
+                "viewDrives": "Vis stasjoner",
+                "idle": "Inaktiv bruk",
+                "climate": "Klima",
+                "0min_idle": "{{howLong}}",
+                "0min_zero": "0 min",
+                "sentryMode_rivian": "Modus for girbeskyttelse",
+                "sentryMode_tesla": "Vaktmodus",
+                "overheat": "Beskyttelse mot overoppheting",
+                "conditioning": "Batterikondisjonering",
+                "pro": "Kun for proffer",
+                "share": "Del på TezLab"
+            },
+            "usageBreakdown": {
+                "idle": "Inaktiv",
+                "hi": "Hi Eff.",
+                "low": "Lav effekt.",
+                "med": "Med Eff."
+            },
+            "proReport": {
+                "title": "Batterinivå",
+                "zoomButton_close": "Lukk",
+                "zoomButton_examine": "Undersøke",
+                "driven": "{{dist}} Drevet",
+                "section_drive": "Kjøre {{text}}",
+                "section_idle": "Inaktiv {{text}}"
+            },
+            "upgradeMenu": {
+                "data": {
+                    "proTitle": "Rapport om Pro-bruk",
+                    "proBody": "Visualiser forbruket av batteriet mellom hver lading på et øyeblikk.",
+                    "idleTitle": "Analyse av tomgang",
+                    "idleBody_rivian": "Se og forstå hvordan dvalemodus, Gear Guard-modus, klimaanlegg og batterikondisjonering forbruker energi i inaktiv tilstand.",
+                    "idleBody_tesla": "Se og forstå hvordan dvalemodus, Sentry-modus, klimaanlegg og batterikondisjonering forbruker energi i inaktiv tilstand.",
+                    "usageTitle": "Bruksfordeling med Regen",
+                    "usageBody": "Forstå hvordan rekkevidden både forbrukes og fylles opp gjennom regenerativ bremsing under kjøring.",
+                    "distanceTitle": "Avstand Vs. Batteri",
+                    "distanceBody": "Visualiser kjørt distanse sammen med tilsvarende batteriforbruk."
+                },
+                "pro": "Rapport om Pro-bruk",
+                "body": "Få en mer detaljert oversikt over hvert minutt av batteribruken med vår Pro Usage Report"
+            },
+            "zoomedPanel": {
+                "climate": "Klima",
+                "sentry": "Vaktpost",
+                "gearGuard": "Gear Guard",
+                "conditioning": "Batterikondisjonering",
+                "overheat": "Beskyttelse mot overoppheting av kupeen",
+                "awake": "Våken",
+                "asleep": "Sover",
+                "offline": "Frakoblet",
+                "efficiency": "Effektivitet",
+                "driveTime": "Kjøretid",
+                "details": "Vis detaljer om stasjonen"
+            }
+        },
+        "clubMember": {
+            "owner": "Eier",
+            "admin": "Administrator",
+            "member": "Medlem",
+            "pending": "Avventer",
+            "adminTitle_one": "Gruppeadministrator",
+            "adminTitle_other": "Gruppeadministratorer",
+            "members": "Medlemmer",
+            "joinError": "Kunne ikke bli med i gruppen. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com",
+            "ellipsis_name": "{{title}}",
+            "ellipsis_none": "",
+            "ellipsis_loading": "Laster...",
+            "loading": "Laster inn medlemmer",
+            "joinGroup": "{{join}} Gruppe"
+        },
+        "club": {
+            "editModal": {
+                "title": "Rediger gruppe",
+                "takePhoto": "Ta bilde",
+                "addRoll": "Legg til bilde fra kamerarullen",
+                "addPhoto": "Legg til et bilde",
+                "name": "Gruppens navn ",
+                "groupName": "Gruppens navn",
+                "description": "Beskrivelse",
+                "warning": "(verifisert - kan ikke redigeres)",
+                "isPrivate_yes": "Ja",
+                "isPrivate_no": "Nei",
+                "private": "Privat gruppe",
+                "official": "Offisiell Tesla-klubb",
+                "submit": "Send inn endringer"
+            },
+            "index": {
+                "emptyGroup": "Ingen innlegg ennå for denne gruppen",
+                "viewList": "Vis medlemsliste",
+                "shareLink": "Del gruppelink",
+                "options": "Gruppealternativer",
+                "private": "Privat gruppe",
+                "member_one": "1 medlem",
+                "member_other": "{{count}} Medlemmer",
+                "privateGroup": "Innholdet i denne gruppen er privat og kun synlig for gruppens medlemmer. Be om å bli medlem av gruppen nedenfor.",
+                "verification": "{{type}} Verifisering {{status}}",
+                "verificationCopied_done": "Oppfattet!",
+                "verificationCopied_copy": "Kopier kode"
+            },
+            "statsSwiper": {
+                "vehicles": "Kjøretøyer",
+                "sustainability": "Bærekraft",
+                "trees_one": "1 Tre",
+                "trees_other": "{{count}} Trær",
+                "dailyGenerated": "Gj.sn. Daglig generert CO₂",
+                "dailyOffset": "Gj.sn. Daglig CO₂-kompensasjon",
+                "driveLeaders": "Ledere for 7-dagers kjøreturer",
+                "driven": "{{length}} Drevet",
+                "chargeLeaders": "7-dagers ladeledere",
+                "charged": "{{range}} Lagt til",
+                "distance": "Distanse kjørt"
+            }
+        },
+        "costAdjustment": {
+            "alert": "Denne prisen kunne ikke oppdateres. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com.",
+            "header": "Justering av kostnader",
+            "disclaimer": "Justering av kostnaden for denne ladeøkten gjelder kun for denne avgiften. Det vil ikke påvirke prisene på andre ladinger på dette stedet.",
+            "noSuper": "Estimert kostnad uten gratis superlading: {{cost}}",
+            "input": "Justert øktkostnad",
+            "confirm": "Bekreft",
+            "original": "{{cost}}",
+            "na": "N/A"
+        },
+        "followers": {
+            "mainTitle": "Følgere",
+            "awaiting": "Venter på godkjenning",
+            "dynamicTitle_followers": "Ingen følgere",
+            "dynamicTitle_following": "Jeg følger ikke noen ennå!",
+            "num_one": "1 tilhenger",
+            "num_other": "{{count}} Følgere",
+            "emptyTitle": "Ingen følgere",
+            "notFollowing": "Jeg følger ikke noen ennå!"
+        },
+        "following": {
+            "mainTitle": "Følgende",
+            "pending": "Avventer...",
+            "dynamicTitle": "{{following}}",
+            "emptyTitle": "Ingen følgere",
+            "notFollowing": "Jeg følger ikke noen ennå!",
+            "numFollowing": "Følgende {{howMany}}"
+        },
+        "forestsExplained": {
+            "title": "Skogen forklart",
+            "numTrees_one": "1 Tre",
+            "numTrees_other": "{{count}} Trær",
+            "howQ": "Hvordan fungerer dette?",
+            "howA": "I samarbeid med våre venner i ElectricityMap estimerer vi CO₂-utslippet fra det lokale strømnettet for strømmen som brukes til å lade bilen din. Dette tallet brukes til å estimere din gjennomsnittlige daglige karbonproduksjon. Deretter bruker vi den teoretiske karbonlagringskapasiteten til et modent tre kombinert med din daglige karbonproduksjon for å estimere din samlede netto karbonpåvirkning.",
+            "whyQ": "Hvorfor trær?",
+            "co2": "20 kg CO₂",
+            "co2Caption": "Karbonreduksjon per år for eldre trær",
+            "whyA": "Når et tre modnes, kan det forbruke opptil 20 kg CO₂ på årsbasis (i tillegg til andre drivhusgasser som ozon). Dette kan bidra positivt til karbonavtrykket ditt ved å bidra til å kompensere for karbon som produseres gjennom dine daglige aktiviteter (som å lade bilen). Trær har også mange andre fordeler, som å absorbere og holde på regnvann i urbane områder, i tillegg til økonomiske og helsemessige fordeler som kan bidra til å forbedre folks liv.",
+            "realQ": "Er dette ekte trær? Hvor da?",
+            "realA": "Ja, absolutt! Vi samarbeider med anerkjente veldedige organisasjoner som OneTreePlanted. Disse organisasjonene driver med skogplanting i nødlidende områder over hele verden, fra Brasil til India og USA. Etter at vi har sendt en bestilling for treplanting, fakturerer organisasjonen oss for treet, treplantingsinitiativene deres mottar finansiering, trær blir plantet, du føler deg bra, jorden føler seg bra, alle vinner.",
+            "confirmationQ": "Hvordan vet jeg at et tre er plantet/kjøpt?",
+            "confirmationA": "Når du planter trær via TezLab, sender vi en ordre om treplanting til våre partnere kort tid etter at bestillingen din er bekreftet. På det tidspunktet sender vi deg en e-postbekreftelse og kvittering for kjøpet ditt. Når det er mulig, vil vi informere deg om hvor treet ditt vil bli plantet i bekreftelsen. Med jevne mellomrom vil vi publisere en rapport om hvordan det går med treplantingen i lokalsamfunnet, og vi vil sørge for å holde alle som bidrar, oppdatert.",
+            "feeQ": "Krever TezLab et gebyr?",
+            "feeA": "Ja, TezLab krever inn et lite gebyr, delvis for å dekke tredjeparts betalingsbehandlingskostnader. Siden betalingsgebyrene våre er proporsjonale, gir vi besparelsene videre ved å implementere lavere priser per tre for større bestillinger."
+        },
+        "likes": {
+            "getting": "Få likes",
+            "none": "Det er merkelig... Ingen dukket opp!?",
+            "tryAgain": "Prøv igjen",
+            "title": "Liker"
+        },
+        "post": {
+            "index": {
+                "edit": "Rediger innlegg",
+                "delete": "Slett innlegg",
+                "unshare": "Fjern deling av innlegg",
+                "flag": "Flagg som upassende",
+                "deleteAlert": "Er du sikker?",
+                "deleteWarning": "Sletting av et innlegg kan ikke gjøres ugjort.",
+                "cancel": "Avbryt",
+                "yes": "Ja",
+                "editComment": "Rediger kommentar",
+                "deleteComment": "Slett kommentar",
+                "stall": "Stall: {{problem}}",
+                "comments": "Kommentarer ",
+                "loading": "Laster innhold",
+                "title_s": "{{whose}}' Innlegg",
+                "title_notS": "{{whose}}s Innlegg"
+            },
+            "item": {
+                "menu": "Hvordan meny",
+                "hide": "Trykk for å skjule",
+                "hidden": "Dette innlegget er skjult fordi du flagget det som upassende.",
+                "view": "Trykk for å vise"
+            }
+        },
+        "purchaseTrees": {
+            "index": {
+                "custom": "Tilpasset antall",
+                "badQuantity": "Kan ikke bekrefte antall. Vennligst prøv igjen.",
+                "genericError": "Noe gikk galt",
+                "next": "Neste",
+                "menuTitle_confirmed": "Ordre bekreftet",
+                "menuTitle_review": "Gjennomgang av ordre",
+                "menuTitle_choose": "Velg antall",
+                "confirmBuy": "Bekreft kjøpet",
+                "confirmed": "Ordre bekreftet",
+                "review": "Gjennomgang av ordre",
+                "choose": "Velg antall",
+                "title": "Plant trær",
+                "thanks": "Takk skal du ha!",
+                "receipt": "Din bestilling av treplanting er bekreftet. Du vil motta en kvittering via e-post i løpet av kort tid. Vennligst vent noen minutter før skogopplysningene dine oppdateres.",
+                "paymentError": "Det har oppstått en feil ved tilkobling til vår betalingsleverandør. Vennligst prøv igjen senere.\n\n Ta kontakt med support@tezlabapp.com hvis problemet vedvarer.",
+                "location": "Planteplassering",
+                "defaultLoc_default": "Tilfeldig valgt",
+                "defaultLoc_selected": "{{where}}",
+                "perTree": "/tre",
+                "projects": "Tilgjengelige prosjekter"
+            },
+            "custom": {
+                "perTree": "/Tree",
+                "other": "Annen mengde",
+                "caption": "Antall trær",
+                "enter": "Angi antall trær",
+                "description_desc": "{{enter}}",
+                "description_default": "Angi antall trær"
+            },
+            "newCard": {
+                "addCard": "Legg til et kort",
+                "add": "Legg til"
+            },
+            "selector": {
+                "stripe": "Vi samarbeider med Stripe for å sikre at betalingskortinformasjonen alltid er trygg. Kortinformasjonen din blir umiddelbart kryptert og tokenisert. Den kan aldri leses av noen hos TezLab eller Stripe.",
+                "deleteAlert": "Vennligst bekreft",
+                "alertQuestion": "Slett betalingsmetode?",
+                "cancel": "Avbryt",
+                "delete": "Slett",
+                "default": "Standard",
+                "expiry": "Exp {{when}}",
+                "makeDefault": "Gjør standard",
+                "unsaved": "Ikke lagret betalingsmåte",
+                "method": "Betalingsmåte",
+                "save": "Lagre kortet for fremtidige bestillinger:",
+                "add": "Legg til nytt kort",
+                "methods": "Betalingsmetoder"
+            },
+            "map": {
+                "title": "Dine treplasseringer",
+                "byCountry": "Tetthet av trær etter land"
+            }
+        },
+        "roadTripView": {
+            "index": {
+                "summary": "Sammendrag",
+                "details": "Detaljer",
+                "error": "Noe gikk galt!",
+                "expired": "Utløpt aktivitet",
+                "free": "Hele eller deler av aktiviteten har utløpt på grunn av det 7-dagers gratis planvinduet.",
+                "loading": "Lasting"
+            },
+            "driveSummary": "Sammendrag av stasjonen",
+            "chargeSummary": "Sammendrag"
+        },
+        "searchFriends": {
+            "title": "Søk etter personer",
+            "caption": "Søk etter navn"
+        },
+        "settings": {
+            "index": {
+                "watch": {
+                    "default": "Apple Watch: Ingen sammenkoblet klokke",
+                    "cantReach": "Apple Watch: Ikke tilgjengelig",
+                    "cantReachSub": "Kan ikke nå paret Apple Watch. Åpne TezLab på klokken din for å koble til.",
+                    "uninstalled": "Apple Watch: TezLab er ikke installert",
+                    "uninstalledSub": "Åpne Watch-appen på telefonen for å installere TezLab på Apple Watch.",
+                    "authorize_default": "Apple Watch: Autoriser på nytt",
+                    "authorize_ing": "Apple Watch: Reautorisering",
+                    "authorize_tap": "Hvis klokkeappen ikke kobler seg til, trykker du på for å godkjenne på nytt.",
+                    "authorize_keepOpen": "Hold appen åpen på klokken..."
+                },
+                "ok": "OK",
+                "logout": "Er du sikker?",
+                "logoutWarning": "Når du logger ut av TezLab, kobles kjøretøyet ditt fra. Ingen data spores før du logger på igjen.",
+                "cancel": "Avbryt",
+                "logoutButton": "Log Out",
+                "delete": "Slett konto?",
+                "deleteWarning": "Hvis du sletter kontoen din, slettes alle data som er knyttet til kontoen din og alle kjøretøy som spores av TezLab.\n\nDETTE KAN IKKE REVERSERES ELLER STOPPES.\n\nFor å stoppe sporing midlertidig, logg ut i stedet.",
+                "deleteButton": "Slett konto",
+                "proDelete": "\n\nHvis du sletter kontoen din, avsluttes IKKE Pro-abonnementet ditt; du må avslutte abonnementet via Apple/Google/TezLab-nettstedet.",
+                "deleteConfirm": "Vennligst bekreft en gang til",
+                "lastChance": "For å slette kontoen din, vennligst bekreft på nytt at du ønsker å gjøre det.\n\nAlle data vil bli slettet, og dette kan ikke gjøres ugjort. {{promessage}}\n\nFor å koble fra bilene dine midlertidig, logg ut i stedet.",
+                "eek": "Stopp! Avbryt!",
+                "logoutInstead": "Logg ut i stedet",
+                "imSure": "Ja, slett kontoen min",
+                "cancelPro": "\n\nPro-abonnementet ditt administreres via Apple (iOS), Google (Android) eller TezLab, og du må si det opp via den aktuelle App Store eller ved å bruke https://tezlabapp.com/subscribe.",
+                "loggedOut": "Du har blitt logget ut, og kontoen din er nå i ferd med å bli slettet. {{prodeletemessage}}",
+                "deleteError": "Det har oppstått en feil, vennligst kontakt support@tezlabapp.com for å slette kontoen din.",
+                "title": "Innstillinger",
+                "profile": "Profil",
+                "name": "Navn",
+                "updatingName": "Oppdatering av navn",
+                "email": "E-post",
+                "updatingEmail": "Oppdatering av e-post",
+                "bio": "Bio",
+                "updatingBio": "Oppdatering av bio",
+                "subscription": "Abonnement",
+                "personalize": "Tilpass",
+                "vehicleSettings": "Innstillinger for kjøretøy",
+                "exVehicle": "Tidligere sporet kjøretøy",
+                "gone_default": "Dette kjøretøyet vises ikke lenger på kontoen din og spores ikke lenger. Du kan fortsette å vise historiske data.",
+                "gone_tesla": "Dette kjøretøyet vises ikke lenger på Tesla-kontoen din og spores ikke lenger. Du kan fortsette å vise historiske data.",
+                "gone_rivian": "Dette kjøretøyet vises ikke lenger på Rivian-kontoen din og spores ikke lenger. Du kan fortsette å vise historiske data.",
+                "accessType": "Tilgangstype",
+                "owner_mine": "Eier",
+                "owner_shared": "Delte",
+                "signedIn_default": "Logget på med kjøretøyets eierkonto.",
+                "signedIn_tesla": "Logget på med Tesla-kontoen til bileieren.",
+                "signedIn_rivian": "Innlogget med kjøretøyets eier Rivian-konto.",
+                "signedOut_default": "Noen funksjoner, for eksempel synkronisering av ladepriser, krever at du logger på med eierkontoen for dette kjøretøyet.",
+                "signedOut_tesla": "Noen funksjoner, for eksempel synkronisering av superladerpriser, krever at du logger på med Tesla-kontoen til bileieren for dette kjøretøyet.",
+                "signedOut_rivian": "Noen funksjoner, for eksempel synkronisering av ladepriser, krever at du logger på med Rivian-kontoen for dette kjøretøyet.",
+                "polling": "Polling (datafangst)",
+                "pollingSubtitle_captured": "Data blir samlet inn fra dette kjøretøyet.",
+                "pollingSubtitle_disabled": "Polling kan ikke aktiveres fordi det har blitt deaktivert av eieren av dette kjøretøyet på en annen konto.",
+                "pollingSubtitle_reenable": "Data registreres ikke fra dette kjøretøyet. Aktiver for å gjenoppta sporing av kjøreturer og ladninger. {{pollingMessage}}",
+                "upgradePopup": "Spor flere kjøretøy",
+                "otherAccounts": "Avstemninger på andre TezLab-kontoer",
+                "pollingInfo": "Kjøretøy på flere kontoer",
+                "pollingBlurb": "For å sikre nøyaktige data og for å forhindre avbrudd i kjøretøyets søvn, anbefaler vi ikke at et enkelt kjøretøy kobles til flere TezLab-kontoer.\n\nKjøretøyet ditt kan vises på flere kontoer hvis du har gitt autorisert førertilgang til en annen person som også bruker TezLab med sin Tesla-konto, eller hvis du eller familien din har logget inn på flere TezLab-kontoer.\n\nSom eier av dette kjøretøyet kan du hindre andre kontoer fra å avstemme dette kjøretøyet. Andre kontoer vil ikke kunne aktivere polling på nytt med mindre de også logger på med Tesla-kontoen til kjøretøyets eier.",
+                "ownerPolling": "Som kjøretøyets eier kan du deaktivere polling på andre TezLab-kontoer som også har tilgang til dette kjøretøyet.",
+                "lastCommunication_owner": "Eierens tilgang\nSiste kommunikasjon {{lastPoll}}",
+                "lastCommunication_shared": "Delt tilgang\nSiste kommunikasjon {{lastPoll}}",
+                "privSec": "personvern og sikkerhet",
+                "private": "Privat profil",
+                "privateInfo": "Når profilen din er privat, er profilopplysningene dine bare synlige for følgere du har akseptert.",
+                "sleep": "Søvn i kjøretøyet",
+                "deepSleep": "Deep Sleep Assist (standard)",
+                "deepSleepInfo": "Anbefalt - Hjelper bilen din med å sovne ved å forskyve polling når den har vært inaktiv og våken i en periode. Aktiveres når som helst fra kontrollene eller ved å trykke på og holde inne batteriikonet på startskjermen.",
+                "night": "Nattmodus",
+                "nightInfo": "Forhindre at bilen din blir avlyttet mellom kl. 20.00 og 05.00 om morgenen. Ta opp en tur i løpet av disse timene ved å åpne TezLab før du begynner å kjøre.",
+                "deepLock": "Lås for dyp søvn",
+                "deepLockInfo": "Lås bilen automatisk når Deep Sleep Assist starter hvis den blir stående ulåst.",
+                "comm": "Kommunikasjon",
+                "notifs": "Varsler",
+                "manageNotifs": "Administrer varslinger",
+                "more": "Mer informasjon",
+                "restore": "Gjenopprett kjøp",
+                "welcome": "Vis velkomst",
+                "redeem": "Løs inn en gave",
+                "support": "Support og kontakt",
+                "changePw": "Endre passord",
+                "privacy": "Merknad om personvern",
+                "terms": "Vilkår for bruk",
+                "x": "@TezLabApp på 𝕏",
+                "deleteAll": "Slett min konto og mine data"
+            },
+            "currency": {
+                "error": "Det oppstod en feil under innlasting av valutaalternativer. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com",
+                "base": "Basisvaluta",
+                "subtext_default": "{{msg}}",
+                "subtext_loading": "Laster inn valutaalternativer...",
+                "setBase": "Angi basisvaluta"
+            },
+            "deepSleep": {
+                "minutes_one": "minutt",
+                "minutes_other": "minutter",
+                "minutesWord": "Minutter",
+                "delay": "Forsinkelsestid for dyp søvn",
+                "yesDelay": "Start Deep Sleep Assist når bilen står på tomgang og er våken i {{time}} {{minute}}",
+                "setDelay": "Angi forsinkelsestid for dyp søvn",
+                "current_custom": "Gjeldende innstilling: {{time}}min | Standard: 60 min",
+                "current_default": "Standard: 60 minutter"
+            },
+            "delete": {
+                "alert": "Vennligst bekreft Slett",
+                "warning": "Hvis du sletter kjøretøyet ditt, slettes alle data som er knyttet til dette sporet kjøretøyet.\n\nDETTE KAN IKKE REVERSERES ELLER STOPPES!\n\n Hvis du vil stoppe sporingen midlertidig, må du enten logge ut eller deaktivere polling for dette kjøretøyet.",
+                "cancel": "Avbryt",
+                "delete": "Slett kjøretøy",
+                "reconfirm": "Vennligst bekreft én gang til.",
+                "reconfirmWarning": "For å slette kjøretøyet ditt, vennligst bekreft på nytt at du ønsker å gjøre det.\n\nAlle data knyttet til dette kjøretøyet vil bli slettet, og dette kan ikke angres. For å stoppe sporing midlertidig, logger du enten ut eller deaktiverer polling for dette kjøretøyet.",
+                "done": "Slett vellykket.",
+                "ok": "OK",
+                "whoops": "Noe gikk galt",
+                "help": "Vi har problemer med å slette dette kjøretøyet. Hvis dette vedvarer, kan du kontakte support@tezlabapp.com"
+            },
+            "distanceUnits": "Avstandsenheter",
+            "editInfo": {
+                "title": "Rediger info",
+                "name": "Navn",
+                "email": "E-post",
+                "bio": "Bio"
+            },
+            "fuelEff": "Enheter for drivstofforbruk",
+            "fuelPrice": {
+                "profile": "Sammenligning av drivstoffpriser",
+                "set": "Angi sammenligningspris for drivstoff",
+                "current": "Nåværende verdi: {{price}}/{{units}}"
+            },
+            "resetPw": {
+                "title": "Tilbakestill passord",
+                "error": "Det har oppstått en feil. Vennligst prøv på nytt.",
+                "email": "E-post",
+                "subtext": "Send inn e-postadressen din for å få tilsendt en lenke for å tilbakestille passordet ditt.",
+                "sent": "Vi sender en lenke for tilbakestilling av passord til {{address}} hvis det finnes en konto med den e-postadressen. Vennligst sjekk e-posten din."
+            },
+            "splashOption": "Bruk vanlig appoppstart",
+            "splashCaption": "Vis en ren innlastingsindikator i stedet for video når appen starter.",
+            "switchCurrent": "Nåværende kjøretøy",
+            "temp": "Temperaturenheter",
+            "effSettings": {
+                "profile": "Sammenligning av kjøretøyenes drivstofføkonomi",
+                "set": "Sammenligning av drivstofføkonomi",
+                "current": "Gjeldende: {{sub}} | Standard: {{default}}"
+            }
+        },
+        "stats": {
+            "median": "Median energi",
+            "drives": "Drivverk",
+            "driveTime": "Kjøretid",
+            "distCost": "Est. Avstand Kostnad",
+            "distance": "Sporet avstand",
+            "chargeCost": "Kostnader for lading",
+            "chargeTime": "Ladetid",
+            "supers": "Besøkte kompressorer",
+            "savings": "Est. Drivstoffbesparelser",
+            "title": "Statistikk",
+            "loading": "Laster statistikk",
+            "since": "Siden ",
+            "efficiency": "Samlet effektivitet",
+            "energy": "Gjennomsnittlig energi",
+            "speed": "Gjennomsnittlig hastighet",
+            "effString": "{{eff}}",
+            "driving": "Kjørestatistikk",
+            "charging": "Ladestatistikk"
+        },
+        "supercharger": {
+            "index": {
+                "syncAlert": "Synkronisering av superladerkostnader",
+                "syncSubtext": "Etter at ladingen er fullført, vil TezLab forsøke å synkronisere den faktiske kostnaden som Tesla har fakturert deg.\n\nMERK: Eiertilgang (ikke en Tesla-konto med delt fører) er nødvendig for å synkronisere Supercharging-kostnader.",
+                "noPosts": "Ingen nyere innlegg!",
+                "oops": "Noe gikk galt.",
+                "waiting": "Venter på data...",
+                "error_wrong": "Noe gikk galt.",
+                "error_awaiting": "Venter på data...",
+                "error_title": "{{name}}",
+                "directions": "Veibeskrivelse",
+                "aboutSync": "Om kostnadssynkronisering",
+                "latest": "Siste innlegg"
+            },
+            "amenities": "Beliggenhet Fasiliteter",
+            "awards": {
+                "title": "Utmerkelser",
+                "mayor": "Ordfører",
+                "noMayor": "Nei Nåværende ordfører",
+                "charger": "Ansvarlig lader",
+                "noCharger": "Ingen strømlader i lading",
+                "zapper": "Zapper"
+            },
+            "recent": "Nylig siktelse",
+            "times": {
+                "24array": [
+                    "00h",
+                    "",
+                    "",
+                    "06h",
+                    "",
+                    "",
+                    "12h",
+                    "",
+                    "",
+                    "18h",
+                    "",
+                    "22h"
+                ],
+                "12array": [
+                    "12AM",
+                    "",
+                    "",
+                    "6AM",
+                    "",
+                    "",
+                    "12PM",
+                    "",
+                    "",
+                    "6PM",
+                    "",
+                    "10PM"
+                ],
+                "midnight": "KL. 12.00",
+                "6am": "KL. 06.00",
+                "noon": "12:00",
+                "6pm": "18.00",
+                "10pm": "KL. 22.00",
+                "times": "Populære tider",
+                "days": [
+                    "M",
+                    "TI",
+                    "O",
+                    "TO",
+                    "F",
+                    "L",
+                    "S"
+                ],
+                "needData": "Ikke nok data til å vise populære tider"
+            },
+            "reviews": {
+                "title": "Anmeldelser",
+                "responses_one": "1 Svar",
+                "responses_other": "{{count}} Svar"
+            },
+            "fab": {
+                "zap": "Opprett en Zap",
+                "comment": "Legg inn en kommentar",
+                "problem": "Del problem"
+            },
+            "problems": {
+                "none": "Ingen rapporterte problemer",
+                "title": "Aktuelle problemer"
+            },
+            "statsView": "Se mine kostnader"
+        },
+        "sustainability": {
+            "index": {
+                "empty": "Brukeren har ingen bærekraftsdata",
+                "mine": "Skogen min",
+                "info": "Mer informasjon",
+                "forestSize_capSpace_one": "1 Tre ",
+                "forestSize_capSpace_other": "{{count}} Trær ",
+                "forestSize_cap_one": "1 Tre",
+                "forestSize_cap_other": "{{count}} Trær",
+                "forestSize_lower_one": "1 tre",
+                "forestSize_lower_other": "{{count}} trær",
+                "yourForest": "Din skog av ",
+                "netAvg": "har en gjennomsnittlig netto CO₂-kompensasjon på {{howMuch}} CO₂. Du er ",
+                "short": " kort fra å være karbonnøytrale.",
+                "prod": "Føler du deg som en miljøforkjemper?",
+                "neutral": "Bli karbonnøytral",
+                "congrats": "Gratulerer med dagen! Skogen din på ${størrelse} ${treord} er nok til å kompensere for ditt gjennomsnittlige daglige karbonutslipp!",
+                "congratulations": "Gratulerer med dagen! Din skog av ",
+                "enough": "er nok til å kompensere for ditt gjennomsnittlige daglige karbonutslipp!",
+                "locations": "Mine treplasseringer",
+                "map": "Vis kart",
+                "daily": "Daglig karbon",
+                "dailyInfo": "\"Avg. Daglig generert\" er gjennomsnittlig CO₂ som slippes ut fra ladeaktivitetene dine per dag.\n\n\"Avg. Daily Offset\" er den teoretiske karbonkompensasjonen fra trærne du har plantet, uttrykt som et daglig gjennomsnitt.",
+                "generated": "Gjennomsnittlig Daglig generert",
+                "offset": "Gjennomsnittlig Daglig forskyvning",
+                "impact": "Gjennomsnittlig daglig påvirkning",
+                "byCar": "Gjennomsnittlig daglig karbonutslipp med bil",
+                "carAverage": "Gjennomsnitt med bil",
+                "carBlurb_one": "CO₂ frigjøres ved produksjon av elektrisitet. I motsetning til bensinbiler som slipper ut karbon gjennom forbrenning av drivstoff under kjøring, skjer bilens karbonpåvirkning når den lades.",
+                "carBlurb_other": "CO₂ slippes ut ved produksjon av elektrisitet. I motsetning til bensinbiler som slipper ut karbon gjennom forbrenning av drivstoff under kjøring, skjer bilens karbonpåvirkning når den lades.",
+                "title": "Rapport om bærekraft",
+                "plant": "Plant trær"
+            },
+            "slider": {
+                "short_one": "1 tre fra å være karbonnøytral",
+                "short_other": "{{count}} trær som mangler for å være karbonnøytrale",
+                "negative": "Du knuser det!",
+                "comparison_more": "mer enn",
+                "comparison_less": "mindre enn",
+                "neutral": "Gratulerer, du er karbonnøytral!",
+                "average": "Nettokarbonet ditt er det samme som for den gjennomsnittlige TezLab-brukeren.",
+                "different": "Ditt netto karbon er {{diff}} {{comp}} den gjennomsnittlige Tezlab-brukeren.",
+                "you": "Du",
+                "champ": "Miljømester",
+                "champMsg_specific": "{{name}} er ledende når det gjelder gjennomsnittlig daglig karbonutjevning.",
+                "champMsg_default": "Ledende innen gjennomsnittlig daglig karbonutjevning.",
+                "avgUser": "Avg. TezLab-bruker",
+                "carbonNeutral": "Karbonnøytral"
+            }
+        },
+        "profile": {
+            "index": {
+                "activityError": "Feil ved henting av aktivitetsdata",
+                "statsError": "Feil ved henting av statistikkdata",
+                "settings": "Innstillinger og preferanser",
+                "link": "Del profil-lenke",
+                "newPhotos": "Nytt profilbilde - fra Bilder",
+                "newCamera": "Nytt profilbilde - fra kamera",
+                "gettingRecent": "Henter de siste innleggene",
+                "none_error": "{{msg}}",
+                "none_recent": "Ingen nyere innlegg",
+                "edit": "Rediger profil",
+                "mine_name": "{{title}}",
+                "mine_profile": "Min profil",
+                "mine_awaiting": "Venter på data",
+                "awaiting": "Venter på data",
+                "options_edit": "Rediger profil",
+                "options_default": "Alternativer",
+                "recent": "Nylige aktiviteter",
+                "wemby": "Du har blokkert denne personen!",
+                "iggy": "Denne personen har blokkert deg",
+                "efficiency": "Effektivitet",
+                "speed": "Gjennomsnittlig hastighet"
+            },
+            "bio": {
+                "prompt": "Legg til en biografi i profilen din.",
+                "add": "Legg til bio",
+                "edit": "Hva bør TezLab-fellesskapet vite om deg?",
+                "editTitle": "Rediger biografien din"
+            },
+            "header": {
+                "following": "Følgende ",
+                "followers": "Følgere "
+            },
+            "carousel": {
+                "iggy": "Brukeren har blokkert deg",
+                "private": "Privat bruker",
+                "cantSee_blocked": "Brukeren har blokkert deg",
+                "cantSee_private": "Privat bruker",
+                "loading": "Laster inn bilder"
+            },
+            "stats": {
+                "view": "Vis statistikk"
+            }
+        },
+        "zap": {
+            "index": {
+                "again": "Prøv igjen",
+                "record": "Spill inn zappen din",
+                "preview": "Forhåndsvisning",
+                "recordPreview_record": "Spill inn zappen din",
+                "recordPreview_preview": "Forhåndsvisning",
+                "saved_awesome": "Fantastisk! Du kan finne videoen din blant de lagrede bildene dine.",
+                "saved_sad": "{{error}}",
+                "save": "Lagre video"
+            },
+            "recordButton": "TRYKK FOR Å SPILLE INN",
+            "you": "Du",
+            "like": "Som",
+            "again": "Prøv igjen",
+            "review": "Send inn en anmeldelse",
+            "error_try": "Prøv igjen",
+            "error_submit": "Send inn en anmeldelse",
+            "restart": "Begynn på nytt",
+            "record": {
+                "camera": "Kameratillatelser må være aktivert for å kunne bruke dette kameraet.",
+                "update": "Oppdater tillatelser",
+                "select": "Velg video",
+                "record": "Ta opp video"
+            }
+        }
+    },
+    "copy": {
+        "disclaimers": {
+            "tesla": "Vi bruker Teslas offisielle tredjeparts Fleet API for å opprette en sikker tilkobling til kjøretøyet ditt.\n\nInnlogging på Tesla-kontoen din skjer direkte på Teslas nettsted. TezLab kan ikke se, lagre eller behandle Tesla-legitimasjonen din på noen måte, punktum.\n\nDu kan når som helst tilbakekalle tilgangen fra Tesla-kontoen din.",
+            "rivian": "Vi bruker Rivians API for å opprette en sikker tilkobling til kjøretøyet ditt.\n\nRivian-brukernavnet og -passordet ditt krypteres på enheten din før det sendes for å opprette en sikker tilkobling til Rivian-kontoen din. De lagres aldri på enheten din eller på serverne våre, og kan ikke leses av noen hos TezLab.\n\nDu kan når som helst tilbakekalle tilgangen."
+        },
+        "rivianSecurity": "Vi tar sikkerhet svært alvorlig. Ditt Rivian-brukernavn og passord krypteres på enheten din før det sendes for å opprette en sikker tilkobling til Rivian-kontoen din. De lagres aldri på enheten din eller på våre servere, og kan ikke leses av noen hos TezLab.",
+        "cards": {
+            "rivian": {
+                "dash": "The Dash",
+                "dashBlurb": "Enten du er ny i Rivian eller en veteran, er elbil-livsstilen enkel med brukertilpasset innhold lett tilgjengelig.",
+                "range": "Rekkevidde og lading i sanntid",
+                "rangeBlurb": "Rekkeviddeangst er et reelt problem, spesielt når du skal venne deg til Rivian. Vi gjør det enkelt å forstå rekkevidden ved å gi deg beregninger fra virkeligheten.",
+                "green": "Spar penger og vær miljøvennlig",
+                "greenBlurb": "Spor kostnadene på ladestedene dine og del priser på superladere med TezLab-fellesskapet. Miljømester? Kompenser for kostnadene med treplanting.",
+                "social": "Venner, grupper og deling",
+                "socialBlurb": "Hjelp Rivian-bevegelsen med å komme raskere og lenger. Opprett offentlige og private grupper, og del turer, ladninger, bilder og historier med venner.",
+                "controls": "Bilkontroller kommer snart",
+                "controlsBlurb": "Rivian er for øyeblikket i betaversjon. Vi jobber hardt for å gi deg den beste bilkontrollen som er tilgjengelig. Hold deg oppdatert!",
+                "stats": "Best i klassen statistikk",
+                "statsInfo": "Liker du statistikk? Det gjør vi også. Se gjennom bruksrapporter, ladninger, ladesteder og stasjoner. Merk stasjoner for å holde dem organisert.",
+                "watch": "Se app og widget",
+                "watchInfo": "Alle kontroller og all informasjon du trenger om bilen din med et enkelt håndgrep. Hold deg oppdatert om bilens status ved hjelp av vår widget på iOS-startskjermen."
+            },
+            "tesla": {
+                "dash": "The Dash",
+                "dashBlurb": "Enten du er ny i Tesla eller en veteran, er elbil-livsstilen enkel med tilpassbart innhold lett tilgjengelig.",
+                "range": "Rekkevidde og lading i sanntid",
+                "rangeBlurb": "Rekkeviddeangst er en reell bekymring, spesielt når du begynner å bli vant til Teslaen din. Vi gjør det enkelt å forstå rekkevidden ved å tilby beregninger fra den virkelige verden.",
+                "green": "Spar penger og vær miljøvennlig",
+                "greenBlurb": "Spor kostnadene på ladestedene dine og del priser på superladere med TezLab-fellesskapet. Miljømester? Kompenser for kostnadene med treplanting.",
+                "social": "Venner, grupper og deling",
+                "socialBlurb": "Bidra til å drive Tesla-bevegelsen raskere og lenger. Opprett offentlige og private grupper og del turer, ladninger, bilder og historier med venner.",
+                "controls": "Rask bilkontroll",
+                "controlsBlurb": "Noen sier at våre er raskere enn Tesla, men vi lar deg selv bedømme det. Enkel tilgang til alle kontroller med tilpassbare hurtigkontroller på dashbordet",
+                "stats": "Best i klassen statistikk",
+                "statsInfo": "Liker du statistikk? Det gjør vi også. Se gjennom bruksrapporter, ladninger, ladesteder og stasjoner. Merk stasjoner for å holde dem organisert.",
+                "watch": "Se app og widget",
+                "watchInfo": "Alle kontroller og all informasjon du trenger om bilen din med et enkelt håndgrep. Hold deg oppdatert om bilens status ved hjelp av vår widget på iOS-startskjermen."
+            }
+        },
+        "pro": {
+            "welcome": "Velkommen til TezLab Pro!",
+            "message": "Vi har begynt å beregne statistikk på dine historiske data. Det kan ta opptil en time før alt er tilgjengelig."
+        },
+        "confirmation": {
+            "waiting": "Venter på bekreftelse",
+            "thanks_apple": "Takk skal dere ha! Vi venter på bekreftelse fra Apple. Vi begynner å beregne statistikk på de historiske dataene dine så snart vi har mottatt den. Det kan ta opptil en time før alt er tilgjengelig.",
+            "thanks_google": "Takk skal dere ha! Vi venter på bekreftelse fra Google. Vi begynner å beregne statistikk på de historiske dataene dine så snart vi har mottatt den. Det kan ta opptil en time før alt er tilgjengelig.",
+            "restoring": "Gjenopprette kjøp",
+            "wait_apple": "Hold ut! Vi venter på bekreftelse fra Apple. Vi begynner å beregne statistikk på de historiske dataene dine så snart vi har mottatt den. Det kan ta opptil en time før alt er tilgjengelig.",
+            "wait_google": "Hold dere fast! Vi venter på bekreftelse fra Google. Vi begynner å beregne statistikk på de historiske dataene dine så snart vi har mottatt den. Det kan ta opptil en time før alt er tilgjengelig."
+        },
+        "auth": [
+            "Retikulerende splines ... bare tuller, vi vet ikke engang hva det betyr.",
+            "Vennligst vent mens vi henter Internett med et sommerfuglnett.",
+            "PC Load Letter.",
+            "Bare noen sekunder til, så er vi klare til å rocke og rulle. Eller i det minste klare til å rocke.",
+            "Utviklerne våre brygger en kopp kaffe for å få opp farten. Hold deg fast!",
+            "Laster... men ikke så sakte som en snegl på maraton.",
+            "Vi legger 'app' i 'happening' akkurat nå. Eller laster, snarere.",
+            "Hamstrene våre løper som gale på hjulene sine for å drive appen. Vi lover at de kommer dit til slutt.",
+            "Laster... I mellomtiden kan du jo øve deg på dype pusteøvelser. Det er en flott måte å få tiden til å gå på.",
+            "Hold på hattene, folkens! Denne innlastingsskjermen kommer til å bli vill ... ok, egentlig ikke. Men vi er nesten fremme!"
+        ],
+        "upgrade": {
+            "message": "Bli en TezLab Pro",
+            "text": "Lås opp ubegrenset kjøre- og ladehistorikk, rekkevidderinger, kjørekart, rutematching, bilturer, proffklima, automatiseringer og mye mer."
+        },
+        "errors": {
+            "purchase": "Det har oppstått en feil. Prøv igjen senere og/eller kontakt support@tezlabapp.com hvis problemet vedvarer.",
+            "noToken": "Ingen token på lager",
+            "maxRetries": "Maks Tesla-forsøk på nytt",
+            "unauth": {
+                "retry": "For sikkerhets skyld må du logge inn på nytt.",
+                "reauth": "Vennligst godkjenn kjøretøykontoen din.",
+                "reauthAgain": "Vennligst godkjenn kjøretøykontoen din på nytt."
+            },
+            "login": "Kunne ikke logge på. Kontroller at du bruker riktig TezLab-legitimasjon (ikke Kjøretøy), og prøv på nytt.",
+            "signup": "Det oppstod et problem med å registrere deg. Kontroller at du har fylt ut alle feltene riktig, og prøv på nytt. Hvis problemet vedvarer, kan du sende en e-post til support@tezlabapp.com.",
+            "duplicate": "Det finnes allerede en konto med den e-postadressen. Vennligst logg inn i stedet.",
+            "profile": {
+                "data": "Beklager, det oppstod et problem med å hente informasjon for denne brukeren!",
+                "stats": "Beklager, det oppstod et problem med å få tak i statistikken for denne brukeren!",
+                "activities": "Feil ved henting av aktiviteter for denne brukeren"
+            },
+            "followers": "Oi! Det ser ut til at vi har snublet. Vennligst trekk for å prøve igjen.",
+            "following": "Oi! Det ser ut til at vi har snublet. Vennligst trekk for å prøve igjen.",
+            "loadingModal": "Gah! Ser ut som det oppsto en feil ved henting av detaljerte data",
+            "cardFetch": "Gah! Det oppstod et problem med å hente data for dette kortet",
+            "usage": "Gah! Noe ser ut til å ha gått galt da aktivitetsdataene dine ble hentet. Vennligst dra for å oppdatere listen.",
+            "proUsage": "Ingen detaljerte batteridata for denne bruksrapporten. Du kan trekke for å prøve igjen!",
+            "chargerData": "Oh Snap! Det oppstod et problem med å hente data for denne laderen.",
+            "super": {
+                "problem": "Merkelig... Det var et problem med å hente informasjon om problemer med kompressoren.",
+                "posts": "Ups! Det oppstod et problem med å hente innlegg for denne laderen. Vennligst trekk for å prøve igjen.",
+                "popular": "Hmm... Det var et problem med å hente populære tider for denne laderen."
+            },
+            "chargeLocation": "Oh Snap! Det oppstod et problem med å hente data for denne laderen.",
+            "driveModal": {
+                "data": "Oi! Noe gikk galt her...",
+                "hidden": "Skjult på kartet"
+            },
+            "noNote": "Noe gikk galt da du satte inn notatet. Vennligst prøv igjen!",
+            "noTag": "Det oppstod et problem med å tagge denne stasjonen! Vennligst prøv igjen!",
+            "location": "Kunne ikke finne enhetens plassering",
+            "permission": "Tillatelse til posisjonssporing avslått",
+            "lostRings": "Noe gikk galt!",
+            "noRings": "Ingen avstandsringer for dette stedet... Lad her for å lage dem!",
+            "schedule": "Å nei! Noe har gått galt med planleggingen. Vennligst prøv igjen.",
+            "climate": "Merkelig... Vi hadde problemer med å kommunisere med bilen der. Vennligst prøv igjen.",
+            "ownActivities": "Oi! Det oppstod en feil ved henting av innleggene dine. Vennligst trekk for å prøve igjen.",
+            "friendActivities": "Oi! Det oppstod en feil ved henting av innleggene til vennene dine. Vennligst dra for å prøve igjen.",
+            "groups": {
+                "fetch": "Beklager... Vi har snublet mens vi hentet gruppene dine. Vennligst trekk for å prøve igjen.",
+                "search": "Det er merkelig... Vi har visst snublet over det søkeordet. Vennligst prøv igjen.",
+                "nearby": "Ingen grupper i nærheten for deg!",
+                "members": "Gah! Vi fikk problemer med å hente inn medlemsinformasjon for denne gruppen! Vennligst dra for å prøve igjen.",
+                "data": "Ups! Vi fikk problemer med å hente data for denne gruppen! Vennligst dra for å prøve igjen."
+            },
+            "post": {
+                "data": "Pokker. Vi fikk en feil ved henting av data for dette innlegget. Vennligst dra for å prøve igjen.",
+                "detail": "Hmm... Noe skjedde da vi skulle hente dataene til dette innlegget.",
+                "replies": "Hmm... Noe skjedde da vi hentet svar for dette innlegget... Trekk for å prøve igjen.",
+                "likes": "Merkelig nok ser det ut til at vi har støtt på en hake! Vennligst dra ned for å oppdatere listen."
+            },
+            "badges": {
+                "recent": "Kan ikke hente de siste merkene!!!",
+                "all": "Kan ikke hente informasjonen om skiltet ditt!"
+            },
+            "home": {
+                "eff": "Sammenligningsdata kan ikke hentes.",
+                "recent": "Oi sann! Vi fikk et problem med å hente inn nyere sporingsdata,",
+                "cards": "Vi ser ut til å ha støtt på et problem med kortdataene dine.",
+                "stats": "Hmm. Vi har problemer med å hente inn statistikken for dette kjøretøyet.",
+                "usage": "Jøss! Vi fikk et problem med å hente bruksdataene for deg!",
+                "none": "Ingen avgiftsrapportdata",
+                "badges": "UH OH. Noe skjedde da jeg hentet de siste merkene til deg",
+                "sustainability": "Merkelig... det skjedde noe!",
+                "trends": "Jøss... Dette skjer aldri... Vi snublet da vi prøvde å få tak i trenddataene for kjøretøyet ditt!",
+                "notifs": "Vi klarte ikke å hente de siste varslene dine. Vennligst prøv igjen."
+            },
+            "zap": {
+                "recording": "Noe gikk galt under innspillingen av denne videoen. Vennligst prøv igjen.",
+                "format": "Denne Zap-en må bli en video!",
+                "long": "Zaps er bare maks 20 sekunder. Velg en kortere video eller rediger denne.",
+                "orientation": "Zaps må være portretter fordi vi synes de er penere på den måten.",
+                "upload": "Hmm. Noe gikk galt med opplastingen din. Vil du lagre denne videoen på kamerarullen din?",
+                "media": "😬 Ser ut som noe gikk galt. Vi lagret videofilen slik at du kan legge ut denne Zap senere hvis du vil!",
+                "network": "Det ser ut som signalet ditt kan være ujevnt. Vil du lagre denne videoen for å laste den opp senere?"
+            },
+            "sleep": [
+                "Har bilen din hatt en sen natt? Jeg prøver fortsatt å vekke den...",
+                "Det virker som om bilen din har trykket på snooze-knappen. Vi prøver fortsatt å vekke den...",
+                "Drømmer bilen din om åpne veier? Vi lokker den fortsatt tilbake til virkeligheten...",
+                "Bilen din er i hvilemodus. Rister den forsiktig nå...",
+                "Ser ut som bilen din ikke har det travelt i dag. Gi den en forsiktig dytt...",
+                "Selv biler trenger skjønnhetssøvn. Forsøker å vekke din...",
+                "Bilen din er vanskelig å vekke. Banker den på panseret...",
+                "Kanskje bilen din har en lat morgen. Prøver å vekke den...",
+                "Er bilen din en nattugle? Jobber med å vekke den...",
+                "Bilen din sover litt ekstra. Vi er på våknevakt ...",
+                "Det virker som om bilen din drømmer om roligere veier. Vi vekker den forsiktig..."
+            ],
+            "offline": [
+                "Bilen din leker gjemsel. Prøver fortsatt å finne den...",
+                "Er bilen din på digital detox? Leter etter sin tilstedeværelse på nettet ...",
+                "Det virker som om bilen din er ute av nettet. Prøver å få signal...",
+                "Bilens inkognitomodus er imponerende. Prøver å spore den opp...",
+                "Bilen er ikke i chattehumør. Pinger den igjen...",
+                "Spøker bilen din for oss? Vi prøver fortsatt å få tak i den...",
+                "Bilen din tok en virtuell fridag. Jobber med å få den online igjen...",
+                "Bilen er forsvunnet i den digitale verden. Sender ut en letemannskap...",
+                "Ser ut som om bilen din har vært frakoblet en stund. Prøver å koble til igjen...",
+                "Prøver å få den til å fungere igjen..."
+            ]
+        }
+    },
+    "defaults": {
+        "modal": "Modal"
+    },
+    "graphs": {
+        "chargeLine": {
+            "battery": "Batteri (SOC)",
+            "power": "Strøm"
+        },
+        "chargeReport": {
+            "100": "100%",
+            "75": "75%",
+            "50": "50%",
+            "25": "25%",
+            "0": "0%"
+        }
+    },
+    "intro": {
+        "skip": "SKIP"
+    },
+    "maps": {
+        "helpers": {
+            "treeMap": {
+                "projects": [
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "Latin America",
+                    "Canada",
+                    "United States",
+                    "North America"
+                ],
+                "africa": [
+                    "DZA",
+                    "AGO",
+                    "BWA",
+                    "BFA",
+                    "BDI",
+                    "CMR",
+                    "CPV",
+                    "CAF",
+                    "TCD",
+                    "COM",
+                    "COG",
+                    "DJI",
+                    "EGY",
+                    "GNQ",
+                    "ERI",
+                    "SWZ",
+                    "ETH",
+                    "GAB",
+                    "GMB",
+                    "GHA",
+                    "GIN",
+                    "GNB",
+                    "CIV",
+                    "KEN",
+                    "LSO",
+                    "LBR",
+                    "LBY",
+                    "MDG",
+                    "MWI",
+                    "MLI",
+                    "MRT",
+                    "MUS",
+                    "MAR",
+                    "MOZ",
+                    "NAM",
+                    "NER",
+                    "NGA",
+                    "RWA",
+                    "STP",
+                    "SEN",
+                    "SYC",
+                    "SLE",
+                    "SOM",
+                    "ZAF",
+                    "SSD",
+                    "SDN",
+                    "TZA",
+                    "TGO",
+                    "TUN",
+                    "UGA",
+                    "ZMB",
+                    "ZWE"
+                ],
+                "asia": [
+                    "AFG",
+                    "ARM",
+                    "AZE",
+                    "BHR",
+                    "BGD",
+                    "BTN",
+                    "BRN",
+                    "KHM",
+                    "CHN",
+                    "CYP",
+                    "GEO",
+                    "IND",
+                    "IDN",
+                    "IRN",
+                    "IRQ",
+                    "ISR",
+                    "JPN",
+                    "JOR",
+                    "KAZ",
+                    "PRK",
+                    "KOR",
+                    "KWT",
+                    "KGZ",
+                    "LAO",
+                    "LBN",
+                    "MYS",
+                    "MDV",
+                    "MNG",
+                    "MMR",
+                    "NPL",
+                    "OMN",
+                    "PAK",
+                    "PSE",
+                    "PHL",
+                    "QAT",
+                    "SAU",
+                    "SGP",
+                    "LKA",
+                    "SYR",
+                    "TWN",
+                    "TJK",
+                    "THA",
+                    "TUR",
+                    "TKM",
+                    "ARE",
+                    "UZB",
+                    "VNM",
+                    "YEM"
+                ],
+                "europe": [
+                    "ALB",
+                    "AND",
+                    "AUT",
+                    "BLR",
+                    "BEL",
+                    "BIH",
+                    "BGR",
+                    "HRV",
+                    "CYP",
+                    "CZE",
+                    "DNK",
+                    "EST",
+                    "FRO",
+                    "FIN",
+                    "FRA",
+                    "DEU",
+                    "GIB",
+                    "GRC",
+                    "VAT",
+                    "HUN",
+                    "ISL",
+                    "IRL",
+                    "ITA",
+                    "LVA",
+                    "LIE",
+                    "LTU",
+                    "LUX",
+                    "MKD",
+                    "MLT",
+                    "MDA",
+                    "MCO",
+                    "MNE",
+                    "NLD",
+                    "NOR",
+                    "POL",
+                    "PRT",
+                    "ROU",
+                    "RUS",
+                    "SMR",
+                    "SRB",
+                    "SVK",
+                    "SVN",
+                    "ESP",
+                    "SWE",
+                    "CHE",
+                    "UKR",
+                    "GBR"
+                ],
+                "latam": [
+                    "ARG",
+                    "BOL",
+                    "BRA",
+                    "CHL",
+                    "COL",
+                    "CRI",
+                    "CUB",
+                    "DOM",
+                    "ECU",
+                    "SLV",
+                    "GTM",
+                    "HTI",
+                    "HND",
+                    "JAM",
+                    "MEX",
+                    "NIC",
+                    "PAN",
+                    "PRY",
+                    "PER",
+                    "PRI",
+                    "URY",
+                    "VEN"
+                ],
+                "canada": [
+                    "CAN"
+                ],
+                "usa": [
+                    "USA"
+                ],
+                "northAmerica": [
+                    "CAN",
+                    "USA"
+                ]
+            }
+        },
+        "chargeReportDev": "Dev: sant",
+        "comparisonNoData": "Ingen data",
+        "drawableDrawing": "Tegning på kart",
+        "drive": {
+            "private": "Denne brukerens personverninnstillinger forhindrer at kartdetaljer vises for denne turen.",
+            "error": "Gah! Det oppstod en feil ved innlasting av kartet.",
+            "loading": "Kartet lastes inn..."
+        }
+    },
+    "marketing": {
+        "offerModal": {
+            "deets": "Detaljer om tilbudet",
+            "ok": "OK",
+            "viewDeets": "Vis detaljer"
+        },
+        "upgradeMask": "Oppgrader!",
+        "upgradePill": "Oppgrader til TezLab Pro",
+        "webviewLoading": "Laster..."
+    },
+    "notis": {
+        "new": "Ny melding",
+        "subtext": "Et nytt varsel er tilgjengelig på dashbordet ditt."
+    },
+    "testPaymentModal": {
+        "stripe": "Stripe Ready",
+        "waiting": "Waiting For Stripe",
+        "treeTest": "Sette opp rekkefølgen på testtreet",
+        "savedMethods": "Lagrede betalingsmetoder fra backend: {{methods}} TODO - INTERPOLASJON",
+        "newMethod": "Ny betalingsmetode: {{method}} TODO - INTERPOLASJON",
+        "ready": "Klar til å behandle ordrebetalingsintensjon med ny betalingsmetode ({{method}}) TODO - INTERPOLASJON",
+        "total": "Bestillingssum: {{beløp}} TODO - INTERPOLASJON",
+        "save": "Lagre betalingsmetode:",
+        "confirm": "Bekreft betaling"
+    },
+    "profile": {
+        "chargePickerLabel": "Maks ladning",
+        "fanOn": "På",
+        "fanOff": "Av",
+        "founders": {
+            "contribution": "Bidrag",
+            "series": "Grunnleggerserien",
+            "replaceIcon": "Bytt ut Pro-ikonet på profilen din."
+        },
+        "locationScreen": "Sted (Midlertidig!)",
+        "paneModalPickerCancel": "Avbryt",
+        "na": "N/A",
+        "recentChargeLocation": {
+            "setup": "Sett opp ny ladelokasjon",
+            "track": "For å spore ladekostnader og gassbesparelser kan du sette opp kostnadene for lading på dette stedet.",
+            "edit": "Rediger navn og kostnad",
+            "dismiss": "Avskjed"
+        },
+        "subscription": {
+            "ios": "App Store",
+            "androidText": "Google Play",
+            "stripeText": "TezLabs nettsted",
+            "free": "Gratis plan",
+            "complimentary_store": "Administrer på {{manageWhere}}",
+            "complimentary_default": "Gratis",
+            "trackingExpiry": "Sporing begrenset til et rullerende vindu på 7 dager."
+        },
+        "setTemp": "Still inn kabintemperaturen",
+        "selectedVehicle": "Valgt kjøretøy (VIN)",
+        "weeklyReport": "Ukentlig e-postrapport"
+    },
+    "shared": {
+        "cards": {
+            "carbonImpact": {
+                "header": "Karbonpåvirkning",
+                "infoHeader": "Karbonintensitet",
+                "info": "Selv med en elbil slippes det nesten alltid ut en viss mengde CO₂ fra produksjonen av elektrisitet.\n\nMens du lader, samler TezLab inn utslippsdata fra det lokale strømnettet (der det er tilgjengelig) for å beregne gjennomsnittlig CO₂ produsert per kWh strøm, samt den totale mengden CO₂ produsert for {{ucl1}}.\n\n\"Local\"-området beskriver den laveste og høyeste observerte karbonintensiteten for det lokale strømnettet {{ucl2}}.\n\nSiden CO₂-utslippene varierer avhengig av strømproduksjonsmetode, beskriver \"Global\"-området de laveste og høyeste observerte karbonintensitetene på tvers av alle TezLab-brukernes strømnett {{ucl3}}.\n\nBrenselsekvivalenten beskriver hvor mye brensel du må forbrenne for å slippe ut den samme mengden CO₂ som produseres {{ucl4}}.\n\nI alle tilfeller er lavere CO₂-tall bedre.",
+                "allHere": "alle kostnader på dette stedet",
+                "entireCharge": "hele kostnaden",
+                "whenever": "på et hvilket som helst tidspunkt",
+                "lastMonth": "i måneden før denne avgiften",
+                "forAllHere": "for alle kostnader på dette stedet",
+                "byThis": "av denne anklagen",
+                "perKwh": "Gjennomsnitt per kWh",
+                "total": "Totalt CO₂",
+                "equivGas": "Ekvivalent gassforbruk",
+                "local": "Beliggenhet",
+                "global": "Globalt",
+                "clean": "Ren",
+                "dirty": "Skittent",
+                "wouldTake": "Skogen din ville ta ",
+                "toClear": " for å fjerne karbonet som genereres av denne ladningen.",
+                "howLong": "Nysgjerrig på hvor lang tid det ville ta å konsumere ",
+                "question": "{{amount}} CO₂?",
+                "findOut": " Plant noen trær for å finne det ut!",
+                "plant": "Plant et tre"
+            },
+            "charge": {
+                "view_loc": "Vis ladningsplassering",
+                "view_charger": "Vis lader",
+                "locationSettings": "Innstillinger for ladelokasjon",
+                "adjust": "Juster kostnader",
+                "menu": "Meny for ladelokasjon",
+                "now_to": "{{end}}",
+                "now_now": "nå",
+                "remaining": "Gjenværende tid",
+                "duration": "Varighet",
+                "rangeAdded": "Rekkevidde lagt til",
+                "estimated": "Real World Est. Rekkevidde",
+                "added": "Lagt til"
+            },
+            "drive": {
+                "fromTo": "{{start}} til {{finish}}",
+                "infiniteEff": "Uendelig effektivitet",
+                "eff": "{{efficiency}} Effektivitet",
+                "distance": "Reist distanse",
+                "depleted": "Rekkevidde Oppbrukt",
+                "elevation": "Høyde",
+                "temp": "Gj.sn. temp."
+            },
+            "rangeAndPower": "Rekkevidde og kraft",
+            "usage": {
+                "distance": "{{dist}} drevet",
+                "map": {
+                    "free": "{{free}} Gratis",
+                    "unlock": "Lås opp brukskartet",
+                    "retry": "Prøv på nytt"
+                }
+            }
+        },
+        "chargeReportModal": {
+            "index": {
+                "noCarbon": "Det finnes ingen karbondata for denne avgiften.",
+                "noDetail": "Det oppstod en feil ved henting av mer detaljert laderinformasjon.",
+                "title": "Ladningsrapport"
+            },
+            "nerd": "Ladningsberegninger"
+        },
+        "currentCharge": {
+            "index": {
+                "current": "Gjeldende kostnad"
+            },
+            "header": {
+                "connected_yes": "Tilkoblet",
+                "connected_not": "Ikke tilkoblet",
+                "realRange": "Real World Est. Rekkevidde",
+                "remaining": "{{rem}} Gjenværende",
+                "toggle": "Trykk på linjen for å veksle mellom % og {{units}}",
+                "kw": "{{power}}kW",
+                "aboutSync": "Om kostnadssynkronisering"
+            },
+            "footer": {
+                "current_name": "{{charger}}",
+                "current_private": "Privat lader",
+                "current_public": "Offentlig lader",
+                "updated": "Sist oppdatert:",
+                "updating": "Oppdaterer..."
+            }
+        },
+        "driveDetails": {
+            "index": {
+                "header": "Detaljer om stasjonen",
+                "avg": "I gjennomsnitt."
+            },
+            "card": {
+                "point": "Punktanalyse",
+                "tap": "Trykk på kartet for å slippe et punkt",
+                "remove": "Fjern markør",
+                "addressHidden": "Adresse Skjult"
+            },
+            "drawer": {
+                "loading": "Lasting",
+                "eff": " Samlet effektivitet",
+                "timedUsage": "Energibruk/tid",
+                "batteryUsage": "Bruk av batteri",
+                "velo": "Hastighet / tid",
+                "elevChange": "Høyde over havet / tid",
+                "tempChange": "Temp/Tid",
+                "estUsed": " Est. Brukt",
+                "speed": " Gjennomsnittlig Hastighet",
+                "altitude": " Samlet endring",
+                "temp": " Gjennomsnittlig Temp."
+            },
+            "routeMatchHandler": {
+                "matching": "Matching av ruter",
+                "pro": "TezLab Pro",
+                "automatic": " Brukerne får automatisk rutematching, slik at kartene blir mer nøyaktige og gjenspeiler den virkelige ruten.",
+                "freeMatches_one": "1 gratis rutematch",
+                "freeMatches_other": "{{count}} Gratis rutematcher",
+                "free": "{{num}} Gratis",
+                "unlock": "Lås opp Route Match"
+            }
+        },
+        "pillButton": {
+            "charge": "Lading",
+            "drive": "Kjøring",
+            "index": "Oppdatering av kjøretøy..."
+        },
+        "tagControl": {
+            "index": {
+                "new": "Ny tilpasset tag",
+                "retry": "Prøv på nytt",
+                "apply": "Bruk tagger",
+                "button_retry": "Prøv på nytt",
+                "button_apply": "Bruk tagger",
+                "close_cancel": "Avbryt",
+                "close_close": "Lukk"
+            }
+        },
+        "appStatus": {
+            "openStore": "Åpne App Store"
+        },
+        "avatarButton": {
+            "title": "Statusnøkkel",
+            "refreshing": "Forfriskende symbol:",
+            "stale": "Dagens tilstand er foreldet:",
+            "staleRefreshing": "Foreldet tilstand OG oppfriskende token:",
+            "connected_one": "API for tilkoblede kjøretøy: ",
+            "connected_other": "API-er for tilkoblede kjøretøy: ",
+            "error": "Feil ved tilkobling av kjøretøy: ",
+            "none": "ingen"
+        },
+        "carbonSection": {
+            "header": "Karbonpåvirkning",
+            "infoHeader": "Karbonintensitet",
+            "info": "Selv med en elbil slippes det nesten alltid ut en viss mengde CO₂ fra produksjonen av elektrisitet.\n\nMens du lader, samler TezLab inn utslippsdata fra det lokale strømnettet (der det er tilgjengelig) for å beregne gjennomsnittlig CO₂ produsert per kWh strøm, samt den totale mengden CO₂ produsert for {{ucl1}}.\n\n\"Local\"-området beskriver den laveste og høyeste observerte karbonintensiteten for det lokale strømnettet {{ucl2}}.\n\nSiden CO₂-utslippene varierer avhengig av strømproduksjonsmetode, beskriver \"Global\"-området de laveste og høyeste observerte karbonintensitetene på tvers av alle TezLab-brukernes strømnett {{ucl3}}.\n\nBrenselsekvivalenten beskriver hvor mye brensel du må forbrenne for å slippe ut den samme mengden CO₂ som produseres {{ucl4}}.\n\nI alle tilfeller er lavere CO₂-tall bedre.",
+            "delayed": "Datastrømmen for dette området er ofte forsinket. Informasjonen nedenfor er et estimat.",
+            "perkWh": "Gjennomsnittlig CO₂/kWh",
+            "total": "Totalt CO₂",
+            "equivFuel": "Ekvivalent drivstoffvolum",
+            "local": "Beliggenhet",
+            "global": "Globalt",
+            "cleaner": "Renere",
+            "dirtier": "Skitnere",
+            "unavailable": "Live-data utilgjengelig",
+            "unavailableContent": "Det foreligger ikke lokale data for dette området på tidspunktet for denne beregningen. Karbonintensiteten er estimert ved hjelp av historiske verdier.",
+            "unavailableDisplay": "Levende karbonverdier er ikke tilgjengelige på dette stedet.",
+            "zero": "Nullutslippskompensasjon",
+            "zeroContent_herePeriod": "Verdiene for karbonpåvirkning på dette stedet inkluderer {{factor}} % nullutslippskompensasjon som du har angitt for dette stedet. Observerte lokale og globale områder er ujusterte.",
+            "zeroContent_chargePeriod": "Verdiene for karbonpåvirkning for denne avgiften inkluderer {{factor}} % nullutslippskompensasjon som du har angitt. Observerte lokale og globale intervaller er ujusterte.",
+            "zeroDisplay": "Inkluderer {{howMuch}} % nullutslippskompensasjon."
+        },
+        "carImage": {
+            "take": "Ta et bilde",
+            "add": "Legg til bilde fra kamerarullen",
+            "remove": "Fjern dette bildet",
+            "cancel": "Avbryt",
+            "none": "INGEN BILBILDER",
+            "addPic": "LEGG TIL BILDE AV BILEN DIN"
+        },
+        "chargeEff": {
+            "eff": "{{eff}} effektivitet",
+            "delivering": " som leverer energien fra laderen til bilen din.",
+            "drawn": "Uttrukket energi",
+            "added": "Tilført energi"
+        },
+        "communicating": "Kommunikasjon med kjøretøy...",
+        "reportCardLoading": "Laster inn gjeldende ladedata",
+        "currentTrip": {
+            "min_awaitingData": "venter på data",
+            "justStarted": "Nettopp begynt",
+            "current": "Nåværende stasjon",
+            "connected": "Tilkoblet",
+            "loading": "Laster inn stasjonsdata",
+            "eff_avg": "Gjennomsnittlig tidligere kjøreeffekt",
+            "eff_current": "Nåværende Drive Eff.",
+            "real": "Rekkevidde i den virkelige verden",
+            "awaiting": "Venter på effektivitetsdata",
+            "crunching": "Knusing av tallene",
+            "keepDriving": "Fortsett å kjøre, og vi vil arbeide med å beregne rekkevidden din basert på denne kjøreturen. Trykk for å vise ",
+            "vals_live": "Levende verdier",
+            "vals_est": "Estimerte verdier",
+            "speed": "Gjennomsnittlig hastighet",
+            "elevation": "Høyde",
+            "temp": "Temperatur",
+            "duration": "Varighet",
+            "distance": "Avstand",
+            "rangeUsed": "Brukt rekkevidde",
+            "co2": "Est. CO₂",
+            "energyUsed": "Est. Brukt energi",
+            "cost": "Est. Kostnad",
+            "lastUpdated": "Sist oppdatert: ",
+            "min_fewSeconds": "noen få sekunder siden",
+            "min_one": "1 minutt siden",
+            "min_other": "{{count}} minutter siden"
+        },
+        "dashAuth": {
+            "error": "Noe gikk galt",
+            "errorMessage": "Beklager, vi klarte ikke å koble til denne økten i bilens dashbord. Vennligst last inn nettleservinduet på nytt og prøv igjen.",
+            "continue": "Fortsett",
+            "title": "Aktivering på dashbordet i bilen",
+            "connected": "Tilkoblet dashbord i bilen",
+            "updating": "Bilens skjerm oppdateres i løpet av et øyeblikk.",
+            "select": "Velg kjøretøyet du ønsker å koble til dashbordet i bilen.",
+            "connectDash": "Koble til dashbordet i bilen for {{name}}?",
+            "blurb": "Du trenger bare å gjøre dette én gang, og du kan koble fra når som helst.",
+            "success_cont": "Fortsett",
+            "success_connect": "Koble til",
+            "connect": "Koble til",
+            "cancel": "Avbryt"
+        },
+        "datePicker": {
+            "today": "I dag",
+            "yesterday": "I går",
+            "apply": "Bruk datoer",
+            "ever": "Hele tiden",
+            "when_apply": "Bruk datoer",
+            "when_all": "Hele tiden",
+            "from": "Fra",
+            "to": "Til"
+        },
+        "dialogInput": {
+            "cancel": "AVBRYT",
+            "submit": "SEND INN"
+        },
+        "electricityAttribution": "Karbonintensitetsdata fra ",
+        "exportButton": {
+            "today": "I dag",
+            "set": "SETTE",
+            "drives": "DRIVVERK",
+            "charges": "AVGIFTER",
+            "exportSummary": "Eksporter et sammendrag av avgifter etter sted for det aktuelle kjøretøyet.",
+            "reset": "Tilbakestill datoer",
+            "exportData": "Eksporter data",
+            "error": "Det har oppstått en feil.",
+            "pro": "Eksporter dataene dine med TezLab Pro",
+            "requested": "Eksport forespurt",
+            "almost": "Rapporten din genereres nå og vil være tilgjengelig om kort tid.",
+            "export": "Eksport"
+        },
+        "nearbySuperchargers": "Superladere i nærheten",
+        "helpBeacon": "?",
+        "noteControl": {
+            "caption": "Merknad",
+            "cancel": "Avbryt",
+            "delete": "Slett",
+            "save": "Spar",
+            "add": "Legg til merknad",
+            "new_save": "Spar",
+            "new_add": "Legg til merknad"
+        },
+        "notifCard": {
+            "pro": "Kun for proffer"
+        },
+        "powerMix": {
+            "fossilFree": "Fossilfri",
+            "nonRenewable": "Ikke-fornybar",
+            "unknown": "Ukjent",
+            "sources": "Hovedkilder",
+            "title_grid": "Kraftmiks i nettet",
+            "title_report": "Rapport om kraftmiks",
+            "content_zero": "Strømmen fra nettet kommer fra en blanding av kilder som varierer etter geografi, dato og klokkeslett. På en spesielt varm dag kan for eksempel et nett som primært forsynes av vannkraft, kompensere for ekstra etterspørsel ved å øke produksjonen fra naturgass. Kildene som er listet opp her, er delt inn i de som er fossilfrie, og de som ikke er det. Elektrisitet som produseres uten bruk av fossilt brensel, har vanligvis lavere karbonintensitet. Ladelokasjonen din har et nullutslipps offset-sett. Denne kraftmiksen er basert på strømnettet der du bor, og inkluderer ikke nullutslippskildene dine.",
+            "content_default": "Strømmen fra nettet kommer fra en blanding av kilder som varierer etter geografi, dato og klokkeslett. På en spesielt varm dag kan for eksempel et nett som primært forsynes av vannkraft, kompensere for ekstra etterspørsel ved å øke produksjonen fra naturgass. Kildene som er listet opp her, er delt inn i de som er fossilfrie, og de som ikke er det. Elektrisitet som produseres uten bruk av fossilt brensel, har vanligvis lavere karbonintensitet."
+        },
+        "priceAdjust": {
+            "free": "Gratis superlading",
+            "adjusted": "Justert kostnad",
+            "noAccess": "Ingen tilgang",
+            "pending": "Avventer",
+            "estimate": "Estimat",
+            "unable": "Kan ikke synkronisere",
+            "title": "Kostnader for lader"
+        },
+        "proIcon": {
+            "tezlab_pro": "TezLab Pro",
+            "tezlab_team": "TezLab-teamet"
+        },
+        "proUpgrade": {
+            "upgrade": "Oppgradering",
+            "now": "Oppgrader nå"
+        },
+        "publicCharger": {
+            "kw": "{{watts}}kW",
+            "open": "{{open}}/{{total}} Åpen"
+        },
+        "publicPost": {
+            "title": "Offentlig post",
+            "everyone": "Dette innlegget er synlig for alle på TezLab."
+        },
+        "superQs": {
+            "tellUs": "Fortell oss om din opplevelse på",
+            "name": "{{name}} Kompressor TODO - INTERPOLASJON",
+            "qNum": "SPØRSMÅL: {{index}}{{spørsmål}} ALLE - INTERPOLASJON",
+            "more": "Er det noe annet du vil dele?",
+            "comment": "Hvordan",
+            "problem": "Problem",
+            "nah": "Nei takk",
+            "added": "Hvordan lagt til",
+            "none": "Ingen kommentar",
+            "thanks": "Takk for at du er en lagspiller!",
+            "comingUp": "Svarene dine vil snart bli inkludert i vurderingene.",
+            "close": "Lukk",
+            "submit": "SEND INN",
+            "about": "Om dette spørsmålet",
+            "skip": "Hopp over spørsmål",
+            "answered": "Besvart",
+            "yes": "JA",
+            "no": "NEI"
+        },
+        "supportTap": {
+            "alert": "Referanse for støtte",
+            "reference": "Støttereferansen for denne {{type}} er {{id}}",
+            "copy": "Referanse for kopistøtte",
+            "copied": "Supportreferansen er kopiert til utklippstavlen din. Lim den inn i kommunikasjonen med teamet vårt.",
+            "ok": "Ok",
+            "cancel": "Avbryt"
+        },
+        "switchMenu": {
+            "previously": "Tidligere sporet",
+            "mine": "Mine kjøretøyer",
+            "rivian": "Vi støtter nå Rivian. Trykk for å koble til",
+            "connectRivian": "Koble til Rivian-konto",
+            "manage": "Administrer kjøretøytilkoblinger"
+        },
+        "vehicleMenu": {
+            "switch": "Bytte kjøretøy",
+            "loading": "Lasting",
+            "tracked_prevDis": "{{vin}} - Tidligere sporet - Polling deaktivert 🚫",
+            "tracked_ownerDis": "{{vin}} - (Eier) - Avstemning deaktivert 🚫",
+            "tracked_sharedDis": "{{vin}} - (Delt) - Polling deaktivert 🚫",
+            "tracked_prev": "{{vin}} - Tidligere sporet",
+            "tracked_owner": "{{vin}} - (Eier)",
+            "tracked_shared": "{{vin}} - (delt)"
+        }
+    },
+    "social": {
+        "activityDetail": {
+            "charge": "Vis detaljer om ladning",
+            "chargeReport": "Vis bruksdetaljer",
+            "drive": "Vis detaljer om stasjonen"
+        },
+        "activityItem": {
+            "index": {
+                "naughty": "Dette innlegget er skjult fordi du flagget det som upassende.",
+                "view": "Trykk for å vise",
+                "member_one": "1 medlem",
+                "member_other": "{{count}} Medlemmer",
+                "privacy_private": "Privat gruppe",
+                "privacy_public": "Offentlig gruppe",
+                "stall": "Stall: {{prob}}"
+            },
+            "comment": {
+                "like_one": "1 Like",
+                "like_other": "{{count}} Liker",
+                "viewAll": "Se alle {{num}} kommentarer"
+            }
+        },
+        "contentPost": {
+            "index": {
+                "error": "Feil ved innsending av innlegg. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com.",
+                "new": "Nytt innlegg",
+                "shareWith": "Del med ...",
+                "remove": "Fjern bilde",
+                "addTitle": "Legg til bilde",
+                "add": "Legg til bilde fra biblioteket",
+                "take": "Ta bilde",
+                "android": "Hva har du lyst til å dele?",
+                "message": "Din melding",
+                "attach": "Legg ved aktivitet",
+                "great": "Flott bilde!!!",
+                "accompany": "Vi har funnet noen aktiviteter som passer til dette bildet. Velg den du vil legge ved.",
+                "browse": "Bla gjennom aktiviteter",
+                "removeContent": "Fjern innhold",
+                "post_error": "Prøv igjen",
+                "post_success": "Post"
+            },
+            "section": {
+                "detail": "Detaljvisning",
+                "location": "Beliggenhet",
+                "map": "Kart",
+                "testing_one": "På",
+                "testing_other": "Av"
+            }
+        },
+        "contentSelect": {
+            "index": {
+                "tracked": "Sporede hendelser",
+                "which": "Hvilket arrangement ønsker du å knytte til dette innlegget?"
+            },
+            "item": {
+                "route": "{{from}} til {{to}}"
+            }
+        },
+        "editPost": {
+            "error": "Feil ved oppdatering av innlegg. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com.",
+            "wait": "Vent!",
+            "cancel": "Avbryt",
+            "delete": "Slett",
+            "remove": "Fjern bilde",
+            "restore": "Gjenopprett bilde",
+            "what": "Hva har du lyst til å dele?",
+            "message": "Din melding",
+            "content_one": "Fjern aktivitet",
+            "content_other": "Gjenopprett aktivitet",
+            "submit_one": "Prøv igjen",
+            "submit_other": "Oppdater innlegg"
+        },
+        "newPost": {
+            "sharedWith": "Innlegget vil bli delt med: ",
+            "error_one": "Feil ved innsending av problem. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com.",
+            "error_other": "Feil ved innsending av problem. Hvis dette problemet vedvarer, vennligst kontakt support@tezlabapp.com.",
+            "shareWith": "Del med ...",
+            "new": "Nytt innlegg",
+            "options": "Aksjeopsjoner",
+            "problem": "Del problem",
+            "sharingIsCaring": "Ved å dele et problem kan andre TezLab-sjåfører bli oppmerksomme på skader, stengninger eller andre serviceproblemer på dette stedet.\n\nHvis det er et problem med nøyaktigheten av denne supercharger-oppføringen, vennligst kontakt support@tezlabapp.com.",
+            "what": "Hva har du lyst til å dele?",
+            "stallNum": "Nummer på ladestall (hvis aktuelt)",
+            "message": "Din melding",
+            "image_one": "Bilde",
+            "image_other": "Legg til bilde",
+            "addImage": "Legg til bilde fra biblioteket",
+            "take": "Ta bilde",
+            "remove": "Fjern bilde",
+            "post": "Post"
+        },
+        "commentInput": {
+            "error": "Feil ved innleggelse av kommentar. Hvis dette problemet vedvarer, kontakt support@tezlabapp.com.",
+            "post": "Post",
+            "add": "Legg til kommentar"
+        },
+        "postAvatar": {
+            "poster_you": "Du",
+            "poster_other": "{{name}}"
+        },
+        "postSuccess": {
+            "shared": "Innlegget ditt har blitt delt på TezLab!",
+            "outside": "Ønsker du å dele utenfor TezLab?",
+            "link": "Du kan når som helst generere en lenke for å dele dette innlegget.",
+            "shareLink": "Del lenke",
+            "view": "Vis innlegg",
+            "close": "Lukk"
+        },
+        "socialMenu": {
+            "noTakebacks": "Dette kan ikke gjøres ugjort.",
+            "flag": "Flagg som upassende",
+            "editPost": "Rediger innlegg",
+            "delete": "Slett innlegg",
+            "unshare": "Fjern deling av innlegg",
+            "solved": "Merk som løst",
+            "sure": "Er du sikker?",
+            "cancel": "Avbryt",
+            "yes": "Ja",
+            "options": "Alternativer",
+            "zapMenu": "Zap-menyen",
+            "request": "Forespørsel"
+        }
+    },
+    "styled": {
+        "loadingModal": "Del på TezLab",
+        "messageFlash": "Prøv igjen",
+        "menuDefault": "Meny"
+    },
+    "tracking": {
+        "chargePriceSegment": {
+            "index": {
+                "confirm": "Bekreft Slett",
+                "irreversible": "Hvis du sletter denne kostnaden, slettes også alle tilknyttede tidssegmenter. Dette kan ikke reverseres.",
+                "cancel": "Avbryt",
+                "delete": "Slett",
+                "sure": "Er du sikker på at du vil slette dette tidssegmentet?",
+                "costEditor_one": "Tid på dagen",
+                "costEditor_other": "Legg til ekstra kostnad",
+                "options": "Alternativer",
+                "deleteTOD": "Slett tid på dagen Kostnad",
+                "perKwh": "Pris per kWh",
+                "apply": "Søk",
+                "addNew_one": "Legg til et nytt segment",
+                "addNew_other": "Legg til tidssegment"
+            },
+            "days": [
+                "S",
+                "M",
+                "TI",
+                "O",
+                "TO",
+                "F",
+                "L"
+            ],
+            "timeSegment": {
+                "segment": "Tidssegment",
+                "start": "Starttidspunkt",
+                "end": "Sluttiden",
+                "apply": "Søk"
+            }
+        },
+        "roadTripList": {
+            "index": {
+                "header": "Road Trips",
+                "blurb": "Hold styr på minnene fra bilturen, og kombiner alle kjøreturer, ladninger, matstopp og majestetiske utsiktspunkter.",
+                "trips_one": "1 Road Trip",
+                "trips_other": "{{count}} Road Trips",
+                "free_one": "1 gratis biltur",
+                "free_other": "{{count}} Gratis bilturer",
+                "unlock": "Lås opp Road Trips",
+                "loading": "Lasting",
+                "sort": "Sorter etter",
+                "created": "Opprettet",
+                "start": "Start",
+                "sortBy_created": "Etter Opprettet dato",
+                "sortBy_start": "Etter startdato"
+            },
+            "edit": {
+                "title": "Rediger Road Trip",
+                "previously": "Tidligere: {{name}}",
+                "update": "Oppdatering Tittel"
+            },
+            "empty": {
+                "title": "Bilturer er tøffe!",
+                "create": "Lag en biltur",
+                "trips": "Road Trips",
+                "available": "{{num}} Gratis",
+                "unlock": "Lås opp Road Trips"
+            },
+            "card": {
+                "edit": "Rediger Road Trip",
+                "deleteTrip": "Slett Road Trip",
+                "sure": "Er du sikker? Dette kan ikke gjøres om",
+                "free_one": ". Du har {{num}} bilturer igjen å lage.",
+                "free_other": "!",
+                "cancel": "Avbryt",
+                "delete": "Slett",
+                "options": "Alternativer for bilferie"
+            }
+        },
+        "roadTripModal": {
+            "index": {
+                "error": "Noe gikk galt",
+                "new": "Ny biltur",
+                "start": "Velg starten på bilturen din",
+                "end": "Velg slutten på bilturen din",
+                "continue": "Fortsett",
+                "preview": "Forhåndsvisning av bilturen",
+                "create": "Opprett Road Trip"
+            },
+            "calendarWhen": "Når startet bilturen din?",
+            "selectPanel": {
+                "setStart": "Angi startpunkt",
+                "setEnd": "Angi sluttpunkt",
+                "start": "Start på bilturen",
+                "end": "Slutt på bilturen",
+                "none": "Ingen aktiviteter"
+            }
+        },
+        "summary": {
+            "index": {
+                "filter": "Filtrer og oppsummer",
+                "drive": "Sammendrag av stasjonen",
+                "charge": "Sammendrag",
+                "loading": "Laster inn oppsummeringsdata...",
+                "none_one": "Ingen aktiviteter å oppsummere",
+                "none_other": "Det oppstod en feil ved henting av sammendragsdata",
+                "retry": "Prøv på nytt",
+                "custom": "Tilpassede filtre"
+            }
+        },
+        "batteryUsage": {
+            "index": {
+                "all": "Alle rapporter",
+                "charges": "Kun kostnader",
+                "drives": "Drivverk",
+                "allTime": "Hele tiden",
+                "between": "Mellom",
+                "last": "I Den siste",
+                "noData": "Ingen aktivitetsdata",
+                "waiting": "Venter på din første kjøretur eller lading",
+                "noPolling": "Polling er deaktivert for dette kjøretøyet",
+                "loading": "Laster inn kjøretøyets aktivitet...",
+                "here": "Mens du kjører og lader, kan du følge med på all aktiviteten her.",
+                "unlimited": "Lås opp ubegrenset historikk"
+            },
+            "launchDash": {
+                "current": "Nåværende stasjon",
+                "loading": "Laster inn gjeldende stasjonsdata",
+                "eff_one": "Gjennomsnittlig tidligere kjøreeffekt",
+                "eff_other": "Nåværende Drive Eff.",
+                "range_one": "Estimert Utvalg basert på de siste to ukene",
+                "range_other": "Rekkevidde i den virkelige verden",
+                "awaiting": "Venter på effektivitetsdata",
+                "live": "Start Live Drive View"
+            },
+            "listHeader": {
+                "clear": "Klar",
+                "drives": "Drivverk",
+                "charges": "Avgifter",
+                "location": "Beliggenhet: {{name}}",
+                "shortCharge": "Korte ladninger vist",
+                "shortDrive": "Korte stasjoner vist"
+            },
+            "selectedDriveButtons": {
+                "tag_one": "Tag Drive",
+                "tag_other": "Tag Drives",
+                "share": "Share Drive"
+            },
+            "tagControl": "Tag valgte stasjoner ({{num}})",
+            "to": " til "
+        },
+        "trackingLocations": {
+            "index": {
+                "seeMore": "Vil du se mer enn bare stedene du har besøkt de siste 7 dagene?",
+                "upgrade": "Oppgrader til TezLab Pro for å låse opp ubegrenset data og mer!",
+                "none": "Ingen flere lokasjoner",
+                "noCharge": "Ingen ladesteder ennå",
+                "charge": "Lad bilen din, så vises stedene her.",
+                "loading": "Lading av ladesteder..."
+            },
+            "locationCard": {
+                "copyright": "© Mapbox © OpenStreetMap",
+                "charge_one": "Ladning",
+                "charge_other": "Avgifter",
+                "range": "Område lagt til",
+                "cost": "Total kostnad"
+            }
+        },
+        "exportsHeader": {
+            "retry": "Prøv eksport på nytt",
+            "exports_one": "Eksport Lasting",
+            "exports_other": "Eksport"
+        },
+        "settingsModal": {
+            "days": [
+                "S",
+                "M",
+                "TI",
+                "O",
+                "TO",
+                "F",
+                "L"
+            ],
+            "reminder": "Påminnelse om plug-in",
+            "time": "Alert Time",
+            "earliest": "Tidligste varsel",
+            "active": "Påminnelsen din vil være aktiv frem til slutten av dagen fra og med dette klokkeslettet på de dagene du velger nedenfor.",
+            "activeDays": "Aktive dager",
+            "alertLevel": "Varsle batterinivå",
+            "batteryReminder": "En påminnelse vil bli sendt hvis batteriet er under dette nivået.",
+            "minState": "Minimum ladetilstand"
+        },
+        "starResponses": "{{num}} Svar"
+    },
+    "userProfile": {
+        "awaitingApproval": {
+            "accept": "Godta",
+            "reject": "Avvis"
+        },
+        "findFriends": "Søk etter personer"
+    },
+    "rootView": {
+        "noConnection": "Ingen Internett-tilkobling",
+        "again": "Prøv igjen"
+    },
+    "interpolation": "{{utfylling}}",
+    "apos": "{{fill}}s innlegg",
+    "actions": {
+        "wrong": "Noe gikk galt",
+        "again": "Det har oppstått en feil.\nVennligst prøv på nytt.",
+        "near": "I nærheten ",
+        "profile": {
+            "name": "Navnet ditt kunne ikke oppdateres. Vennligst prøv igjen.",
+            "email": "E-postadressen din kunne ikke oppdateres. Kontroller at du har oppgitt en gyldig e-postadresse som ikke er i bruk av en annen konto, og prøv igjen.",
+            "bio": "Biografien din kunne ikke oppdateres. Vennligst prøv igjen!"
+        },
+        "purchase": {
+            "gotIt": "Jeg har den!",
+            "beta": "Kjøp er ikke mulig i betaversjonen. Last ned App Store-versjonen for å oppgradere."
+        },
+        "tracking": "Feil ved henting av data."
+    },
+    "util": {
+        "badges": {
+            "rankings": "rockestjerne",
+            "camper": "Bobil",
+            "longTrip": "Watt Miser",
+            "distance": "Maratonløper",
+            "manySC": "Charge Master",
+            "tripper": "Tripper",
+            "sailor": "Smooth Sailor",
+            "update": "Ny leke",
+            "demon": "Speed Demon",
+            "explorer": "Utforsker",
+            "teamPlayer": "Lagspiller",
+            "saver": "Sparer",
+            "blocker": "Blocker",
+            "mayor": "Ordfører for kompressor",
+            "cic": "Ansvarlig lader",
+            "v3": "V3 Supercharger Mayor"
+        }
+    },
+    "na": "N/A",
+    "integrations": {
+        "vehicleConnect": {
+            "noDeep": "Deep Sleep Assist Ikke tilgjengelig",
+            "noDeepDrive": "Kjøretøyet kjører for øyeblikket og vil ikke sove.",
+            "noDeepCharge": "Kjøretøyet lades for øyeblikket og vil ikke gå i dvale.",
+            "noDeepSentry": "Sentry-modus er aktivert og forhindrer at kjøretøyet sover.",
+            "noDeepClimate": "Klimakontrollen er for øyeblikket på og vil forhindre at kjøretøyet sover.",
+            "sure": "Er du sikker?",
+            "unlockDoors": "Fjernopplåse dørene dine?",
+            "cancel": "Avbryt",
+            "unlock": "Lås opp",
+            "openTrunk_remote": "Dette åpner bagasjerommet ditt på avstand",
+            "openTrunk_noClose": "Dette vil åpne bagasjerommet. Det kan ikke lukkes med fjernkontroll.",
+            "trunk": "Åpne bagasjerommet",
+            "frunk": "Dette vil åpne frunk. Det kan ikke lukkes med fjernkontroll.",
+            "openFrunk": "Åpen frunk",
+            "vent": "Dette vil lufte vinduene dine. Noen kjøretøy kan ikke lukke vinduene med fjernkontroll.",
+            "ventWindows": "Vindusvinduer",
+            "dog_vented": "Hundemodus aktiv og ventilerte vinduer",
+            "dog_closed": "Hundemodus aktiv og vinduer lukket",
+            "dogConfirm": "Vennligst bekreft at ingen pelskledde venner for øyeblikket er avhengige av Hundemodus for sin egen sikkerhet. Ønsker du å slå av klimaanlegget i kjøretøyet?",
+            "active_camp": "Leirmodus aktiv",
+            "active_climate": "Climate Keeper Aktiv",
+            "safety_camp": "Bekreft at ingen i kjøretøyet er avhengig av Camp Mode for sin egen sikkerhet. Ønsker du å slå av klimaanlegget i kjøretøyet?",
+            "safety_climate": "Vennligst bekreft at ingen i kjøretøyet er avhengig av Climate Keeper for sin egen sikkerhet. Ønsker du å slå av klimaanlegget i kjøretøyet?",
+            "climateOff": "Slå av klimaet",
+            "homelink": "HomeLink",
+            "homelinkActivate": "Er du sikker på at du ønsker å fjernaktivere HomeLink?",
+            "activate": "Aktiver",
+            "enable": "Aktivere kjøring?",
+            "remoteAlert": "Fjernstart gjør det mulig å kjøre i 2 minutter.",
+            "remote": "Fjernstart",
+            "remoteActive": "Fjernstart aktiv",
+            "remoteExpiring": "Fjernstart vil utløpe om kort tid. Vennligst vent et øyeblikk og prøv igjen.",
+            "ok": "OK",
+            "unsuccessful": "Kommando mislykket",
+            "lowBattery": "Batterinivået er for lavt",
+            "badCommand": "Denne kommandoen er ikke tillatt for øyeblikket. Vennligst prøv igjen senere.",
+            "parkCar": "Kjøretøyet må være parkert.",
+            "cantProcess_error": "Kjøretøyet ditt kan for øyeblikket ikke behandle denne kommandoen.\n\n Feil: {{reason}}",
+            "cantProcess_default": "Kjøretøyet ditt kan for øyeblikket ikke behandle denne kommandoen.\n\n Feil: UNKNOWN"
+        },
+        "authentication": {
+            "imageError": "Det oppstod et problem med å laste opp bildet ditt, vennligst prøv igjen.",
+            "rivian": "Det oppstod et problem med å koble til Rivian-kontoen din, vennligst prøv igjen.",
+            "disconnect": "Det oppstod et problem med å koble fra kjøretøyet, vennligst prøv igjen."
+        }
+    }
+}

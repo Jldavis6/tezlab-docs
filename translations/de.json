@@ -1,0 +1,2858 @@
+{
+    "language": "Englisch",
+    "stacks": {
+        "profile": {
+            "badgesInfo": {
+                "title": "Abzeichen",
+                "latestHeader": "Neueste Abzeichen",
+                "mineHeader": "Meine Abzeichen"
+            },
+            "badgeTimeline": {
+                "earned": "Verdient {{at}}",
+                "lastAwarded": "Letzte Verleihung {{time}}"
+            },
+            "effVsOthers": {
+                "loading": "Laden...",
+                "span_one": "Letzter {{frame}}",
+                "span_other": "Laden...",
+                "comparatorText": "{{compare}}",
+                "comp_one": "gegen {{model}}",
+                "comp_other": "Laden...",
+                "comparisons": {
+                    "last": "Zuletzt ",
+                    "selectTime": "Zeit auswählen",
+                    "timeframesBackend": {
+                        "week": "7 Tage",
+                        "month": "30 Tage"
+                    },
+                    "selectComp": "Vergleich auswählen",
+                    "comparisonModelsBackend": {
+                        "s": "Modell S",
+                        "3": "Modell 3",
+                        "x": "Modell X",
+                        "y": "Modell Y",
+                        "cybertruck": "Cybertruck",
+                        "r1s": "R1S",
+                        "r1t": "R1T",
+                        "all": "Alle"
+                    },
+                    "you": "Sie",
+                    "localDrivers": "Lokale {{type}} Autofahrer"
+                },
+                "versus": "Sie gegen andere",
+                "infoAlert": {
+                    "title": "Regionaler Vergleich",
+                    "content": "Ihre aktuelle Region wird anhand des letzten bekannten Standorts Ihres Fahrzeugs ermittelt und automatisch erweitert, um andere Fahrer in Ihrem Gebiet zu finden.\n\nDie Fahreffizienz variiert je nach Fahrstil (z. B. Beschleunigung, Geschwindigkeit, Entfernung) und Umweltfaktoren (z. B. Temperatur)."
+                },
+                "stats": {
+                    "efficiency": "Ø Effizienz",
+                    "temp": "Ø Temp",
+                    "distance": "Durchschnittliche Entfernung",
+                    "speed": "Durchschnittliche Geschwindigkeit"
+                }
+            },
+            "home": {
+                "index": {
+                    "settings": "Einstellungen & Präferenzen",
+                    "profile": "Mein Profil",
+                    "pictureLibrary": "Fahrzeugbild aus der Bibliothek hinzufügen",
+                    "pictureCamera": "Fahrzeugbild von der Kamera hinzufügen"
+                },
+                "cards": {
+                    "stats": {
+                        "title": "Statistiken",
+                        "emptyStateBody": "Fahren Sie mindestens einmal, um dieses Widget zu aktivieren.",
+                        "eff_one": "{{eff}}",
+                        "eff_other": "K.A.",
+                        "overall": "Gesamteffekt."
+                    },
+                    "usageReport": {
+                        "title": "Verwendungsbericht",
+                        "emptyStateBody": "Dieses Widget wird bald freigeschaltet."
+                    },
+                    "effVsOthers": {
+                        "title": "Sie gegen andere",
+                        "emptyStateBody_one": "{{message}}",
+                        "emptyStateBody_other": "Fahren Sie weiter! Ihr Vergleich wird nach ein paar Tagen verfügbar sein.",
+                        "undefined": "Keine Daten zum Vergleich"
+                    },
+                    "latestBadge": {
+                        "title": "Letztes Abzeichen",
+                        "emptyStateBody": "Sie haben keine Abzeichen... Noch nicht"
+                    },
+                    "sustainability": {
+                        "title": "Nachhaltigkeit",
+                        "emptyStateBody": "Laden Sie Ihr Auto auf, um die Auswirkungen auf die Umwelt zu sehen.",
+                        "trees": "Bäume"
+                    },
+                    "trends": {
+                        "title": "Trends",
+                        "emptyStateBody": "Fahren Sie einmal, um dieses Widget zu aktivieren.",
+                        "emptyFooter": "Noch keine Daten!",
+                        "days": {
+                            "M": "Mo",
+                            "T": "Di",
+                            "W": "Mi",
+                            "Th": "Do",
+                            "F": "F",
+                            "Sa": "Sa",
+                            "Su": "So"
+                        }
+                    }
+                },
+                "carInfoCard": {
+                    "schedule": "Die Aufladung beginnt {{when}}"
+                },
+                "notifications": {
+                    "title": "Benachrichtigungen",
+                    "view": "Alle anzeigen",
+                    "allRead": "Sie haben alles aufgeholt!"
+                },
+                "panel": {
+                    "charge": {
+                        "starting": "Berechnung des Startentgelts",
+                        "remaining": "{{rem}} Verbleibende"
+                    },
+                    "drive": {
+                        "starting": "Start der Antriebsberechnung",
+                        "current": "Stromantrieb",
+                        "estRange": "Est. Range"
+                    },
+                    "location": {
+                        "parked": "Geparkt",
+                        "viewMap": "Karte ansehen"
+                    },
+                    "pollingDisabled": {
+                        "message": "Die Datenerfassung ist für dieses Fahrzeug deaktiviert.",
+                        "button": "Zu den Einstellungen gehen"
+                    },
+                    "notFound": {
+                        "prevTracked": "Dies ist ein ehemaliges Raupenfahrzeug.",
+                        "deprecated_vehicle": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Fahrzeugkonto und wird nicht mehr verfolgt. Sie können weiterhin historische Informationen einsehen.",
+                        "deprecated_tesla": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Tesla-Konto und wird nicht mehr verfolgt. Sie können weiterhin historische Informationen anzeigen.",
+                        "deprecated_rivian": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Rivian-Konto und wird nicht mehr verfolgt. Sie können weiterhin historische Informationen einsehen.",
+                        "remove": "Sie können dieses Fahrzeug aus Ihrem Konto entfernen unter",
+                        "settings": " Einstellungen.",
+                        "about": "Über ehemals verfolgte Fahrzeuge"
+                    }
+                },
+                "rangeSettings": {
+                    "text_one": "Basierend auf Ihrer Real World Effizienz von {{estimate}}% in den letzten 2 Wochen.",
+                    "text_other": "Wir brauchen noch etwas mehr Fahraktivität, um Ihnen eine genaue Schätzung zu geben. Im Moment meldet Ihr Auto eine Reichweite von {{range}}.",
+                    "info": "Tippen Sie jederzeit auf diese Symbole ⤴ auf Ihrem Dashboard, um Ihre Einstellungen zu ändern",
+                    "realWorld": "Reichweite in der realen Welt",
+                    "rated": "Nennbereich",
+                    "show": "Diesen Bereich anzeigen",
+                    "upgrade": "Schnelle Effizienz freischalten",
+                    "ratedBlurb_tesla": "Das ist die Reichweite, von der Ihr Auto und Elon glauben, dass Sie sie erreichen... wenn Sie bergab fahren und das Mittagessen auslassen.",
+                    "ratedBlurb_rivian": "Das ist die Reichweite, von der Ihr Auto und RJ glauben, dass Sie sie erreichen... wenn Sie bergab fahren und das Mittagessen auslassen."
+                },
+                "recent": {
+                    "drives": "Laufwerke",
+                    "charges": "Entgelte",
+                    "emptyDriveTitle_pro": "No Drives Yet",
+                    "emptyDriveTitle_free": "Keine Fahrten in den letzten 7 Tagen!",
+                    "emptyDriveBody": "Machen Sie eine Spritztour und es wird hier erscheinen!",
+                    "emptyChargeBody": "Einstecken und aufladen und es wird hier angezeigt!",
+                    "title": "Kürzlich aufgespürt",
+                    "view": "Alle anzeigen"
+                },
+                "updateConnection": {
+                    "legacy": "Um die Kommunikation mit Ihrem Fahrzeug aufrechtzuerhalten, müssen Sie die Verbindung zu Ihrem Tesla-Konto aktualisieren.",
+                    "button": "Update Verbindung",
+                    "info": "Mehr Infos"
+                },
+                "upgrade": {
+                    "plug": "Werden Sie ein TezLab-Profi",
+                    "caption": "Schalten Sie unbegrenzte Fahr- und Ladehistorie, Reichweitenringe, Fahrkarten, Routenabgleich, Roadtrips, Profi-Klima, Automatisierungen und vieles mehr frei.",
+                    "button": "Jetzt aktualisieren"
+                },
+                "vehicleCarousel": {
+                    "menuTake": "Ein Foto machen",
+                    "menuAdd": "Foto aus Kamerarolle hinzufügen",
+                    "cancel": "Abbrechen",
+                    "add": "Drücken Sie um Fahrzeugbild hinzuzufügen",
+                    "defaultSubtitle_name": "Gedrückt halten, um zu versuchen, das {{vehicle}} aufzuwecken und eine Verbindung herzustellen",
+                    "defaultSubtitle_vehicle": "Halten Sie die Taste gedrückt, um zu versuchen, Ihr Fahrzeug aufzuwecken und eine Verbindung herzustellen."
+                },
+                "vehicleImage": {
+                    "menuTake": "Ein Foto machen",
+                    "menuAdd": "Foto aus Kamerarolle hinzufügen",
+                    "cancel": "Abbrechen",
+                    "add": "Drücken Sie um Fahrzeugbild hinzuzufügen",
+                    "defaultSubtitle_name": "Drücken und halten Sie die Taste, um zu versuchen, Ihr {{vehicle}} aufzuwecken und eine Verbindung herzustellen.",
+                    "defaultSubtitle_vehicle": "Halten Sie die Taste gedrückt, um zu versuchen, Ihr Fahrzeug aufzuwecken und eine Verbindung herzustellen."
+                }
+            },
+            "location": {},
+            "notifications": {
+                "menu": {
+                    "header": "Benachrichtigungen",
+                    "title": "Menü Benachrichtigung",
+                    "editSettings": "Benachrichtigungseinstellungen bearbeiten",
+                    "delete": "Delete All",
+                    "markRead": "Alle als gelesen markieren"
+                }
+            },
+            "notificationSettings": {
+                "header": {
+                    "android": {
+                        "sectionHeader": "Einstellungen für Push-Benachrichtigungen",
+                        "deviceManaged": "Push-Benachrichtigungen werden von Ihrem Gerät verwaltet.",
+                        "manage": "Verwalten von Push-Benachrichtigungen",
+                        "inApp": "Einstellungen für In-App-Benachrichtigungen",
+                        "control": "Steuern Sie, welche Benachrichtigungen in Ihrem inApp-Benachrichtigungsbereich erscheinen."
+                    },
+                    "ios": {
+                        "noPush": "Ihre Geräteeinstellungen erlauben derzeit keine Push-Benachrichtigungen für TezLab.",
+                        "openSettings": "Geräteeinstellungen öffnen"
+                    }
+                },
+                "profileSettings": "Einstellungen für Benachrichtigungen"
+            },
+            "privacy": {
+                "loading": "Vielen Dank für Ihren Besuch auf der Seite Datenschutz. Sie werden in Kürze zu dieser Seite weitergeleitet.",
+                "title": "{{top}}"
+            },
+            "termsChanged": {
+                "alert": {
+                    "header": "Begriffe Update",
+                    "description": "Unsere Nutzungsbedingungen und/oder Datenschutzhinweise wurden aktualisiert.",
+                    "request": "Bitte nehmen Sie sich einen Moment Zeit, um diese Dokumente zu lesen und zu akzeptieren."
+                },
+                "buttons": {
+                    "terms": "Bedingungen der Dienstleistung",
+                    "privacy": "Hinweis zum Datenschutz",
+                    "agree": "Ich stimme zu"
+                }
+            },
+            "terms": {
+                "loading": "Vielen Dank für Ihren Besuch auf Terms. Sie werden in Kürze auf diese Seite weitergeleitet.",
+                "title": "{{top}}"
+            },
+            "trends": {
+                "title": "Trends",
+                "rangeComparison": {
+                    "title": "Bereich hinzugefügt vs. verwendet",
+                    "distance": {
+                        "word_km": "Kilometers",
+                        "word_mile": "Meilen",
+                        "abbrev_km": "km",
+                        "abbrev_mi": "mi"
+                    },
+                    "time": {
+                        "weekly": "Wöchentlich",
+                        "monthly": "Monatlich",
+                        "daily": "Täglich"
+                    },
+                    "kwh": "kWh",
+                    "actions": {
+                        "compare": {
+                            "title": "Vergleichen Sie",
+                            "description_power": "Ansicht der hinzugefügten und verbrauchten Energie",
+                            "description_range": "Ansicht der hinzugefügten und verwendeten Bereiche"
+                        },
+                        "added": {
+                            "title": "Hinzugefügt",
+                            "description_power": "Anzeige der während des Ladevorgangs hinzugefügten Leistung",
+                            "description_range": "Beim Laden hinzugefügte Reichweite anzeigen"
+                        },
+                        "used": {
+                            "title": "Gebraucht",
+                            "description_power": "Ansicht des Stromverbrauchs nach Wirkungsgradtyp",
+                            "description_range": "Verwendete Reichweite nach Wirkungsgradtyp anzeigen"
+                        }
+                    },
+                    "emptyState": {
+                        "title": "Bereich hinzugefügt vs. verwendet",
+                        "body": "Fahren und laden Sie mindestens einmal, um dieses Widget zu aktivieren."
+                    },
+                    "info": {
+                        "title": "Verwendeter Bereich",
+                        "content": "\nBlau - Reichweite während der Fahrt bei >= 90% Wirkungsgrad (hoch).\n\nLila - Genutzte Reichweite während der Fahrt bei >= 60-89 % Effizienz (mittel).\n\nRot - Genutzte Reichweite während der Fahrt bei < 59 % Effizienz (niedrig).\n\nGrau - Im Leerlauf genutzte Reichweite."
+                    },
+                    "view": "Siehe",
+                    "interval": "Interval",
+                    "units": "Einheiten"
+                },
+                "batteryPerformance": {
+                    "emptyState": {
+                        "title": "Akku-Reichweite Leistung",
+                        "body": "Laden Sie mindestens einmal von 60 % oder weniger auf 90 % oder mehr mit einer einzigen Ladung, um die maximale Reichweite zu ermitteln."
+                    },
+                    "full": {
+                        "title": "Akku-Reichweite Leistung",
+                        "maxRange": "Geschätzte maximale Reichweite von {{range}} {{units}} nach {{odometer}} {{units}}",
+                        "info": {
+                            "title": "Über Max Range Trend",
+                            "body_ev": "Viele Besitzer von Elektrofahrzeugen interessieren sich für die Veränderung der maximalen Kapazität ihrer Batterie im Laufe der Zeit. Manche bezeichnen dies als \"Batteriezustand\", obwohl es technisch nicht möglich ist, den tatsächlichen chemischen Zustand der Batterie anhand der vom Fahrzeug gelieferten Daten zu bestimmen.\n\nDie maximale Reichweite ist eine extrapolierte Berechnung der maximalen Reichweite Ihres Fahrzeugs bei 100 % Ladung. Dieser Wert wird bei ausgewählten Ladevorgängen berechnet und über die Zeit aufgezeichnet.\n\nUm eine möglichst genaue Extrapolation zu erhalten und um zu vermeiden, dass normale Schwankungen aufgezeichnet werden, schätzt TezLab die Batteriekapazität bei Ladevorgängen, bei denen der Batterie eine erhebliche Menge an Energie zugeführt wurde (mindestens 25 %) und bei denen der Endladezustand 90 % oder mehr beträgt. Zum Beispiel wird eine Ladung von 65-91% eine Berechnung der maximalen Reichweite auslösen.",
+                            "body_tesla": "Viele Tesla-Besitzer sind daran interessiert, wie sich die maximale Kapazität ihrer Batterie im Laufe der Zeit verändert. Einige bezeichnen dies als \"Batteriezustand\", obwohl es technisch nicht möglich ist, den wahren chemischen Zustand der Batterie anhand der vom Fahrzeug gelieferten Daten zu bestimmen.\n\nDie maximale Reichweite ist eine extrapolierte Berechnung der maximalen Reichweite Ihres Fahrzeugs bei 100 % Ladung. Dieser Wert wird bei ausgewählten Ladevorgängen berechnet und über die Zeit aufgezeichnet.\n\nUm eine möglichst genaue Extrapolation zu erhalten und um zu vermeiden, dass normale Schwankungen aufgezeichnet werden, schätzt TezLab die Batteriekapazität bei Ladevorgängen, bei denen der Batterie eine erhebliche Menge an Energie zugeführt wurde (mindestens 25 %) und bei denen der Endladezustand 90 % oder mehr beträgt. Zum Beispiel wird eine Ladung von 65-91% eine Berechnung der maximalen Reichweite auslösen.",
+                            "body_rivian": "Viele Rivian-Besitzer sind daran interessiert, wie sich die maximale Kapazität ihrer Batterie im Laufe der Zeit verändert. Manche bezeichnen dies als \"Batteriezustand\", obwohl es technisch nicht möglich ist, den wahren chemischen Zustand der Batterie anhand der vom Fahrzeug gelieferten Daten zu bestimmen.\n\nDie maximale Reichweite ist eine extrapolierte Berechnung der maximalen Reichweite Ihres Fahrzeugs bei 100 % Ladung. Dieser Wert wird bei ausgewählten Ladevorgängen berechnet und über die Zeit aufgezeichnet.\n\nUm eine möglichst genaue Extrapolation zu erhalten und um zu vermeiden, dass normale Schwankungen aufgezeichnet werden, schätzt TezLab die Batteriekapazität bei Ladevorgängen, bei denen der Batterie eine erhebliche Menge an Energie zugeführt wurde (mindestens 25 %) und bei denen der Endladezustand 90 % oder mehr beträgt. Zum Beispiel wird eine Ladung von 65-91% eine Berechnung der maximalen Reichweite auslösen."
+                        }
+                    },
+                    "zoom_out": "Herauszoomen",
+                    "zoom_in": "Zoom In"
+                },
+                "temperature": {
+                    "title": "Drive Eff. vs. Ø. Temperatur",
+                    "emptyStateBody": "Fahren Sie mindestens 7 Tage lang, um es zu aktivieren.",
+                    "periodMenu": {
+                        "title": "Zeitraum",
+                        "period": "Letzte {{time}}",
+                        "period_week": "Letzte Woche",
+                        "period_threeMonths": "Letzte 3 Monate",
+                        "period_sixMonths": "Letzte 6 Monate",
+                        "period_year": "Letzte Jahr"
+                    },
+                    "avgEff": "Ø. Efficiency",
+                    "avgTemp": "Ø. Temp",
+                    "onePoint": "Es sieht so aus, als hätten wir nur einen Datenpunkt für das letzte {{interval}}. Aber keine Sorge! Fahren Sie weiter und wir werden bald mehr Daten für Sie haben.",
+                    "fetching": "Abrufen von Daten",
+                    "proOnly": " (nur Pro)"
+                }
+            },
+            "vehicleConnection": {
+                "title": "Fahrzeug-Verbindungen",
+                "description": "Stellen Sie eine sichere Verbindung zu Ihrem EV her.",
+                "help": "Wie funktioniert das?",
+                "connected": {
+                    "success": "Verbunden",
+                    "menuTitle": "Menü \"Verbundenes Konto",
+                    "teslaDisconnect": "Trennen Sie die Verbindung zu Ihrem Tesla-Konto",
+                    "rivianDisconnect": "Trennen Sie die Verbindung zu Ihrem Rivian-Konto"
+                },
+                "available": {
+                    "connectTesla": "Tesla-Konto verbinden",
+                    "connectRivian": "Rivian-Konto verbinden"
+                }
+            }
+        },
+        "tracking": {
+            "filter": {
+                "title": "Filtern",
+                "type": {
+                    "title": "By Type",
+                    "all": "Alle Berichte",
+                    "drives": {
+                        "title": "Nur Laufwerke",
+                        "filter": "By Tags",
+                        "short": "Kurzstrecken anzeigen"
+                    },
+                    "charges": {
+                        "title": "Nur Gebühren",
+                        "filter": "Nach Standort",
+                        "textField": "Ladung Standort",
+                        "short": "Kurze Gebühren anzeigen"
+                    }
+                },
+                "dates": {
+                    "title": "By Date Range",
+                    "custom": "Benutzerdefiniert",
+                    "Last Week": "Letzte Woche",
+                    "Last Month": "Letzter Monat",
+                    "Last 7 Days": "Letzte 7 Tage",
+                    "Last 30 Days": "Letzte 30 Tage"
+                },
+                "clear": "Filter löschen",
+                "apply": "Filter anwenden"
+            },
+            "locationFilter": {
+                "title": "Ladeort auswählen",
+                "placeholder": "Standorte suchen",
+                "finding": "Suche nach Standorten",
+                "location_private": "Privates Ladegerät",
+                "location_display": "{{name}}",
+                "location_default": "Ladegerät"
+            },
+            "tracking": {
+                "activity": "Tätigkeit",
+                "roadTrips": "Autoreisen",
+                "locations": "Standorte",
+                "all": "Alle Berichte",
+                "drives": "Laufwerke",
+                "charges": "Nur Gebühren",
+                "roadTrip": "Road Trip erstellen",
+                "post": "Einen Beitrag erstellen",
+                "filter": "Filtern & Zusammenfassen"
+            },
+            "trackingExports": {
+                "alert": "Ihr Gerät unterstützt das Öffnen dieser Art von URL nicht",
+                "report": {
+                    "created": "Erstellt: ",
+                    "until": "Verfügbar bis: "
+                },
+                "processing": "Verarbeitung",
+                "menu": {
+                    "title": "Export Optionen",
+                    "share": "Exportdatei freigeben",
+                    "open": "Open Export File"
+                },
+                "none": "Keine Ausfuhren",
+                "exports": "Ausfuhren"
+            }
+        },
+        "control": {
+            "controls": {
+                "rivian": {
+                    "soon": "Demnächst...",
+                    "adding": "Ich arbeite daran, Auto-Steuerungen für Rivian hinzuzufügen."
+                }
+            },
+            "heater": {
+                "heatButtons": {
+                    "heat": "Wärme",
+                    "cool": "Cool",
+                    "auto": "Auto"
+                }
+            },
+            "awaitingResponse": "Ich warte auf die Antwort des Fahrzeugs...",
+            "overheat": {
+                "start": "Fernstart",
+                "keyless": "Lassen Sie das Fahrzeug während der nächsten 2 Minuten ohne Schlüssel fahren.",
+                "button_active": "Aktiv",
+                "button_activate": "Aktivieren Sie",
+                "active": "Aktiv",
+                "valet": "Valet",
+                "valetBlurb": "Begrenzen Sie Beschleunigung und Geschwindigkeit, deaktivieren Sie den Autopiloten, verriegeln Sie Handschuhfach und Kofferraum und verbergen Sie persönliche Daten.",
+                "protection": "Kabinenüberhitzungsschutz",
+                "threshold": "Wird aktiviert, wenn die Kabine den {{threshold}} überschreitet",
+                "fan": "Nur Ventilator",
+                "noAC": "Keine Klimaanlage spart Energie, kühlt aber möglicherweise nicht so effektiv",
+                "valetMode": "VALET-MODUS",
+                "enter": "Enter PIN",
+                "pin": "PIN"
+            },
+            "carHeader": {
+                "pollingDisabled": "Die Steuerelemente sind nicht verfügbar, wenn der Abruf deaktiviert ist.",
+                "tracked": "Für bereits verfolgte Fahrzeuge sind keine Steuerelemente verfügbar. Bitte wechseln Sie über Ihr Dashboard zu einem aktuellen Fahrzeug.",
+                "connected": "Verbunden",
+                "offline": "Offline",
+                "deepSleep": "Tiefschlaf-Assistent Aktiv",
+                "deepSleepAssist": "Tiefschlaf-Assistent",
+                "pluggedIn": "Eingesteckt"
+            },
+            "charging": {
+                "charging": "Aufladen",
+                "scheduled": "Geplante Aufladung",
+                "stopped": "Gestoppt",
+                "unplugged": "Unplugged",
+                "completing_remaining": "{{when}}",
+                "completing_default": "Abschließende Ladung",
+                "max": "Max Charge Level:",
+                "range": "Range:",
+                "stop": "Ladevorgang beenden",
+                "start": "Ladevorgang starten",
+                "chargeButton_start": "Ladevorgang starten",
+                "chargeButton_stop": "Ladevorgang beenden"
+            },
+            "climate": {
+                "lo": "LO",
+                "hi": "HALLO",
+                "mode": "{{keeper}} Modus",
+                "keepOn": "Klima aufrechterhalten",
+                "off": "Aus",
+                "inside": "Innen: ",
+                "outside": "Außerhalb: ",
+                "pro": "Pro Klima",
+                "unlock": "Entsperren Sie die Klimaplanung und die Weckfunktion zum Starten.",
+                "unlockPro": "Pro Klima freischalten",
+                "controls": "Klimasteuerung",
+                "activating": "Klimaaktivierung"
+            },
+            "locks": {
+                "unknown": "Unbekannt",
+                "locked": "Abgeschlossen",
+                "unlocked": "Ungesperrt",
+                "unlock": "Zum Entsperren drücken und halten",
+                "open": "Türen öffnen"
+            },
+            "homelink": {
+                "alert": "HomeLink",
+                "alertText_success": "Erfolg",
+                "alertText_failReason": "Homelink erfolglos: {{reason}}",
+                "alertText_again": "Homelink erfolglos: Bitte versuchen Sie es erneut."
+            },
+            "mini": {
+                "sentry": "Wache",
+                "windows": "Windows",
+                "frunk": "Frunk",
+                "trunk": "Kofferraum",
+                "chargePort": "Ladungsanschluss",
+                "vent": "Entlüftung",
+                "remote": "Fernstart",
+                "valet": "Valet",
+                "horn": "Horn",
+                "flash": "Blitzlicht",
+                "climate": "Klima",
+                "lock": "Schloss",
+                "controls": "Klimasteuerung",
+                "activating": "Klimaaktivierung",
+                "customize": "Steuerelemente zum Anpassen drücken und halten",
+                "customizeQuick": "Anpassen der Quick Controls",
+                "done": "Erledigt"
+            },
+            "noAccess": {
+                "enable_name": "Fahrzeugsteuerung für {{car}} aktivieren",
+                "enable_default": "Aktivieren der Fahrzeugsteuerung für Ihr Fahrzeug",
+                "signed": "Die neueste Tesla-API ermöglicht es uns, durch die Verwendung signierter Befehle zusätzliche Sicherheit zu schaffen.",
+                "step1": "SCHRITT 1",
+                "car_name": "{{car}}",
+                "car_default": "Ihr Auto",
+                "step2": "SCHRITT 2",
+                "clickStart": "Klicken Sie unten auf \"Get Started\" und folgen Sie den Anweisungen, um den Zugang zu aktivieren.",
+                "getStarted": "Los geht's",
+                "permissions": "Wichtig: Berechtigungen können nur vom Fahrzeugeigentümer aktiviert werden. ",
+                "share": "Link mit dem Eigentümer teilen",
+                "confirm": "Bestätigen Sie, dass ",
+                "isSelected": " ist das ausgewählte Fahrzeug/Produkt in Ihrer Tesla App."
+            },
+            "scheduleStatus": {
+                "start": "Die Konditionierung von {{car}} ist für {{when}} geplant",
+                "momentarily": "momentan"
+            },
+            "scheduleMenu": {
+                "timer": "Zeitschaltuhr",
+                "departure": "Abfahrtszeit",
+                "menuTitle": "{{title}}",
+                "in": "in...",
+                "wake": "Wecken und Starten",
+                "start": "Start Klima",
+                "startButton_wake": "Wecken und Starten",
+                "startButton_climate": "Start Klima",
+                "defrost": "Abtauen",
+                "keep": "Weitermachen",
+                "dog": "Hund",
+                "camp": "Camp",
+                "schedule": "Planen Sie das Klima nach",
+                "20": "in 20 Minuten",
+                "40": "in 40 Minuten",
+                "hour": "in 1 Stunde",
+                "90": "in 1,5 Stunden",
+                "2hours": "in 2 Stunden",
+                "selectTime": "Wählen Sie eine Abfahrtszeit innerhalb der nächsten 24 Stunden.",
+                "upgrade": "Aktualisieren Sie auf Pro, um das Klima mit einem Timer oder Ihrer nächsten Abfahrtszeit zu planen."
+            },
+            "startingDeep": "Deep Sleep Assist starten",
+            "toggle": {
+                "sentry": "Wache",
+                "on": "Auf",
+                "off": "Aus",
+                "windows": "Windows",
+                "vented": "Belüftet",
+                "closed": "Geschlossen",
+                "frunk": "Frunk",
+                "opened": "Geöffnet",
+                "trunk": "Kofferraum",
+                "port": "Ladungsanschluss",
+                "portOn_locked": "Abgeschlossen",
+                "portOn_open": "Öffnen Sie",
+                "vent": "Entlüftung",
+                "remote": "Fernstart",
+                "active": "Aktiv",
+                "valet": "Valet",
+                "honk": "Hupe",
+                "horn": "Horn",
+                "flashLights": "Blitzlichter",
+                "flash": "Blitzlicht",
+                "climate": "Klima",
+                "climateOn_temp": "Ein / {{temp}}",
+                "climateOn_default": "Auf",
+                "climateOff_temp": "Aus / {{temp}}",
+                "climateOff_default": "Aus",
+                "lock": "Schloss",
+                "locked": "Abgeschlossen",
+                "unlocked": "Ungesperrt",
+                "sleep": "Schlaf-Assistent",
+                "defrost": "Abtauen",
+                "enter": "Enter PIN",
+                "pin": "PIN",
+                "enableKeyless": "KEYLESS AKTIVIEREN",
+                "needPW": "Tesla-Passwort erforderlich, um 2 Minuten schlüsselloses Fahren zu starten.",
+                "pw": "PASSWORT"
+            },
+            "inService": "Die Bedienelemente sind während des Betriebs nicht verfügbar.",
+            "wake": {
+                "waking": "Aufwachendes Fahrzeug",
+                "title_waking": "Aufwachendes Fahrzeug",
+                "title_default": "{{default}}",
+                "title_asleep": "Ihr Auto schläft",
+                "title_offline": "Ihr Auto ist Offline",
+                "wakingUp": "Wir wecken Ihr Fahrzeug auf, um die Klimaanlage einzuschalten",
+                "press": "Zum Aufwachen drücken und halten",
+                "ellipsis": "Aufwachen..."
+            }
+        },
+        "map": {
+            "mapService": {},
+            "mapSettings": {
+                "title": "Karten-Optionen",
+                "header": "Bereich Ringe",
+                "park": "Auto parken, um Entfernungsringe zu sehen",
+                "realWorld": "Verwenden Sie den geschätzten Bereich der realen Welt",
+                "rated": "Nennbereich anzeigen",
+                "unlock": "Unlock Range Rings",
+                "styles": {
+                    "header": "Karte Stil",
+                    "outdoors": "Draußen",
+                    "satellite": "Satellit",
+                    "dark": "Dunkelheit",
+                    "beta": "Beta"
+                },
+                "permission": {
+                    "header": "Standort Berechtigungen",
+                    "caption": "Sie haben die Berechtigungen für den Gerätestandort deaktiviert. Aktualisieren Sie Ihre Einstellungen, wenn Sie dies ändern möchten."
+                },
+                "upgrade": "Aktualisieren Sie noch heute auf TezLab Pro und schalten Sie Range Rings frei!"
+            },
+            "legend": {
+                "type_real": "Real World Est.",
+                "type_range": "Reichweite der Fahrzeuge"
+            },
+            "nearbyChargerMap": {
+                "panel": {
+                    "kw": "{{kw}} kW",
+                    "private": "Dies ist eine private Ladestation, die nur für Sie sichtbar ist.",
+                    "open": "{{available}}/{{total}} Offen",
+                    "lastUpdated": "Zuletzt aktualisiert {{when}}"
+                },
+                "header": {
+                    "loading": "Ringe laden"
+                }
+            }
+        },
+        "activity": {
+            "activity": {
+                "index": {
+                    "yours": "Laden Ihrer Beiträge...",
+                    "timeline": "Sammlung der neuesten...",
+                    "groups": "Gruppen laden...",
+                    "own": "Eigen",
+                    "timelineTab": "Zeitleiste",
+                    "groupsTab": "Gruppen"
+                },
+                "friends": {
+                    "empty": {
+                        "header": "Keine Beiträge anzeigen",
+                        "caption": "Wenn Ihre Freunde Inhalte veröffentlichen, werden diese hier angezeigt..."
+                    }
+                },
+                "yours": {
+                    "header": "Erstellen Sie Ihren ersten Beitrag",
+                    "caption": "Sie können ein Laufwerk freigeben, aufladen, Nutzungsbericht, Zap und vieles mehr...",
+                    "new": "Neuer Beitrag"
+                },
+                "groups": {
+                    "index": {
+                        "others_yes": "Andere Gruppen",
+                        "others_no": "",
+                        "none": "Keine Gruppen gefunden",
+                        "search": "Gruppen suchen",
+                        "mine": "Meine Gruppen",
+                        "footer": {
+                            "start": "Möchten Sie eine Gruppe gründen?",
+                            "caption": "Schaffen Sie einen Raum, in dem Sie und Ihre Gruppe Geschichten und Bilder austauschen können",
+                            "button": "Neue Gruppe erstellen"
+                        }
+                    },
+                    "card": {
+                        "member_one": "1 Mitglied",
+                        "member_other": "{{count}} Mitglieder"
+                    },
+                    "nearby": {
+                        "suggested": "Vorgeschlagene Gruppen"
+                    },
+                    "newClub": {
+                        "new": "Neue Gruppe",
+                        "take": "Foto aufnehmen",
+                        "addRoll": "Foto aus Kamerarolle hinzufügen",
+                        "addPhoto": "Ein Foto hinzufügen",
+                        "namePlaceholder": "Name der Gruppe",
+                        "captionPlaceholder": "Beschreibung",
+                        "private": "Private Gruppe",
+                        "official": "Offizieller Tesla Club",
+                        "create": "Gruppe erstellen",
+                        "yn_yes": "Ja",
+                        "yn_no": "Nein"
+                    }
+                }
+            },
+            "infoTag": {
+                "owner": "Eigentümer",
+                "admin": "Administrator",
+                "member": "Mitglied",
+                "open": "Offen"
+            },
+            "verificationBadge": "Geprüft"
+        },
+        "auth": {
+            "communicating": {
+                "header": "Kommunikation mit dem Fahrzeug..."
+            },
+            "deepSleep": {
+                "yourCar": "Your Car",
+                "active": "Tiefschlaf-Assistent Aktiv",
+                "explanation": "Die Kommunikation mit {{name}} wird für ein paar Minuten unterbrochen, damit es schlafen kann. Während dieser Zeit findet keine Verfolgung statt, wird aber wieder aufgenommen, wenn das Auto entweder einschläft oder nach ein paar Versuchen nicht einschläft.",
+                "resume": "Durch das Verbinden wird die Verfolgung wieder aufgenommen und die Fahrzeugsteuerung aktiviert, der Schlaf wird jedoch verzögert.\n\n Möchten Sie eine Verbindung zu Ihrem Auto herstellen?",
+                "reawaken": "Verbinden & Wecken",
+                "async": "TezLab ohne Verbindung verwenden"
+            },
+            "giftModal": {
+                "redeem": "Ein Geschenk einlösen",
+                "enterCode": "Geben Sie den unten stehenden Gutscheincode ein, um Ihr Geschenk einzulösen.",
+                "codePlaceholder": "Tilgungscode",
+                "pinPlaceholder": "PIN-Geheimnis",
+                "redeemNow": "Jetzt einlösen",
+                "cantRedeem": "Dieses Geschenk kann nicht eingelöst werden",
+                "support": "Kontakt zum Support",
+                "congrats": "Herzlichen Glückwunsch! Ihr Geschenk wurde eingelöst!",
+                "retry": "Wiederholung",
+                "issues": "Haben Sie Probleme beim Einlösen Ihres Geschenks?",
+                "contactUs": "Kontakt"
+            },
+            "ratingRequest": {
+                "share": "Möchten Sie sich mitteilen?",
+                "committed": "Wir bei TezLab engagieren uns sehr für nachhaltigen Transport und die bestmögliche Erfahrung für Sie und Ihren EV. Ihr Feedback ist sehr hilfreich.\n\nGefällt Ihnen TezLab bis jetzt?",
+                "like": "Ja, ich mag TezLab!",
+                "dislike": "Nein, ich mag TezLab nicht.",
+                "na": "Ich ziehe es vor, nicht zu antworten.",
+                "sorryToHear": "Es tut uns leid zu hören, dass Ihnen TezLab keinen Spaß macht.\n\nWir freuen uns über Ihre Kommentare und helfen Ihnen gerne weiter, wenn Sie auf ein Problem stoßen.",
+                "contactUs": "Kontakt",
+                "dismiss": "Ablehnen",
+                "reachOut": "Bitte kontaktieren Sie uns unter support@tezlabapp.com",
+                "alert": "Können wir helfen?"
+            },
+            "logoutOverlay": {
+                "header": "Fahrzeug abkoppeln und abmelden"
+            },
+            "noVehicle": {
+                "type_tesla": "Tesla",
+                "type_rivian": "Rivian",
+                "type_default": "EV",
+                "header": "Kein Fahrzeug gefunden.",
+                "refresh": "Refresh",
+                "troubleshooting": "Fehlersuche",
+                "purchased": "Kürzlich gekauft",
+                "disclaimer": "Beim Kauf einer neuen {{make}} (Glückwunsch!) muss die Lieferung im System von {{make}} abgeschlossen sein, bevor es verbunden werden kann. In manchen Fällen müssen Sie sich nach Abschluss der Auslieferung aus- und wieder einloggen, um Ihr {{make}}-Konto erneut zu autorisieren, damit TezLab eine Verbindung zu Ihrem Auto herstellen kann.",
+                "accountProblem": "{{make}} Konto Problem",
+                "missingCars": "In einigen seltenen Fällen gehen Autos von {{make}}-Konten verloren. Bitte stellen Sie sicher, dass Sie Ihr Auto in der {{make}} App sehen können und tippen Sie auf Aktualisieren, um es erneut zu versuchen.",
+                "logOut": "Abmelden"
+            },
+            "purchaseModal": {
+                "index": {
+                    "proSlogan": "Pionierarbeit für den EV-Lifestyle wie ein Profi",
+                    "trial": "Alle Erstabonnements beginnen mit einer 14-tägigen kostenlosen Testphase mit vollem Zugang.",
+                    "redeem": "Ein Geschenk einlösen",
+                    "versus": "Pro vs. Frei",
+                    "pro": "TezLab Pro",
+                    "current": "Aktueller Plan",
+                    "free": "Kostenlos",
+                    "newFeatures": "Pro-Benutzer erhalten regelmäßig neue Funktionen",
+                    "selectOffer": "Wählen Sie oben ein Angebot aus",
+                    "regularPricing": "Mit regulärem Preis abonnieren",
+                    "upgrade": "Upgrade auf TezLab Pro",
+                    "ok": "OK",
+                    "perMonth": "*{{price}}/Monat",
+                    "billedAnnually": "*{{howMuch}} Jährlich abgerechnet",
+                    "annually": "{{price}} Jährlich*"
+                },
+                "offerDetails": "Details anzeigen",
+                "tiltedLoading": "Bild laden..."
+            },
+            "welcomeWagon": {}
+        },
+        "login": {
+            "appAuth": {
+                "signIn": "Eintragen",
+                "create": "Konto erstellen",
+                "resetEmail": "Ein Link zum Zurücksetzen des Passworts wird an {{email}} gesendet, wenn ein Konto mit dieser E-Mail-Adresse existiert."
+            },
+            "accountConnection": {
+                "index": {
+                    "allScopes": "Sie müssen alle Bereiche auswählen. Bitte versuchen Sie es erneut",
+                    "add": "Ein Fahrzeug hinzufügen",
+                    "connect": "Sichere Verbindung zu Ihrem Fahrzeug",
+                    "howButton": "Wie funktioniert das?",
+                    "connectTesla": "Tesla-Konto verbinden",
+                    "chinese": "Chinesische Tesla-Kontoinhaber",
+                    "chineseClick": "Hier klicken",
+                    "connectRivian": "Rivian-Konto verbinden",
+                    "comingSoon": "Rivian Demnächst verfügbar",
+                    "noEV": "Weiter ohne EV"
+                },
+                "privacyModal": {
+                    "secure": "Sichere Fahrzeugverbindung",
+                    "tesla": "Tesla",
+                    "rivian": "Rivian",
+                    "dismiss": "Ablehnen"
+                },
+                "resetTeslaScopes": {
+                    "frunked": "Irgendetwas ist kaputt gegangen!",
+                    "grantPermissions": "Damit TezLab ordnungsgemäß funktioniert, müssen alle angeforderten Berechtigungen erteilt werden. ",
+                    "followSteps": "Bitte befolgen Sie die folgenden Schritte, um Ihr Fahrzeug erfolgreich zu verbinden.",
+                    "revokeLink_open": "Tippen Sie unten, um den Bildschirm \"Zugriff Dritter widerrufen\" Ihres Tesla-Kontos zu öffnen.",
+                    "revokeLink_login": "Tippen Sie unten, um sich bei Ihrem Tesla-Konto anzumelden.",
+                    "revokeLink_manage": "Verwalten von TezLab im Tesla-Konto",
+                    "revokeLink_go": "Zum Tesla-Konto gehen",
+                    "step1": "SCHRITT 1",
+                    "step2": "SCHRITT 2",
+                    "step3": "SCHRITT 3",
+                    "removeAccess": "Wenn Sie bei Ihrem Tesla-Konto angemeldet sind, scrollen Sie zum unteren Rand und tippen Sie auf Zugriff entfernen.",
+                    "head": "Kopf nach ",
+                    "tapRemove": "\nTippen Sie im unteren Bereich auf Zugriff entfernen.",
+                    "revoked": "Kehren Sie nach dem Widerruf zu dieser Seite zurück und beginnen Sie den Vorgang erneut.",
+                    "startOver": "Neu anfangen",
+                    "buttons": "Sicherheit &gt; Anwendungen von Drittanbietern &gt; Verwalten"
+                },
+                "rivianAuth": {
+                    "signIn": "Eintragen",
+                    "connect": "Rivian-Konto verbinden",
+                    "security": "Sicherheit ist für uns wichtig",
+                    "email": "Rivian Konto E-Mail",
+                    "password": "Passwort für das Rivian-Konto",
+                    "code": "Rivian Kontocode",
+                    "connectButton": "Verbinden Sie",
+                    "seriousSecurity": "Wir nehmen Sicherheit sehr ernst. Ihre Rivian-Anmeldedaten werden verschlüsselt und nur einmal verwendet, um eine sichere Verbindung zu Ihrem Rivian-Konto herzustellen. Sie werden niemals auf Ihrem Gerät oder auf unseren Servern gespeichert.",
+                    "ok": "OK"
+                }
+            },
+            "autoLoginRetry": {
+                "hmm": "Hmmm...",
+                "noConnection": "Wir können anscheinend keine Verbindung zwischen Ihrem Gerät und unseren Servern herstellen. Bitte versuchen Sie es in Kürze erneut.",
+                "tryAgain": "Erneut versuchen",
+                "stumbled": "Oh nein! Wir scheinen gestolpert zu sein.",
+                "attempting": "Versucht, Sie anzumelden",
+                "dusting": "Wir schütteln den Staub ab und versuchen es in {{time}} erneut..."
+            },
+            "login": {
+                "header": "Bei TezLab anmelden",
+                "email": "E-Mail",
+                "password": "Passwort",
+                "signIn": "Eintragen",
+                "forgot": "Haben Sie Ihr Passwort vergessen? ",
+                "reset": "Passwort zurücksetzen",
+                "noAccount": "Sie haben noch kein Konto? ",
+                "create": "Konto erstellen"
+            },
+            "logoutOverlay": "Fahrzeug abkoppeln und abmelden",
+            "resetPassword": {
+                "reset": "Passwort zurücksetzen",
+                "error": "Es ist ein Fehler aufgetreten, bitte versuchen Sie es erneut.",
+                "email": "E-Mail",
+                "submitEmail": "Senden Sie Ihre E-Mail, um einen Link zum Zurücksetzen Ihres Passworts zu erhalten."
+            },
+            "signup": {
+                "takePhoto": "Foto aufnehmen",
+                "select": "Aus der Bibliothek auswählen",
+                "remove": "Foto entfernen",
+                "message_provide": "Bitte geben Sie ein Profilbild ein, um ein TezLab-Konto zu erstellen.",
+                "message_error": "{{error}}",
+                "message_unable": "Die Registrierung kann nicht bearbeitet werden. Bitte stellen Sie sicher, dass Sie alle Felder ausgefüllt haben und versuchen Sie es erneut.",
+                "header": "Neues Konto",
+                "addPfp": "Ein Profilbild hinzufügen",
+                "noName": "Bitte geben Sie einen Namen ein",
+                "noEmail": "Bitte geben Sie eine gültige E-Mail ein",
+                "email": "E-Mail Adresse",
+                "password": "Passwort",
+                "badPW": "Bitte geben Sie ein Passwort mit mindestens 5 Zeichen ein",
+                "noMatch": "Passwörter stimmen nicht überein",
+                "confirmation": "Passwort-Bestätigung",
+                "agreeToTerms": "Bitte stimmen Sie den Bedingungen zu",
+                "agree": "Ich akzeptiere die ",
+                "tos": "Bedingungen der Dienstleistung",
+                "comma": ", ",
+                "privacy": "Datenschutzbestimmungen, ",
+                "receiveEmails": "und um Emails von TezLab zu erhalten",
+                "create": "Konto erstellen",
+                "already": "Sie haben bereits ein Konto? ",
+                "signIn": "Eintragen",
+                "profilePhoto": "Profilbild"
+            },
+            "splash": "Pionierarbeit für den EV-Lifestyle",
+            "vehicleAuth": {
+                "step1": "SCHRITT 1",
+                "signIn": "Melden Sie sich bei Ihrem Tesla-Konto an",
+                "step2": "SCHRITT 2",
+                "allow": "Erlauben Sie die angeforderten Berechtigungen",
+                "why": "Warum brauchen wir das?",
+                "because": "Berechtigungen sind erforderlich, damit die Fahr-/Ladungsverfolgung und die Fahrzeugsteuerung ordnungsgemäß funktionieren",
+                "gotIt": "Ich hab's!"
+            }
+        }
+    },
+    "sharedPages": {
+        "chargeLocation": {
+            "base": {
+                "mergeStarted": "Merge Started",
+                "merging": "Ihre Standorte werden jetzt zusammengeführt. Es wird einige Minuten dauern, bis die Informationen vollständig aktualisiert sind. ",
+                "ok": "Ok",
+                "mergeInfo": "Merge Info",
+                "error": "Es ist ein Fehler aufgetreten. Sollte das Problem weiterhin bestehen, wenden Sie sich bitte an support@tezlabapp.com",
+                "confirm": "Bestätigen Sie die Zusammenführung",
+                "loading": "Die Zusammenführung zu diesem Standort dauert einige Minuten und erfolgt im Hintergrund. Alle Kosteninformationen, die mit dem zusammengelegten Standort verbunden sind, werden verworfen und die Einstellungen für diesen Standort werden übernommen. Der Erkennungsradius dieses Standortes wird entsprechend aktualisiert. Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "stop": "Stopp",
+                "away": " weg",
+                "chargesMerge": "Gebühren",
+                "chargeMerge": "Gebühr",
+                "merge": "Zusammenführen",
+                "estimate": "Schätzung der bisherigen Kosten",
+                "pastCharges": "Gebühren, die in der Vergangenheit angefallen sind, enthalten möglicherweise keine Daten über die verbrauchte Energie. In diesen Fällen schätzt TezLab den Mehrwert der Energie und die Energie wird nicht in die Berechnung der gesamten Gebühreneffizienz für diesen Standort einbezogen.\n\nBitte nehmen Sie alle gewünschten Änderungen an den Kosten vor, bevor Sie fortfahren.\n\nDer Schätzungsprozess läuft im Hintergrund ab und kann einige Minuten dauern, bis er abgeschlossen ist. Dieser Vorgang kann nicht rückgängig gemacht werden und kann nur einmal durchgeführt werden.",
+                "cancel": "Abbrechen",
+                "estimateNow": "Jetzt abschätzen",
+                "estimating": "Schätzung in Arbeit",
+                "estimateText_progress": "Schätzung in Arbeit",
+                "estimateText_auto": "Schätzen Sie automatisch die Kosten für Gebühren, die an diesem Standort vor der Aktivierung der Kostenverfolgung angefallen sind.",
+                "pastEstimates": "Frühere Gebühren wurden auf der Grundlage der Preise zum {{when}} geschätzt.",
+                "charges_one": "Laden Sie",
+                "charges_other": "Entgelte",
+                "howMuch_money": "{{cost}}",
+                "howMuch_none": "K.A.",
+                "cost": "Gesamtkosten",
+                "na": "K.A.",
+                "added": "Bereich hinzugefügt",
+                "avgSesh": "Ø Charge Session",
+                "warning": "Warnung: ",
+                "nightMode": "Der Nachtmodus ist derzeit aktiviert, was zu ungenauen Berechnungen oder entgangenen Nachtgebühren führen kann.",
+                "viewMine": "Meine Kosten anzeigen",
+                "chargeCost": "Kosten der Aufladung",
+                "trackingDisabled": "Die Kostenverfolgung ist für diesen Standort nicht aktiviert.",
+                "zeroCost": "Die hier hinzugefügte Reichweite wird als kostenneutral betrachtet.",
+                "editLocation": "Standorteinstellungen bearbeiten",
+                "mergeNearby": "Standorte in der Nähe zusammenführen"
+            },
+            "basePrice": {
+                "youSure": "Sind Sie sicher?",
+                "differencePrice": "Diese Gebührenstelle verwendet derzeit einen anderen Preistyp. Wenn Sie den Preistyp ändern, werden alle bestehenden Preiseinstellungen, die Sie eingegeben haben, entfernt.",
+                "switch": "Zu {{type}} wechseln",
+                "keep": "Nicht ändern",
+                "perMinute": "Preis pro Minute",
+                "perKwh": "Preis pro kWh",
+                "perSesh": "Preis pro Sitzung",
+                "setBase": "Grundpreis festlegen",
+                "min": "Preis/Min.",
+                "kwh": "Preis/kWh",
+                "sesh": "Für Sitzung",
+                "setPrice": "Preis festlegen",
+                "perSession": "Für Sitzung",
+                "pricePerMinute": "Preis/Minute",
+                "currentSetting_active": "Aktuelle Einstellung: {{setting}}{{units}}",
+                "currentSetting_default": "",
+                "noneSet": "Für diesen Standort sind derzeit keine Preise festgelegt.",
+                "baseSettings": "Basispreis-Einstellungen",
+                "setFree": "Als frei gesetzt",
+                "leaveBlank": "Leer lassen für frei."
+            }
+        },
+        "chargeLocationSettings": {
+            "couldntSave": "Ihre Änderungen konnten nicht gespeichert werden. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com",
+            "alertText_when": "Erhalten Sie eine Benachrichtigung, wenn das Auto an diesem Ort mit einem Batteriestand von weniger als {{level}}% ab {{when}} an {{days}} geparkt und ausgesteckt ist.",
+            "alertText_specified": "Erhalten Sie eine Benachrichtigung, wenn das Auto an diesem Ort mit einem Batteriestand von weniger als {{level}}% ab {{when}} an bestimmten Tagen geparkt und ausgesteckt wird.",
+            "alertText_free": "Sie erhalten eine Benachrichtigung, wenn Ihr Fahrzeug einen bestimmten Ladestand unterschreitet und an dieser Stelle ausgesteckt ist.",
+            "settings": "Standort-Einstellungen",
+            "locationName": "Ort Name",
+            "tracking": "Kostenverfolgung",
+            "addRates": "Nutzungszeittarife hinzufügen",
+            "zeroEmission": "Null-Emissions-Ausgleich",
+            "blurb": "Der Null-Emissions-Ausgleich ist der prozentuale Anteil des Stroms an diesem Standort, der aus emissionsfreien Quellen, wie z. B. Solaranlagen, stammt. Er wird verwendet, um den geschätzten Kohlenstoffausstoß beim Laden an diesem Standort anzupassen.",
+            "offsetFactor": "Offset-Faktor (%)",
+            "offsetDescription": "% der Elektrizität aus Nullemissionen (z. B. Solar)",
+            "updatePast": "Frühere Gebühren aktualisieren",
+            "proOptions": "Pro Optionen",
+            "plugIn": "Plug-in-Erinnerung",
+            "configure": "Warnung konfigurieren",
+            "sentryOff": "Wache Auto-Off",
+            "sentryBlurb": "Schalten Sie den Überwachungsmodus automatisch aus, wenn das Fahrzeug mit eingeschaltetem Überwachungsmodus an diesem Ort geparkt ist."
+        },
+        "chargeDisplayCard": {
+            "sun": "Sonn",
+            "mon": "Mon",
+            "tue": "Dien",
+            "wed": "Mitt",
+            "thu": "Donn",
+            "fri": "Frei",
+            "sat": "Sam",
+            "addPrice": "Preis hinzufügen",
+            "time": "{{time}}"
+        },
+        "chargeReport": {
+            "index": {
+                "content": "Dieses Diagramm zeigt Ihnen, wie sich Ihre verbrauchte Reichweite (weiß) und Ihre zurückgelegte Strecke (weiß) zueinander verhalten.\n\nJe effizienter Ihre Fahr-/Leerlaufzeit war, desto kleiner ist der weiß hinterlegte Bereich!\n\nDer Batteriebereich (grün) zeigt den Verlauf der Start- und Endzeit im Verhältnis zur gesamten Batterie.",
+                "title": "Verwendungsbericht",
+                "unlockPro": "Unlock Pro-Nutzungsbericht",
+                "breakdown": "Aufschlüsselung der Nutzung",
+                "regenerated": "Range Regenerated",
+                "regenBlurb": "Ihr Auto bremst durch regeneratives Bremsen (\"regen\") das Fahrzeug ab und fängt die kinetische Energie auf, um sie sofort zu nutzen oder in der Batterie zu speichern.\n\nDie Reichweitenvorhersage Ihres Fahrzeugs geht davon aus, dass ein gewisser Anteil der Rekuperation stattfindet, und dies ist bereits in der Angabe zur Reichweite bei jeder Fahrt berücksichtigt.",
+                "estCost": "Geschätzte Energiekosten",
+                "estSavings": "Geschätzte Kraftstoffeinsparung",
+                "distanceVsBattery": "Entfernung vs. Batterie",
+                "driven": "{{howMuch}} Angetrieben",
+                "energyUsed": "{{howMuch}} Verbrauchte Energie",
+                "drives": "Laufwerke",
+                "avgEff": "Ø Effizienz",
+                "numDrives": "# Anzahl der Laufwerke",
+                "longest": "Längste Fahrt",
+                "avgTemp": "Ø Temp",
+                "viewDrives": "Ansicht Laufwerke",
+                "idle": "Inaktive Nutzung",
+                "climate": "Klima",
+                "0min_idle": "{{howLong}}",
+                "0min_zero": "0 min",
+                "sentryMode_rivian": "Gear Guard Modus",
+                "sentryMode_tesla": "Wächtermodus",
+                "overheat": "Überhitzungsschutz",
+                "conditioning": "Akku-Konditionierung",
+                "pro": "Nur für Profis",
+                "share": "Teilen auf TezLab"
+            },
+            "usageBreakdown": {
+                "idle": "Leerlauf",
+                "hi": "Hoch Eff.",
+                "low": "Nied Eff.",
+                "med": "Mit Eff."
+            },
+            "proReport": {
+                "title": "Batteriestand",
+                "zoomButton_close": "Schließen Sie",
+                "zoomButton_examine": "Untersuchen Sie",
+                "driven": "{{dist}} Angetrieben",
+                "section_drive": "Laufwerk {{text}}",
+                "section_idle": "Leerlauf {{text}}"
+            },
+            "upgradeMenu": {
+                "data": {
+                    "proTitle": "Profi-Nutzungsbericht",
+                    "proBody": "Veranschaulichen Sie den Verbrauch Ihrer Batterie zwischen den Ladevorgängen auf einen Blick.",
+                    "idleTitle": "Leerlauf-Analyse",
+                    "idleBody_rivian": "Sehen und verstehen Sie, wie der Ruhezustand, der Gear Guard-Modus, die Klimatisierung und die Akkukonditionierung im Leerlauf Energie verbrauchen.",
+                    "idleBody_tesla": "Sehen und verstehen Sie, wie Ruhezustand, Wächtermodus, Klima und Akkubetrieb im Leerlauf Energie verbrauchen.",
+                    "usageTitle": "Aufschlüsselung der Nutzung mit Regen",
+                    "usageBody": "Verstehen Sie, wie die Reichweite durch regeneratives Bremsen während der Fahrt sowohl verbraucht als auch wieder aufgefüllt wird.",
+                    "distanceTitle": "Abstand Vs. Batterie",
+                    "distanceBody": "Visualisieren Sie die gefahrene Strecke und den entsprechenden Batterieverbrauch."
+                },
+                "pro": "Profi-Nutzungsbericht",
+                "body": "Verschaffen Sie sich mit unserem Pro Usage Report einen detaillierten Überblick über jede Minute des Batterieverbrauchs."
+            },
+            "zoomedPanel": {
+                "climate": "Klima",
+                "sentry": "Wache",
+                "gearGuard": "Getriebeschutz",
+                "conditioning": "Akku-Konditionierung",
+                "overheat": "Kabinenüberhitzungsschutz",
+                "awake": "Aufwachen",
+                "asleep": "Schlafen",
+                "offline": "Offline",
+                "efficiency": "Efficiency",
+                "driveTime": "Fahrtzeit",
+                "details": "Details zum Laufwerk anzeigen"
+            }
+        },
+        "clubMember": {
+            "owner": "Eigentümer",
+            "admin": "Verwaltung",
+            "member": "Mitglied",
+            "pending": "Anhängig",
+            "adminTitle_one": "Gruppe Verwaltung",
+            "adminTitle_other": "Gruppenadmins",
+            "members": "Mitglieder",
+            "joinError": "Konnte der Gruppe nicht beitreten. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com",
+            "ellipsis_name": "{{title}}",
+            "ellipsis_none": "",
+            "ellipsis_loading": "Laden...",
+            "loading": "Mitglieder laden",
+            "joinGroup": "{{join}} Gruppe"
+        },
+        "club": {
+            "editModal": {
+                "title": "Gruppe bearbeiten",
+                "takePhoto": "Foto aufnehmen",
+                "addRoll": "Foto aus Kamerarolle hinzufügen",
+                "addPhoto": "Ein Foto hinzufügen",
+                "name": "Name der Gruppe ",
+                "groupName": "Name der Gruppe",
+                "description": "Beschreibung",
+                "warning": "(verifiziert - kann nicht bearbeitet werden)",
+                "isPrivate_yes": "Ja",
+                "isPrivate_no": "Nein",
+                "private": "Private Gruppe",
+                "official": "Offizieller Tesla Club",
+                "submit": "Änderungen einreichen"
+            },
+            "index": {
+                "emptyGroup": "Noch keine Beiträge für diese Gruppe",
+                "viewList": "Mitgliederliste anzeigen",
+                "shareLink": "Link zur Gruppe freigeben",
+                "options": "Gruppenoptionen",
+                "private": "Private Gruppe",
+                "member_one": "1 Mitglied",
+                "member_other": "{{count}} Mitglieder",
+                "privateGroup": "Der Inhalt dieser Gruppe ist privat und nur für Gruppenmitglieder sichtbar. Beantragen Sie unten den Beitritt zur Gruppe.",
+                "verification": "{{type}} Verifizierung {{status}}",
+                "verificationCopied_done": "Kopiert!",
+                "verificationCopied_copy": "Code kopieren"
+            },
+            "statsSwiper": {
+                "vehicles": "Fahrzeuge",
+                "sustainability": "Nachhaltigkeit",
+                "trees_one": "1 Baum",
+                "trees_other": "{{count}} Bäume",
+                "dailyGenerated": "Ø. Täglich erzeugtes CO₂",
+                "dailyOffset": "Ø. Täglicher CO₂-Ausgleich",
+                "driveLeaders": "7-Tage-Laufwerk Führer",
+                "driven": "{{length}} Angetrieben",
+                "chargeLeaders": "7-Tage-Charge-Leiter",
+                "charged": "{{range}} Hinzugefügt",
+                "distance": "Entfernung Angetrieben"
+            }
+        },
+        "costAdjustment": {
+            "alert": "Dieser Preis konnte nicht aktualisiert werden. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+            "header": "Kostenanpassung",
+            "disclaimer": "Die Anpassung der Kosten für diesen Ladevorgang gilt nur für diese Gebühr. Sie wirkt sich nicht auf die Preise für andere Gebühren an diesem Standort aus.",
+            "noSuper": "Geschätzte Kosten ohne kostenlose Aufladung: {{cost}}",
+            "input": "Angepasste Sitzungskosten",
+            "confirm": "Bestätigen Sie",
+            "original": "{{Kosten}}",
+            "na": "K.A."
+        },
+        "followers": {
+            "mainTitle": "Follower",
+            "awaiting": "Zur Genehmigung anstehend",
+            "dynamicTitle_followers": "Keine Follower",
+            "dynamicTitle_following": "Ich folge noch niemandem!",
+            "num_one": "1 Follower",
+            "num_other": "{{count}} Follower",
+            "emptyTitle": "Keine Follower",
+            "notFollowing": "Ich folge noch niemandem!"
+        },
+        "following": {
+            "mainTitle": "Unter",
+            "pending": "Anhängig...",
+            "dynamicTitle": "{{following}}",
+            "emptyTitle": "Keine Follower",
+            "notFollowing": "Ich folge noch niemandem!",
+            "numFollowing": "Nach {{howMany}}"
+        },
+        "forestsExplained": {
+            "title": "Wälder erklärt",
+            "numTrees_one": "1 Baum",
+            "numTrees_other": "{{count}} Bäume",
+            "howQ": "Wie funktioniert das?",
+            "howA": "In Zusammenarbeit mit unseren Freunden von ElectricityMap schätzen wir den CO₂-Ausstoß Ihres lokalen Stromnetzes für den Strom, der zum Aufladen Ihres Autos verwendet wird. Diese Zahl wird verwendet, um Ihren durchschnittlichen täglichen Kohlenstoffausstoß zu schätzen. Wir verwenden dann die theoretische Kohlenstoffsenken-Kapazität eines ausgewachsenen Baumes in Kombination mit Ihrer täglichen Kohlenstoffproduktion, um Ihre Gesamt-Netto-Kohlenstoffbelastung zu schätzen.",
+            "whyQ": "Warum Bäume?",
+            "co2": "20kg CO₂",
+            "co2Caption": "Kohlenstoffreduktion bei ausgewachsenen Bäumen pro Jahr",
+            "whyA": "Wenn ein Baum heranwächst, kann er jährlich bis zu 20 kg CO₂ verbrauchen (zusätzlich zu anderen Treibhausgasen wie Ozon). Dies kann einen positiven Beitrag zu Ihrer CO2-Bilanz leisten, indem es hilft, den Kohlenstoff auszugleichen, der durch Ihre täglichen Aktivitäten (wie das Aufladen Ihres Autos) entsteht. Bäume haben auch viele andere Vorteile, wie z. B. die Absorption und Rückhaltung von Regenwasser in städtischen Gebieten, sowie wirtschaftliche und gesundheitliche Vorteile, die das Leben verbessern können.",
+            "realQ": "Sind das echte Bäume? Wo?",
+            "realA": "Aber sicher! Wir arbeiten mit angesehenen Wohltätigkeitsorganisationen wie OneTreePlanted zusammen, die Bäume pflanzen. Diese Organisationen engagieren sich für die Wiederaufforstung in bedürftigen Gebieten auf der ganzen Welt, von Brasilien über Indien bis hin zu den Vereinigten Staaten. Nachdem wir eine Bestellung für die Baumpflanzung abgeschickt haben, stellt uns die Organisation den Baum in Rechnung, ihre Baumpflanzungsinitiativen werden finanziert, Bäume werden gepflanzt, Sie fühlen sich gut, die Erde fühlt sich gut, alle gewinnen.",
+            "confirmationQ": "Woher weiß ich, dass ein Baum gepflanzt/gekauft wurde?",
+            "confirmationA": "Wenn Sie über TezLab Bäume pflanzen, versenden wir kurz nach der Bestätigung Ihrer Bestellung einen Pflanzauftrag an unsere Partner. Zu diesem Zeitpunkt senden wir Ihnen eine Bestätigungs-E-Mail und eine Quittung für Ihren Kauf. Wann immer möglich, teilen wir Ihnen in der Bestätigung mit, wo Ihr Baum gepflanzt wird. In regelmäßigen Abständen werden wir einen Bericht über die Fortschritte bei der Pflanzung von Bäumen in unserer Gemeinde veröffentlichen und alle, die dazu beitragen, auf dem Laufenden halten.",
+            "feeQ": "Erhebt TezLab eine Gebühr?",
+            "feeA": "Ja, TezLab erhebt eine kleine Gebühr, die teilweise zur Deckung der Kosten für die Zahlungsabwicklung durch Dritte dient. Da unsere Gebühren für die Zahlungsabwicklung anteilig sind, geben wir die Einsparungen weiter, indem wir bei größeren Bestellungen niedrigere Preise pro Baum festlegen."
+        },
+        "likes": {
+            "getting": "Likes erhalten",
+            "none": "Das ist seltsam... Niemand ist aufgetaucht!?",
+            "tryAgain": "Erneut versuchen",
+            "title": "Mag"
+        },
+        "post": {
+            "index": {
+                "edit": "Edit Post",
+                "delete": "Delete Post",
+                "unshare": "Beitrag freigeben",
+                "flag": "Als unangebracht markieren",
+                "deleteAlert": "Sind Sie sicher?",
+                "deleteWarning": "Die Löschung eines Beitrags kann nicht rückgängig gemacht werden.",
+                "cancel": "Abbrechen",
+                "yes": "Ja",
+                "editComment": "Edit Comment",
+                "deleteComment": "Kommentar löschen",
+                "stall": "Stall: {{problem}}",
+                "comments": "Kommentare ",
+                "loading": "Inhalt laden",
+                "title_s": "{{whose}} Beitrag",
+                "title_notS": "{{whose}} Beitrag"
+            },
+            "item": {
+                "menu": "Wie Menü",
+                "hide": "Zum Ausblenden antippen",
+                "hidden": "Dieser Beitrag ist ausgeblendet, weil Sie ihn als unangemessen gekennzeichnet haben.",
+                "view": "Zur Ansicht tippen"
+            }
+        },
+        "purchaseTrees": {
+            "index": {
+                "custom": "Benutzerdefinierte Menge",
+                "badQuantity": "Die Menge kann nicht bestätigt werden. Bitte versuchen Sie es erneut.",
+                "genericError": "Etwas ist schief gelaufen",
+                "next": "Weiter",
+                "menuTitle_confirmed": "Bestätigte Bestellung",
+                "menuTitle_review": "Bestellung überprüfen",
+                "menuTitle_choose": "Anzahl wählen",
+                "confirmBuy": "Kauf bestätigen",
+                "confirmed": "Bestätigte Bestellung",
+                "review": "Bestellung überprüfen",
+                "choose": "Anzahl wählen",
+                "title": "Bäume pflanzen",
+                "thanks": "Ich danke Ihnen!",
+                "receipt": "Ihr Auftrag zur Baumpflanzung ist bestätigt. Sie erhalten in Kürze eine Bestätigung per E-Mail. Bitte warten Sie einige Minuten, bis die Daten Ihres Waldes aktualisiert sind.",
+                "paymentError": "Bei der Verbindung mit unserem Zahlungsanbieter ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.\n\n Bitte wenden Sie sich an support@tezlabapp.com, wenn dieses Problem weiterhin besteht.",
+                "location": "Standort der Anpflanzung",
+                "defaultLoc_default": "Ausgewählt nach dem Zufallsprinzip",
+                "defaultLoc_selected": "{{where}}",
+                "perTree": "/Baum",
+                "projects": "Verfügbare Projekte"
+            },
+            "custom": {
+                "perTree": "/Baum",
+                "other": "Andere Menge",
+                "caption": "Anzahl der Bäume",
+                "enter": "Enter Tree Quantity",
+                "description_desc": "{{enter}}",
+                "description_default": "Enter Tree Quantity"
+            },
+            "newCard": {
+                "addCard": "Eine Karte hinzufügen",
+                "add": "hinzufügen"
+            },
+            "selector": {
+                "stripe": "Wir arbeiten mit Stripe zusammen, um sicherzustellen, dass die Daten Ihrer Zahlungskarten immer sicher sind. Ihre Kartendaten werden sofort verschlüsselt und mit einem Token versehen. Sie können niemals von jemandem bei TezLab oder Stripe gelesen werden.",
+                "deleteAlert": "Bitte bestätigen Sie",
+                "alertQuestion": "Zahlungsmethode löschen?",
+                "cancel": "Abbrechen",
+                "delete": "Löschen",
+                "default": "Standard",
+                "expiry": "Exp {{when}}",
+                "makeDefault": "Standard machen",
+                "unsaved": "Nicht gespeicherte Zahlungsmethode",
+                "method": "Zahlungsmethode",
+                "save": "Karte für zukünftige Bestellungen speichern:",
+                "add": "Neue Karte hinzufügen",
+                "methods": "Zahlungsarten"
+            },
+            "map": {
+                "title": "Ihre Baumstandorte",
+                "byCountry": "Baumdichte nach Land"
+            }
+        },
+        "roadTripView": {
+            "index": {
+                "summary": "Zusammenfassung",
+                "details": "Einzelheiten",
+                "error": "Etwas ist schief gelaufen!",
+                "expired": "Abgelaufene Aktivität",
+                "free": "Einige oder alle Aktivitäten sind aufgrund Ihres 7-Tage-Fensters für den kostenlosen Plan abgelaufen.",
+                "loading": "Laden"
+            },
+            "driveSummary": "Laufwerk Zusammenfassung",
+            "chargeSummary": "Zusammenfassung der Ladung"
+        },
+        "searchFriends": {
+            "title": "Menschen suchen",
+            "caption": "Suche nach Name"
+        },
+        "settings": {
+            "index": {
+                "watch": {
+                    "default": "Apple Watch: Keine gekoppelte Uhr",
+                    "cantReach": "Apple Watch: Nicht erreichbar",
+                    "cantReachSub": "Die gekoppelte Apple Watch kann nicht erreicht werden. Öffnen Sie TezLab auf Ihrer Uhr, um eine Verbindung herzustellen.",
+                    "uninstalled": "Apple Watch: TezLab ist nicht installiert",
+                    "uninstalledSub": "Öffnen Sie die Watch-App auf Ihrem Telefon, um TezLab auf Ihrer Apple Watch zu installieren.",
+                    "authorize_default": "Apple Watch: Neu autorisieren",
+                    "authorize_ing": "Apple Watch: Neu autorisieren",
+                    "authorize_tap": "Wenn Ihre Uhr-App keine Verbindung herstellt, tippen Sie auf , um sie erneut zu autorisieren.",
+                    "authorize_keepOpen": "Lassen Sie die App auf Ihrer Uhr geöffnet..."
+                },
+                "ok": "OK",
+                "logout": "Sind Sie sicher?",
+                "logoutWarning": "Wenn Sie sich bei TezLab abmelden, wird Ihr Fahrzeug abgemeldet. Es werden keine Daten aufgezeichnet, bis Sie sich erneut anmelden.",
+                "cancel": "Abbrechen",
+                "logoutButton": "Abmelden",
+                "delete": "Konto löschen?",
+                "deleteWarning": "Wenn Sie Ihr Konto löschen, werden alle mit Ihrem Konto verbundenen Daten und alle von TezLab verfolgten Fahrzeuge gelöscht.\n\nDIES KANN NICHT RÜCKGÄNGIG GEMACHT ODER GESTOPPT WERDEN.\n\nUm die Verfolgung vorübergehend zu beenden, loggen Sie sich stattdessen aus.",
+                "deleteButton": "Konto löschen",
+                "proDelete": "\n\nDurch das Löschen Ihres Kontos wird Ihr Pro-Abonnement NICHT beendet; Sie müssen das Abonnement über Apple/Google/TezLab-Website kündigen.",
+                "deleteConfirm": "Bitte bestätigen Sie noch einmal",
+                "lastChance": "Um Ihr Konto zu löschen, bestätigen Sie bitte erneut, dass Sie dies wünschen.\n\nEs werden alle Daten gelöscht und dies kann nicht rückgängig gemacht werden. {{promessage}}\n\nUm Ihr(e) Auto(s) vorübergehend abzuschalten, melden Sie sich stattdessen ab.",
+                "eek": "Halt! Abbrechen!",
+                "logoutInstead": "Stattdessen abmelden",
+                "imSure": "Ja, Mein Konto löschen",
+                "cancelPro": "\n\nIhr Pro-Abonnement wird über Apple (iOS), Google (Android) oder TezLab verwaltet. Sie müssen es über den jeweiligen App Store oder über https://tezlabapp.com/subscribe kündigen.",
+                "loggedOut": "Sie wurden abgemeldet und Ihr Konto wird nun gelöscht. {{prodeletemessage}}",
+                "deleteError": "Es ist ein Fehler aufgetreten, bitte kontaktieren Sie support@tezlabapp.com, um Ihr Konto zu löschen.",
+                "title": "Einstellungen",
+                "profile": "Profil",
+                "name": "Name",
+                "updatingName": "Name aktualisieren",
+                "email": "E-Mail",
+                "updatingEmail": "E-Mail aktualisieren",
+                "bio": "Bio",
+                "updatingBio": "Bio aktualisieren",
+                "subscription": "Abonnement",
+                "personalize": "Personalisieren",
+                "vehicleSettings": "Fahrzeug-Einstellungen",
+                "exVehicle": "Zuvor verfolgtes Fahrzeug",
+                "gone_default": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Konto und wird nicht mehr verfolgt. Sie können weiterhin historische Daten einsehen.",
+                "gone_tesla": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Tesla-Konto und wird nicht mehr verfolgt. Sie können weiterhin historische Daten anzeigen.",
+                "gone_rivian": "Dieses Fahrzeug erscheint nicht mehr in Ihrem Rivian-Konto und wird nicht mehr verfolgt. Sie können weiterhin historische Daten einsehen.",
+                "accessType": "Zugangstyp",
+                "owner_mine": "Eigentümer",
+                "owner_shared": "Gemeinsame",
+                "signedIn_default": "Angemeldet mit dem Fahrzeughalterkonto.",
+                "signedIn_tesla": "Angemeldet mit dem Tesla-Konto des Fahrzeugbesitzers.",
+                "signedIn_rivian": "Angemeldet mit dem Rivian-Konto des Fahrzeughalters.",
+                "signedOut_default": "Für einige Funktionen, wie z. B. die Synchronisierung der Preise für Aufladegeräte, müssen Sie sich mit dem Konto des Fahrzeugbesitzers für dieses Fahrzeug anmelden.",
+                "signedOut_tesla": "Für einige Funktionen, wie z. B. die Synchronisierung von Supercharger-Preisen, müssen Sie sich mit dem Tesla-Konto des Fahrzeugbesitzers für dieses Fahrzeug anmelden.",
+                "signedOut_rivian": "Für einige Funktionen, wie z. B. die Synchronisierung der Preise für Kompressoren, ist es erforderlich, dass Sie sich mit dem Rivian-Konto des Fahrzeugbesitzers für dieses Fahrzeug anmelden.",
+                "polling": "Abruf (Datenerfassung)",
+                "pollingSubtitle_captured": "Die Daten werden von diesem Fahrzeug erfasst.",
+                "pollingSubtitle_disabled": "Der Abruf kann nicht aktiviert werden, da er vom Eigentümer dieses Fahrzeugs in einem anderen Konto deaktiviert wurde.",
+                "pollingSubtitle_reenable": "Es werden keine Daten von diesem Fahrzeug erfasst. Aktivieren Sie diese Option, um die Erfassung von Fahrten und Gebühren wieder aufzunehmen. {{pollingMessage}}",
+                "upgradePopup": "Mehrere Fahrzeuge verfolgen",
+                "otherAccounts": "Umfragen auf anderen TezLab-Konten",
+                "pollingInfo": "Fahrzeug auf mehreren Konten",
+                "pollingBlurb": "Um die Genauigkeit der Daten zu gewährleisten und die Unterbrechung des Fahrzeugschlafs zu verhindern, empfehlen wir nicht, ein einzelnes Fahrzeug mit mehreren TezLab-Konten zu verbinden.\n\nIhr Fahrzeug kann in mehreren Konten erscheinen, wenn Sie einer anderen Person, die TezLab ebenfalls mit ihrem Tesla-Konto nutzt, eine Fahrerlaubnis erteilt haben, oder wenn Sie oder Ihre Familie sich bei mehreren TezLab-Konten angemeldet haben.\n\nAls Eigentümer dieses Fahrzeugs können Sie andere Konten daran hindern, dieses Fahrzeug abzurufen. Andere Konten können die Abfrage nur dann wieder aktivieren, wenn sie sich ebenfalls mit dem Tesla-Konto des Fahrzeugbesitzers anmelden.",
+                "ownerPolling": "Als Fahrzeugeigentümer können Sie die Abfrage auf anderen TezLab-Konten, die ebenfalls Zugang zu diesem Fahrzeug haben, deaktivieren.",
+                "lastCommunication_owner": "Besitzer Zugang\nLetzte Kommunikation {{lastPoll}}",
+                "lastCommunication_shared": "Gemeinsamer Zugang\nLetzte Kommunikation {{lastPoll}}",
+                "privSec": "Privatsphäre und Sicherheit",
+                "private": "Privates Profil",
+                "privateInfo": "Wenn Sie privat sind, sind Ihre Profildaten nur für die Follower sichtbar, die Sie akzeptiert haben.",
+                "sleep": "Fahrzeug Schlaf",
+                "deepSleep": "Tiefschlaf-Assistent (Standard)",
+                "deepSleepInfo": "Empfohlen - Hilft Ihrem Auto beim Einschlafen, indem es die Abfrage staffelt, wenn es eine Zeit lang im Leerlauf und wach war. Sie können die Funktion jederzeit über die Bedienelemente oder durch Drücken und Halten des Batteriesymbols auf dem Startbildschirm aktivieren.",
+                "night": "Nacht-Modus",
+                "nightInfo": "Verhindern Sie, dass Ihr Auto zwischen 20 Uhr und 5 Uhr morgens abgefragt wird. Erfassen Sie eine Fahrt während dieser Zeit, indem Sie TezLab öffnen, bevor Sie losfahren.",
+                "deepLock": "Tiefschlaf-Sperre",
+                "deepLockInfo": "Verriegeln Sie Ihr Fahrzeug automatisch, wenn der Deep Sleep Assist startet und es unverschlossen bleibt.",
+                "comm": "Kommunikation",
+                "notifs": "Benachrichtigungen",
+                "manageNotifs": "Verwalten von Benachrichtigungen",
+                "more": "Mehr Infos",
+                "restore": "Käufe wiederherstellen",
+                "welcome": "Ansicht Willkommen",
+                "redeem": "Ein Geschenk einlösen",
+                "support": "Unterstützung & Kontakt",
+                "changePw": "Passwort ändern",
+                "privacy": "Hinweis zum Datenschutz",
+                "terms": "Bedingungen der Dienstleistung",
+                "x": "@TezLabApp auf 𝕏",
+                "deleteAll": "Mein Konto & Daten löschen"
+            },
+            "currency": {
+                "error": "Beim Laden der Währungsoptionen ist ein Fehler aufgetreten. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+                "base": "Basiswährung",
+                "subtext_default": "{{msg}}",
+                "subtext_loading": "Laden der Währungsoptionen...",
+                "setBase": "Basiswährung festlegen"
+            },
+            "deepSleep": {
+                "minutes_one": "Minute",
+                "minutes_other": "Minuten",
+                "minutesWord": "Minuten",
+                "delay": "Tiefschlaf-Verzögerungszeit",
+                "yesDelay": "Starten Sie den Tiefschlaf-Assistenten, wenn Ihr Fahrzeug im Leerlauf und für {{time}} wach ist {{minute}}",
+                "setDelay": "Tiefschlaf-Verzögerungszeit einstellen",
+                "current_custom": "Aktuelle Einstellung: {{time}}min | Standard: 60min",
+                "current_default": "Standard: 60min"
+            },
+            "delete": {
+                "alert": "Bitte bestätigen Sie das Löschen",
+                "warning": "Wenn Sie Ihr Fahrzeug löschen, werden alle mit diesem getrackten Fahrzeug verbundenen Daten gelöscht.\n\nDIES KANN NICHT RÜCKGÄNGIG GEMACHT ODER GESTOPPT WERDEN!\n\n Um die Verfolgung vorübergehend zu beenden, melden Sie sich entweder ab oder deaktivieren Sie die Abfrage für dieses Fahrzeug.",
+                "cancel": "Abbrechen",
+                "delete": "Fahrzeug löschen",
+                "reconfirm": "Bitte bestätigen Sie noch einmal.",
+                "reconfirmWarning": "Um Ihr Fahrzeug zu löschen, bestätigen Sie bitte erneut, dass Sie dies wünschen.\n\nAlle Daten, die mit diesem Fahrzeug verbunden sind, werden gelöscht und können nicht rückgängig gemacht werden. Um die Verfolgung vorübergehend zu beenden, melden Sie sich entweder ab oder deaktivieren Sie die Abfrage für dieses Fahrzeug.",
+                "done": "Erfolgreich löschen.",
+                "ok": "OK",
+                "whoops": "Etwas ist schief gelaufen",
+                "help": "Wir haben Probleme, dieses Fahrzeug zu löschen. Wenn das Problem weiterhin besteht, wenden Sie sich an support@tezlabapp.com"
+            },
+            "distanceUnits": "Entfernung Einheiten",
+            "editInfo": {
+                "title": "Edit Info",
+                "name": "Name",
+                "email": "E-Mail",
+                "bio": "Bio"
+            },
+            "fuelEff": "Kraftstoffverbrauch Einheiten",
+            "fuelPrice": {
+                "profile": "Kraftstoff-Vergleichspreis",
+                "set": "Kraftstoffvergleichspreis festlegen",
+                "current": "Aktueller Wert: {{price}}/{{units}}"
+            },
+            "resetPw": {
+                "title": "Passwort zurücksetzen",
+                "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+                "email": "E-Mail",
+                "subtext": "Senden Sie Ihre E-Mail, um einen Link zum Zurücksetzen Ihres Passworts zu erhalten.",
+                "sent": "Wir senden einen Link zum Zurücksetzen des Passworts an {{address}}, wenn ein Konto mit dieser E-Mail-Adresse existiert. Bitte überprüfen Sie Ihre E-Mail."
+            },
+            "splashOption": "Einfachen App-Start verwenden",
+            "splashCaption": "Zeigen Sie beim Starten der App eine einfache Ladeanzeige anstelle eines Videos.",
+            "switchCurrent": "Aktuelles Fahrzeug",
+            "temp": "Temperatur-Einheiten",
+            "effSettings": {
+                "profile": "Vergleich des Kraftstoffverbrauchs von Fahrzeugen",
+                "set": "Kraftstoffverbrauchsvergleich einstellen",
+                "current": "Aktuell: {{sub}} | Standard: {{default}}"
+            }
+        },
+        "stats": {
+            "median": "Median Energie",
+            "drives": "Laufwerke",
+            "driveTime": "Lenkzeit",
+            "distCost": "Schätzung. Entfernung Kosten",
+            "distance": "Verfolgte Entfernung",
+            "chargeCost": "Kosten der Aufladung",
+            "chargeTime": "Ladezeit",
+            "supers": "Besuchte Supercharger",
+            "savings": "Schätzung. Kraftstoffeinsparung",
+            "title": "Statistiken",
+            "loading": "Lade-Statistiken",
+            "since": "Seit ",
+            "efficiency": "Gesamteffizienz",
+            "energy": "Ø Energy",
+            "speed": "Durchschnittliche Geschwindigkeit",
+            "effString": "{{eff}}",
+            "driving": "Fahrstatistiken",
+            "charging": "Auflade-Statistiken"
+        },
+        "supercharger": {
+            "index": {
+                "syncAlert": "Synchronisierung der Aufladekosten",
+                "syncSubtext": "Nach Abschluss des Ladevorgangs versucht TezLab, die tatsächlichen Kosten, die Ihnen von Tesla in Rechnung gestellt werden, zu synchronisieren.\n\nHINWEIS: Für die Synchronisierung der Supercharging-Kosten ist ein Eigentümer-Zugang erforderlich (kein Tesla-Konto mit geteiltem Fahrerkonto).",
+                "noPosts": "Keine neuen Beiträge!",
+                "oops": "Etwas ist schief gelaufen.",
+                "waiting": "Ich warte auf Daten...",
+                "error_wrong": "Etwas ist schief gelaufen.",
+                "error_awaiting": "Ich warte auf Daten...",
+                "error_title": "{{name}}",
+                "directions": "Wegbeschreibung",
+                "aboutSync": "Über Cost Syncing",
+                "latest": "Neueste Beiträge"
+            },
+            "amenities": "Standort Annehmlichkeiten",
+            "awards": {
+                "title": "Auszeichnungen",
+                "mayor": "Bürgermeister",
+                "noMayor": "Kein aktueller Bürgermeister",
+                "charger": "Ladegerät im Einsatz",
+                "noCharger": "Kein Stromladegerät in der Ladung",
+                "zapper": "Zapper"
+            },
+            "recent": "Aktuelle Anklage",
+            "times": {
+                "24array": [
+                    "00h",
+                    "",
+                    "",
+                    "06h",
+                    "",
+                    "",
+                    "12h",
+                    "",
+                    "",
+                    "18h",
+                    "",
+                    "22h"
+                ],
+                "12array": [
+                    "12AM",
+                    "",
+                    "",
+                    "6AM",
+                    "",
+                    "",
+                    "12PM",
+                    "",
+                    "",
+                    "6PM",
+                    "",
+                    "10PM"
+                ],
+                "midnight": "12 UHR",
+                "6am": "6 UHR MORGENS",
+                "noon": "12PM",
+                "6pm": "18 UHR",
+                "10pm": "10PM",
+                "times": "Beliebte Zeiten",
+                "days": [
+                    "MO",
+                    "DI",
+                    "MI",
+                    "DO",
+                    "F",
+                    "SA",
+                    "SO"
+                ],
+                "needData": "Nicht genug Daten, um beliebte Zeiten anzuzeigen"
+            },
+            "reviews": {
+                "title": "Bewertungen",
+                "responses_one": "1 Antwort",
+                "responses_other": "{{count}} Antworten"
+            },
+            "fab": {
+                "zap": "Zap erstellen",
+                "comment": "Einen Kommentar abgeben",
+                "problem": "Problem teilen"
+            },
+            "problems": {
+                "none": "Es wurden keine Probleme gemeldet",
+                "title": "Aktuelle Probleme"
+            },
+            "statsView": "Meine Kosten anzeigen"
+        },
+        "sustainability": {
+            "index": {
+                "empty": "Benutzer hat keine Nachhaltigkeitsdaten",
+                "mine": "Mein Wald",
+                "info": "Mehr Infos",
+                "forestSize_capSpace_one": "1 Baum ",
+                "forestSize_capSpace_other": "{{count}} Bäume ",
+                "forestSize_cap_one": "1 Baum",
+                "forestSize_cap_other": "{{count}} Bäume",
+                "forestSize_lower_one": "1 baum",
+                "forestSize_lower_other": "{{count}} bäume",
+                "yourForest": "Ihr Wald von ",
+                "netAvg": "hat einen durchschnittlichen Netto-CO₂-Ausgleich von {{howMuch}} CO₂. Sie sind ",
+                "short": " weniger als kohlenstoffneutral zu sein.",
+                "prod": "Fühlen Sie sich wie ein Umweltschützer?",
+                "neutral": "Kohlenstoffneutral werden",
+                "congrats": "Herzlichen Glückwunsch! Ihr Wald von ${size} ${treeWord} reicht aus, um Ihren durchschnittlichen täglichen Kohlenstoffausstoß auszugleichen!",
+                "congratulations": "Herzlichen Glückwunsch! Ihr Wald aus ",
+                "enough": "ist genug, um Ihren durchschnittlichen täglichen Kohlenstoffausstoß auszugleichen!",
+                "locations": "Meine Baumstandorte",
+                "map": "Karte ansehen",
+                "daily": "Täglicher Kohlenstoff",
+                "dailyInfo": "\"Ø. Täglich erzeugt\" ist das CO₂, das durchschnittlich pro Tag durch Ihre Ladeaktivitäten freigesetzt wird.\n\n\"Ø. Täglicher Ausgleich\" ist der theoretische Kohlenstoffausgleich durch die von Ihnen gepflanzten Bäume, ausgedrückt als Tagesdurchschnitt.",
+                "generated": "Ø. Täglich generiert",
+                "offset": "Ø. Täglicher Versatz",
+                "impact": "Durchschnittliche tägliche Auswirkungen",
+                "byCar": "Durchschnittlicher täglicher Kohlendioxidausstoß mit dem Auto",
+                "carAverage": "Durchschnitt mit dem Auto",
+                "carBlurb_one": "CO₂ wird bei der Erzeugung von Strom freigesetzt. Im Gegensatz zu Gasfahrzeugen, die bei der Verbrennung von Kraftstoff während der Fahrt Kohlenstoff freisetzen, entsteht der Kohlenstoffausstoß Ihres Autos beim Aufladen.",
+                "carBlurb_other": "CO₂ wird bei der Erzeugung von Strom freigesetzt. Im Gegensatz zu Gasfahrzeugen, die während der Fahrt durch die Verbrennung von Kraftstoff Kohlenstoff freisetzen, entsteht der Kohlenstoffausstoß Ihres Fahrzeugs während des Ladevorgangs.",
+                "title": "Bericht zur Nachhaltigkeit",
+                "plant": "Bäume pflanzen"
+            },
+            "slider": {
+                "short_one": "1 Baum weniger, um klimaneutral zu sein",
+                "short_other": "{{count}} Bäume, die nicht kohlenstoffneutral sind",
+                "negative": "Du bist der Hammer!",
+                "comparison_more": "mehr als",
+                "comparison_less": "weniger als",
+                "neutral": "Herzlichen Glückwunsch, Sie sind klimaneutral!",
+                "average": "Ihr Nettokohlenstoffverbrauch ist derselbe wie der des durchschnittlichen TezLab-Benutzers.",
+                "different": "Ihr Nettokohlenstoff ist {{diff}} {{comp}} der durchschnittliche Tezlab-Benutzer.",
+                "you": "Sie",
+                "champ": "Öko-Champion",
+                "champMsg_specific": "{{name}} ist führend im durchschnittlichen täglichen Kohlenstoffausgleich.",
+                "champMsg_default": "Führend beim durchschnittlichen täglichen Kohlenstoffausgleich.",
+                "avgUser": "Ø. TezLab-Benutzer",
+                "carbonNeutral": "Carbon Neutral"
+            }
+        },
+        "profile": {
+            "index": {
+                "activityError": "Fehler beim Abrufen von Aktivitätsdaten",
+                "statsError": "Fehler beim Abrufen von Statistikdaten",
+                "settings": "Einstellungen & Präferenzen",
+                "link": "Profil-Link teilen",
+                "newPhotos": "Neues Profilbild - Von Fotos",
+                "newCamera": "Neues Profilbild - Von der Kamera",
+                "gettingRecent": "Neueste Beiträge abrufen",
+                "none_error": "{{msg}}",
+                "none_recent": "Keine aktuellen Beiträge",
+                "edit": "Edit Profile",
+                "mine_name": "{{title}}",
+                "mine_profile": "Mein Profil",
+                "mine_awaiting": "Warten auf Daten",
+                "awaiting": "Warten auf Daten",
+                "options_edit": "Edit Profile",
+                "options_default": "Optionen",
+                "recent": "Jüngste Aktivitäten",
+                "wemby": "Sie haben diese Person blockiert!",
+                "iggy": "Diese Person hat Sie blockiert",
+                "efficiency": "Efficiency",
+                "speed": "Durchschnittliche Geschwindigkeit"
+            },
+            "bio": {
+                "prompt": "Fügen Sie eine Biografie zu Ihrem Profil hinzu.",
+                "add": "Bio hinzufügen",
+                "edit": "Was sollte die TezLab-Gemeinschaft über Sie wissen?",
+                "editTitle": "Edit Your Bio"
+            },
+            "header": {
+                "following": "Unter ",
+                "followers": "Follower "
+            },
+            "carousel": {
+                "iggy": "Benutzer hat Sie blockiert",
+                "private": "Privater Benutzer",
+                "cantSee_blocked": "Benutzer hat Sie blockiert",
+                "cantSee_private": "Privater Benutzer",
+                "loading": "Bilder laden"
+            },
+            "stats": {
+                "view": "Statistiken ansehen"
+            }
+        },
+        "zap": {
+            "index": {
+                "again": "Erneut versuchen",
+                "record": "Aufzeichnung Ihres Zaps",
+                "preview": "Vorschau",
+                "recordPreview_record": "Aufzeichnung Ihres Zaps",
+                "recordPreview_preview": "Vorschau",
+                "saved_awesome": "Fantastisch! Sie können Ihr Video in Ihren gespeicherten Fotos finden.",
+                "saved_sad": "{{error}}",
+                "save": "Video speichern"
+            },
+            "recordButton": "ZUM AUFNEHMEN DRÜCKEN",
+            "you": "Sie",
+            "like": "Wie",
+            "again": "Erneut versuchen",
+            "review": "Rezension einreichen",
+            "error_try": "Erneut versuchen",
+            "error_submit": "Rezension einreichen",
+            "restart": "Neu anfangen",
+            "record": {
+                "camera": "Um diese Kamera verwenden zu können, müssen die Kamerarechte aktiviert sein.",
+                "update": "Berechtigungen aktualisieren",
+                "select": "Video auswählen",
+                "record": "Video aufzeichnen"
+            }
+        }
+    },
+    "copy": {
+        "disclaimers": {
+            "tesla": "Wir verwenden die offizielle Flotten-API von Tesla, um eine sichere Verbindung zu Ihrem Fahrzeug herzustellen.\n\nDie Anmeldung bei Ihrem Tesla-Konto erfolgt direkt auf der Tesla-Website. TezLab kann Ihre Tesla-Anmeldedaten in keiner Weise einsehen, speichern oder verarbeiten.\n\nSie können den Zugang jederzeit von Ihrem Tesla-Konto aus widerrufen.",
+            "rivian": "Wir verwenden die API von Rivian, um eine sichere Verbindung zu Ihrem Fahrzeug herzustellen.\n\nIhr Rivian-Benutzername und Passwort werden auf Ihrem Gerät verschlüsselt, bevor sie gesendet werden, um eine sichere Verbindung zu Ihrem Rivian-Konto herzustellen. Sie werden niemals auf Ihrem Gerät oder auf unseren Servern gespeichert und können von niemandem bei TezLab gelesen werden.\n\nSie können den Zugang jederzeit widerrufen."
+        },
+        "rivianSecurity": "Wir nehmen die Sicherheit sehr ernst. Ihr Rivian-Benutzername und Ihr Passwort werden auf Ihrem Gerät verschlüsselt, bevor sie gesendet werden, um eine sichere Verbindung zu Ihrem Rivian-Konto herzustellen. Sie werden niemals auf Ihrem Gerät oder auf unseren Servern gespeichert und können von niemandem bei TezLab gelesen werden.",
+        "cards": {
+            "rivian": {
+                "dash": "The Dash",
+                "dashBlurb": "Egal, ob Sie neu bei Rivian sind oder schon ein alter Hase, der EV-Lifestyle wird Ihnen durch anpassbare Inhalte leicht gemacht.",
+                "range": "Reichweite und Aufladung in Echtzeit",
+                "rangeBlurb": "Reichweitenangst ist ein echtes Problem, besonders wenn Sie sich an Ihren Rivian gewöhnen. Wir machen die Reichweite leicht verständlich, indem wir Berechnungen aus der realen Welt anbieten.",
+                "green": "Geld sparen und umweltbewusst handeln",
+                "greenBlurb": "Verfolgen Sie die Kosten an Ihren Ladestationen und teilen Sie die Preise der Ladestationen mit der TezLab-Community. Umweltmeister? Kompensieren Sie die Kosten durch das Pflanzen von Bäumen.",
+                "social": "Freunde, Gruppen und Austausch",
+                "socialBlurb": "Helfen Sie mit, die Rivian-Bewegung schneller und weiter voranzutreiben. Erstellen Sie öffentliche und private Gruppen und teilen Sie Reisen, Kosten, Fotos und Geschichten mit Freunden.",
+                "controls": "Auto-Steuerungen demnächst verfügbar",
+                "controlsBlurb": "Rivian befindet sich derzeit in der Beta-Phase. Wir arbeiten hart daran, Ihnen die beste verfügbare Fahrzeugsteuerung zu bieten. Bleibt dran!",
+                "stats": "Klassenbeste Statistik",
+                "statsInfo": "Mögen Sie Statistiken? Wir auch. Überprüfen Sie Nutzungsberichte, Gebühren, Ladeorte und Laufwerke. Markieren Sie Laufwerke, um sie zu organisieren.",
+                "watch": "Uhr App & Widget",
+                "watchInfo": "Alle Steuerelemente und Informationen, die Sie für Ihr Auto benötigen, können Sie im Handumdrehen abrufen. Bleiben Sie mit unserem iOS-Startbildschirm-Widget über den Status Ihres Fahrzeugs auf dem Laufenden."
+            },
+            "tesla": {
+                "dash": "The Dash",
+                "dashBlurb": "Egal, ob Sie Tesla-Neuling oder -Veteran sind, der EV-Lifestyle wird Ihnen mit den anpassbaren Inhalten leicht gemacht.",
+                "range": "Reichweite und Aufladung in Echtzeit",
+                "rangeBlurb": "Reichweitenangst ist ein echtes Problem, vor allem, wenn Sie sich an Ihren Tesla gewöhnen. Wir machen die Reichweite leicht verständlich, indem wir Berechnungen in der realen Welt durchführen.",
+                "green": "Geld sparen und umweltbewusst handeln",
+                "greenBlurb": "Verfolgen Sie die Kosten an Ihren Ladestationen und teilen Sie die Preise der Ladestationen mit der TezLab-Community. Umweltmeister? Kompensieren Sie die Kosten durch das Pflanzen von Bäumen.",
+                "social": "Freunde, Gruppen und Austausch",
+                "socialBlurb": "Helfen Sie mit, die Tesla-Bewegung schneller und weiter voranzutreiben. Erstellen Sie öffentliche und private Gruppen und teilen Sie Fahrten, Ladungen, Fotos und Geschichten mit Freunden.",
+                "controls": "Schnelle Auto-Kontrollen",
+                "controlsBlurb": "Manche sagen, unsere seien schneller als Tesla, aber wir überlassen es Ihnen, das zu beurteilen. Einfacher Zugang zu allen Bedienelementen mit anpassbaren Schnellsteuerungen auf dem Armaturenbrett",
+                "stats": "Klassenbeste Statistik",
+                "statsInfo": "Mögen Sie Statistiken? Wir auch. Überprüfen Sie Nutzungsberichte, Gebühren, Ladeorte und Laufwerke. Markieren Sie Laufwerke, um sie zu organisieren.",
+                "watch": "Uhr App & Widget",
+                "watchInfo": "Alle Steuerelemente und Informationen, die Sie für Ihr Auto benötigen, können Sie im Handumdrehen abrufen. Bleiben Sie mit unserem iOS-Startbildschirm-Widget über den Status Ihres Fahrzeugs auf dem Laufenden."
+            }
+        },
+        "pro": {
+            "welcome": "Willkommen bei TezLab Pro!",
+            "message": "Wir haben mit der Berechnung der Statistiken für Ihre historischen Daten begonnen. Es kann bis zu einer Stunde dauern, bis alles verfügbar ist."
+        },
+        "confirmation": {
+            "waiting": "Warten auf die Konfirmation",
+            "thanks_apple": "Vielen Dank! Wir warten noch auf die Bestätigung von Apple. Wir beginnen mit der Berechnung der Statistiken für Ihre historischen Daten, sobald wir diese erhalten haben. Es kann bis zu einer Stunde dauern, bis alles verfügbar ist.",
+            "thanks_google": "Ich danke Ihnen! Wir warten noch auf die Bestätigung von Google. Wir beginnen mit der Berechnung der Statistiken für Ihre historischen Daten, sobald wir diese erhalten haben. Es kann bis zu einer Stunde dauern, bis alles verfügbar ist.",
+            "restoring": "Wiederherstellung von Käufen",
+            "wait_apple": "Warten Sie ab! Wir warten noch auf die Bestätigung von Apple. Sobald diese eintrifft, beginnen wir mit der Berechnung der Statistiken für Ihre historischen Daten. Es kann bis zu einer Stunde dauern, bis alles verfügbar ist.",
+            "wait_google": "Warten Sie ab! Wir warten noch auf die Bestätigung von Google. Sobald diese eintrifft, beginnen wir mit der Berechnung der Statistiken für Ihre historischen Daten. Es kann bis zu einer Stunde dauern, bis alles verfügbar ist."
+        },
+        "auth": [
+            "Retikulierende Splines...nur ein Scherz, wir wissen nicht einmal, was das bedeutet.",
+            "Bitte warten Sie, während wir das Internet mit einem Schmetterlingsnetz holen.",
+            "PC-Ladebrief",
+            "Nur noch ein paar Sekunden, dann sind wir bereit, zu rocken und zu rollen. Oder zumindest bereit zu rocken.",
+            "Unsere Entwickler brühen gerade eine frische Tasse Kaffee auf, um die Dinge zu beschleunigen. Bleiben Sie dran!",
+            "Laden... aber nicht so langsam wie eine Schnecke beim Marathon.",
+            "Wir sind gerade dabei, die 'App' in 'Happening' umzuwandeln, während wir sprechen. Oder besser gesagt, laden.",
+            "Unsere Hamster rennen wie wild in ihren Laufrädern, um die App aufzuladen. Wir versprechen, dass sie es irgendwann schaffen werden.",
+            "Laden... Warum üben Sie in der Zwischenzeit nicht Ihre tiefen Atemübungen? Das ist ein toller Zeitvertreib.",
+            "Haltet eure Hüte fest, Leute! Dieser Ladebildschirm ist dabei, wild zu werden... okay, nicht wirklich. Aber wir sind fast da!"
+        ],
+        "upgrade": {
+            "message": "Werden Sie ein TezLab-Profi",
+            "text": "Schalten Sie unbegrenzte Fahr- und Ladehistorie, Reichweitenringe, Fahrkarten, Routenabgleich, Roadtrips, Profi-Klima, Automatisierungen und vieles mehr frei."
+        },
+        "errors": {
+            "purchase": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal und/oder wenden Sie sich an support@tezlabapp.com, wenn das Problem weiterhin besteht.",
+            "noToken": "Kein Token im Speicher",
+            "maxRetries": "Max. Tesla-Wiederholungsversuche",
+            "unauth": {
+                "retry": "Zur Sicherheit loggen Sie sich bitte erneut ein.",
+                "reauth": "Bitte authentifizieren Sie Ihr Fahrzeugkonto.",
+                "reauthAgain": "Bitte authentifizieren Sie Ihr Fahrzeugkonto erneut."
+            },
+            "login": "Sie können sich nicht anmelden. Vergewissern Sie sich, dass Sie die richtigen TezLab-Zugangsdaten (nicht Fahrzeug) verwenden und versuchen Sie es erneut.",
+            "signup": "Bei Ihrer Anmeldung ist ein Problem aufgetreten. Bitte vergewissern Sie sich, dass Sie alle Felder korrekt ausgefüllt haben und versuchen Sie es erneut. Sollte das Problem weiterhin bestehen, senden Sie bitte eine E-Mail an support@tezlabapp.com.",
+            "duplicate": "Es existiert bereits ein Konto mit dieser E-Mail-Adresse. Bitte melden Sie sich stattdessen an.",
+            "profile": {
+                "data": "Entschuldigung, es gab ein Problem beim Abrufen der Informationen für diesen Benutzer!",
+                "stats": "Entschuldigung, es gab ein Problem beim Abrufen der Statistiken für diesen Benutzer!",
+                "activities": "Fehler beim Abrufen von Aktivitäten für diesen Benutzer"
+            },
+            "followers": "Huch! Wir scheinen gestolpert zu sein. Bitte ziehen Sie, um es erneut zu versuchen.",
+            "following": "Huch! Wir scheinen gestolpert zu sein. Bitte ziehen Sie, um es erneut zu versuchen.",
+            "loadingModal": "Oh je! Es scheint ein Fehler beim Abrufen der detaillierten Daten aufgetreten zu sein",
+            "cardFetch": "Oh je! Es gab ein Problem beim Abrufen von Daten für diese Karte",
+            "usage": "Oh je! Beim Abrufen Ihrer Aktivitätsdaten scheint etwas schief gelaufen zu sein. Bitte ziehen Sie zum Aktualisieren der Liste.",
+            "proUsage": "Keine detaillierten Batteriedaten für diesen Nutzungsbericht. Versuchen Sie es bitte erneut!",
+            "chargerData": "Schnapp! Es gab ein Problem beim Abrufen der Daten für dieses Ladegerät.",
+            "super": {
+                "problem": "Seltsam... Es gab ein Problem beim Abrufen von Informationen über Kompressorprobleme.",
+                "posts": "Huch! Es gab ein Problem beim Abrufen von Beiträgen für dieses Ladegerät. Bitte ziehen Sie, um es erneut zu versuchen.",
+                "popular": "Hmm... Es gab ein Problem beim Abrufen der beliebten Zeiten für dieses Ladegerät."
+            },
+            "chargeLocation": "Schnapp! Es gab ein Problem beim Abrufen der Daten für dieses Ladegerät.",
+            "driveModal": {
+                "data": "Huch! Hier ist etwas schief gelaufen...",
+                "hidden": "Karte versteckt"
+            },
+            "noNote": "Beim Einstellen dieser Note ist etwas schief gelaufen. Bitte versuchen Sie es erneut!",
+            "noTag": "Irgendwie gab es ein Problem beim Taggen dieses Laufwerks! Bitte versuchen Sie es erneut!",
+            "location": "Gerätestandort konnte nicht aufgelöst werden",
+            "permission": "Erlaubnis zur Standortverfolgung verweigert",
+            "lostRings": "Etwas ist schief gelaufen!",
+            "noRings": "Keine Reichweitenringe für diesen Ort... Laden Sie hier, um sie zu erstellen!",
+            "schedule": "Oh nein! Bei der Planung ist etwas schief gelaufen. Bitte versuchen Sie es erneut.",
+            "climate": "Seltsam... Wir hatten Probleme, mit dem Auto dort zu kommunizieren. Bitte versuchen Sie es erneut.",
+            "ownActivities": "Igitt! Beim Abrufen Ihrer Beiträge ist ein Fehler aufgetreten. Bitte versuchen Sie es noch einmal.",
+            "friendActivities": "Huch! Es ist ein Fehler beim Abrufen der Beiträge deiner Freunde aufgetreten. Bitte versuche es noch einmal.",
+            "groups": {
+                "fetch": "Entschuldigung... Wir sind beim Erhalt Ihrer Gruppen gestolpert. Bitte ziehen Sie, um es erneut zu versuchen.",
+                "search": "Das ist seltsam... Wir scheinen über diesen Suchbegriff gestolpert zu sein. Bitte versuchen Sie es erneut.",
+                "nearby": "Keine Gruppen in der Nähe für Sie!",
+                "members": "Oh je! Wir hatten Probleme beim Abrufen der Mitgliederinformationen für diese Gruppe! Bitte ziehen Sie, um es erneut zu versuchen.",
+                "data": "Huch! Wir hatten Probleme beim Abrufen der Daten für diese Gruppe! Bitte ziehen Sie, um es erneut zu versuchen."
+            },
+            "post": {
+                "data": "Verflixt. Beim Abrufen der Daten für diesen Beitrag ist ein Fehler aufgetreten. Bitte ziehen Sie, um es erneut zu versuchen.",
+                "detail": "Hmm... Etwas ist passiert, als wir die Daten für diesen Beitrag abrufen wollten.",
+                "replies": "Hmm... Irgendetwas ist passiert, als wir die Antworten für diesen Beitrag abgerufen haben... Versuchen Sie es noch einmal.",
+                "likes": "Seltsamerweise scheinen wir auf ein Problem gestoßen zu sein! Bitte ziehen Sie nach unten, um die Liste zu aktualisieren."
+            },
+            "badges": {
+                "recent": "Die letzten Badges können nicht abgerufen werden!",
+                "all": "Ihre Ausweisdaten können nicht abgerufen werden!"
+            },
+            "home": {
+                "eff": "Vergleichsdaten können nicht abgerufen werden.",
+                "recent": "Igitt! Wir sind auf ein Problem beim Abrufen der letzten Tracking-Daten gestoßen,",
+                "cards": "Es scheint ein Problem mit den Daten Ihrer Karten aufgetreten zu sein.",
+                "stats": "Hmm. Wir haben Probleme, die Daten für dieses Fahrzeug abzurufen.",
+                "usage": "Wow! Wir hatten ein Problem beim Abrufen der Nutzungsdaten für Sie!",
+                "none": "Keine Daten für den Gebührenbericht",
+                "badges": "UH OH. Beim Abrufen der neuesten Abzeichen für Sie ist etwas passiert",
+                "sustainability": "Seltsam... irgendetwas ist passiert!",
+                "trends": "Wow! Das passiert sonst nie... Wir sind beim Versuch, die Trenddaten für Ihr Fahrzeug zu erhalten, gestolpert!",
+                "notifs": "Wir konnten Ihre letzten Benachrichtigungen nicht abrufen. Bitte versuchen Sie es erneut."
+            },
+            "zap": {
+                "recording": "Bei der Aufnahme dieses Videos ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+                "format": "Dieser Zap muss ein Video sein!",
+                "long": "Zaps sind nur maximal 20s lang. Bitte wählen Sie ein kürzeres Video oder bearbeiten Sie dieses.",
+                "orientation": "Zaps müssen hochformatig sein, weil wir sie so hübscher finden.",
+                "upload": "Hmm. Beim Hochladen ist etwas schief gegangen. Möchten Sie dieses Video in Ihrer Kamerarolle speichern?",
+                "media": "😬 Sieht aus, als wäre etwas schief gelaufen. Wir haben die Videodatei gespeichert, damit Sie diesen Zap später posten können, wenn Sie möchten!",
+                "network": "Sieht so aus, als wäre Ihr Signal nur sporadisch vorhanden. Möchten Sie dieses Video speichern, um es später hochzuladen?"
+            },
+            "sleep": [
+                "Hatte Ihr Auto eine lange Nacht? Ich versuche immer noch, es zu wecken...",
+                "Scheint, als hätte Ihr Auto die Schlummertaste gedrückt. Wir versuchen immer noch, es wachzurütteln...",
+                "Träumt Ihr Auto von offenen Straßen? Wir überreden es immer noch zur Realität...",
+                "Ihr Auto ist im Schlafmodus. Schütteln Sie es jetzt sanft...",
+                "Sieht aus, als hätte es Ihr Auto heute nicht eilig. Gib ihm einen sanften Schubs...",
+                "Auch Autos brauchen ihren Schönheitsschlaf. Ich versuche, Ihres zu wecken...",
+                "Ihr Auto ist schwer zu wecken. Klopf ihm auf die Motorhaube...",
+                "Vielleicht hat dein Auto einen faulen Morgen. Versucht, es wachzurütteln...",
+                "Ist Ihr Auto ein Nachtschwärmer? Ich arbeite daran, es aufzuwecken...",
+                "Ihr Auto schläft ein paar Stunden länger. Wir sind im Aufwachdienst...",
+                "Ihr Auto träumt wohl von ruhigeren Straßen. Wir wecken es sanft auf..."
+            ],
+            "offline": [
+                "Dein Auto spielt Verstecken. Ich versuche immer noch, es zu finden...",
+                "Ist Ihr Auto auf digitalem Entzug? Auf der Suche nach seiner Online-Präsenz...",
+                "Scheint, als wäre Ihr Auto vom Netz verschwunden. Ich versuche, ein Signal zu bekommen...",
+                "Der Inkognito-Modus Ihres Autos ist beeindruckend. Ich versuche, es aufzuspüren...",
+                "Auto ist nicht in Plauderlaune. Pinge es erneut an...",
+                "Verfolgt Ihr Auto uns? Wir versuchen immer noch, es zu erreichen...",
+                "Ihr Auto hat sich einen virtuellen Tag freigenommen. Wir arbeiten daran, es wieder online zu bringen...",
+                "Das Auto ist in der digitalen Welt verschwunden. Wir schicken einen Suchtrupp los...",
+                "Sieht so aus, als wäre Ihr Auto für eine Weile ausgestöpselt. Ich versuche, es wieder anzuschließen...",
+                "Versuche, es wieder zum Laufen zu bringen..."
+            ]
+        }
+    },
+    "defaults": {
+        "modal": "Modal"
+    },
+    "graphs": {
+        "chargeLine": {
+            "battery": "Batterie (SOC)",
+            "power": "Strom"
+        },
+        "chargeReport": {
+            "100": "100%",
+            "75": "75%",
+            "50": "50%",
+            "25": "25%",
+            "0": "0%"
+        }
+    },
+    "intro": {
+        "skip": "SKIP"
+    },
+    "maps": {
+        "helpers": {
+            "treeMap": {
+                "projects": [
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "Latin America",
+                    "Canada",
+                    "United States",
+                    "North America"
+                ],
+                "africa": [
+                    "DZA",
+                    "AGO",
+                    "BWA",
+                    "BFA",
+                    "BDI",
+                    "CMR",
+                    "CPV",
+                    "CAF",
+                    "TCD",
+                    "COM",
+                    "COG",
+                    "DJI",
+                    "EGY",
+                    "GNQ",
+                    "ERI",
+                    "SWZ",
+                    "ETH",
+                    "GAB",
+                    "GMB",
+                    "GHA",
+                    "GIN",
+                    "GNB",
+                    "CIV",
+                    "KEN",
+                    "LSO",
+                    "LBR",
+                    "LBY",
+                    "MDG",
+                    "MWI",
+                    "MLI",
+                    "MRT",
+                    "MUS",
+                    "MAR",
+                    "MOZ",
+                    "NAM",
+                    "NER",
+                    "NGA",
+                    "RWA",
+                    "STP",
+                    "SEN",
+                    "SYC",
+                    "SLE",
+                    "SOM",
+                    "ZAF",
+                    "SSD",
+                    "SDN",
+                    "TZA",
+                    "TGO",
+                    "TUN",
+                    "UGA",
+                    "ZMB",
+                    "ZWE"
+                ],
+                "asia": [
+                    "AFG",
+                    "ARM",
+                    "AZE",
+                    "BHR",
+                    "BGD",
+                    "BTN",
+                    "BRN",
+                    "KHM",
+                    "CHN",
+                    "CYP",
+                    "GEO",
+                    "IND",
+                    "IDN",
+                    "IRN",
+                    "IRQ",
+                    "ISR",
+                    "JPN",
+                    "JOR",
+                    "KAZ",
+                    "PRK",
+                    "KOR",
+                    "KWT",
+                    "KGZ",
+                    "LAO",
+                    "LBN",
+                    "MYS",
+                    "MDV",
+                    "MNG",
+                    "MMR",
+                    "NPL",
+                    "OMN",
+                    "PAK",
+                    "PSE",
+                    "PHL",
+                    "QAT",
+                    "SAU",
+                    "SGP",
+                    "LKA",
+                    "SYR",
+                    "TWN",
+                    "TJK",
+                    "THA",
+                    "TUR",
+                    "TKM",
+                    "ARE",
+                    "UZB",
+                    "VNM",
+                    "YEM"
+                ],
+                "europe": [
+                    "ALB",
+                    "AND",
+                    "AUT",
+                    "BLR",
+                    "BEL",
+                    "BIH",
+                    "BGR",
+                    "HRV",
+                    "CYP",
+                    "CZE",
+                    "DNK",
+                    "EST",
+                    "FRO",
+                    "FIN",
+                    "FRA",
+                    "DEU",
+                    "GIB",
+                    "GRC",
+                    "VAT",
+                    "HUN",
+                    "ISL",
+                    "IRL",
+                    "ITA",
+                    "LVA",
+                    "LIE",
+                    "LTU",
+                    "LUX",
+                    "MKD",
+                    "MLT",
+                    "MDA",
+                    "MCO",
+                    "MNE",
+                    "NLD",
+                    "NOR",
+                    "POL",
+                    "PRT",
+                    "ROU",
+                    "RUS",
+                    "SMR",
+                    "SRB",
+                    "SVK",
+                    "SVN",
+                    "ESP",
+                    "SWE",
+                    "CHE",
+                    "UKR",
+                    "GBR"
+                ],
+                "latam": [
+                    "ARG",
+                    "BOL",
+                    "BRA",
+                    "CHL",
+                    "COL",
+                    "CRI",
+                    "CUB",
+                    "DOM",
+                    "ECU",
+                    "SLV",
+                    "GTM",
+                    "HTI",
+                    "HND",
+                    "JAM",
+                    "MEX",
+                    "NIC",
+                    "PAN",
+                    "PRY",
+                    "PER",
+                    "PRI",
+                    "URY",
+                    "VEN"
+                ],
+                "canada": [
+                    "CAN"
+                ],
+                "usa": [
+                    "USA"
+                ],
+                "northAmerica": [
+                    "CAN",
+                    "USA"
+                ]
+            }
+        },
+        "chargeReportDev": "Dev: wahr",
+        "comparisonNoData": "No Data",
+        "drawableDrawing": "Zeichnen auf der Karte",
+        "drive": {
+            "private": "Die Datenschutzeinstellungen dieses Benutzers verhindern, dass Kartendetails für diese Reise angezeigt werden.",
+            "error": "Oje! Es gab einen Fehler beim Laden der Karte.",
+            "loading": "Karte laden..."
+        }
+    },
+    "marketing": {
+        "offerModal": {
+            "deets": "Offer Details",
+            "ok": "OK",
+            "viewDeets": "Details anzeigen"
+        },
+        "upgradeMask": "Aufrüsten!",
+        "upgradePill": "Upgrade auf TezLab Pro",
+        "webviewLoading": "Laden..."
+    },
+    "notis": {
+        "new": "Neue Benachrichtigung",
+        "subtext": "Eine neue Benachrichtigung ist auf Ihrem Dashboard verfügbar."
+    },
+    "testPaymentModal": {
+        "stripe": "Streifentauglich",
+        "waiting": "Warten auf den Streifen",
+        "treeTest": "Einrichten der Testbaumreihenfolge",
+        "savedMethods": "Gespeicherte Zahlungsmethoden aus dem Backend: {{methods}} TODO - INTERPOLATION",
+        "newMethod": "Neue Zahlungsmethode: {{Methode}} TODO - INTERPOLATION",
+        "ready": "Bereit zur Verarbeitung der Zahlungsabsicht mit neuer Zahlungsmethode ({{Methode}}) TODO - INTERPOLATION",
+        "total": "Bestellsumme: {{Betrag}} TODO - INTERPOLATION",
+        "save": "Zahlungsmethode speichern:",
+        "confirm": "Bestätigen Sie die Zahlung"
+    },
+    "profile": {
+        "chargePickerLabel": "Maximale Ladung",
+        "fanOn": "Auf",
+        "fanOff": "Aus",
+        "founders": {
+            "contribution": "Beitrag",
+            "series": "Gründer-Serie",
+            "replaceIcon": "Ersetzen Sie das Pro-Symbol in Ihrem Profil."
+        },
+        "locationScreen": "Standort (vorübergehend!)",
+        "paneModalPickerCancel": "Abbrechen",
+        "na": "K.A.",
+        "recentChargeLocation": {
+            "setup": "Neuen Ladeort einrichten",
+            "track": "Richten Sie die Kosten für das Aufladen an diesem Standort ein, um die Ladekosten und die Gaseinsparungen zu verfolgen.",
+            "edit": "Name und Kosten bearbeiten",
+            "dismiss": "Ablehnen"
+        },
+        "subscription": {
+            "ios": "App-Store",
+            "androidText": "Google Play",
+            "stripeText": "TezLab-Website",
+            "free": "Freier Plan",
+            "complimentary_store": "Verwalten auf {{manageWhere}}",
+            "complimentary_default": "Kostenloses",
+            "trackingExpiry": "Die Verfolgung ist auf ein rollierendes 7-Tage-Fenster beschränkt."
+        },
+        "setTemp": "Kabinentemperatur einstellen",
+        "selectedVehicle": "Ausgewähltes Fahrzeug (VIN)",
+        "weeklyReport": "Wöchentlicher E-Mail-Bericht"
+    },
+    "shared": {
+        "cards": {
+            "carbonImpact": {
+                "header": "Kohlenstoffauswirkungen",
+                "infoHeader": "Kohlenstoff-Intensität",
+                "info": "Selbst bei einem Elektroauto wird bei der Stromerzeugung fast immer eine gewisse Menge CO₂ ausgestoßen.\n\nWährend des Ladevorgangs sammelt TezLab die Emissionsdaten aus dem lokalen Stromnetz (sofern verfügbar), um den durchschnittlichen CO₂-Ausstoß pro kWh Strom sowie die Gesamtmenge des CO₂-Ausstoßes für {{ucl1}} zu berechnen.\n\nDer Bereich \"Lokal\" beschreibt die niedrigsten und höchsten beobachteten Kohlenstoffintensitäten für das lokale Stromnetz {{ucl2}}.\n\nDa das freigesetzte CO₂ je nach Stromerzeugungsmethode variiert, beschreibt der Bereich \"Global\" die niedrigsten und höchsten beobachteten Kohlenstoffintensitäten für alle Stromnetze der TezLab-Nutzer {{ucl3}}.\n\nDie Brennstoffäquivalenzzahl beschreibt, wie viel Brennstoff man verbrennen müsste, um die gleiche Menge an erzeugtem CO₂ freizusetzen {{ucl4}}.\n\nIn allen Fällen sind niedrigere CO₂-Zahlen besser.",
+                "allHere": "alle Gebühren an diesem Standort",
+                "entireCharge": "die gesamte Ladung",
+                "whenever": "zu jedem Zeitpunkt",
+                "lastMonth": "im Monat vor dieser Abgabe",
+                "forAllHere": "für alle Gebühren an diesem Standort",
+                "byThis": "durch diese Anklage",
+                "perKwh": "Durchschnittlich pro kWh",
+                "total": "CO₂ insgesamt",
+                "equivGas": "Äquivalent verbrauchtes Gas",
+                "local": "Standort",
+                "global": "Global",
+                "clean": "Sauber",
+                "dirty": "Schmutzig",
+                "wouldTake": "Ihr Wald würde ",
+                "toClear": " um den durch diese Ladung erzeugten Kohlenstoff zu beseitigen.",
+                "howLong": "Ich bin neugierig, wie lange es dauern würde, bis es verbraucht ist ",
+                "question": "{{amount}} CO₂?",
+                "findOut": " Pflanzen Sie ein paar Bäume, um es herauszufinden!",
+                "plant": "Einen Baum pflanzen"
+            },
+            "charge": {
+                "view_loc": "Standort der Ladung anzeigen",
+                "view_charger": "Ansicht Ladegerät",
+                "locationSettings": "Einstellungen für den Ladeort",
+                "adjust": "Kosten anpassen",
+                "menu": "Menü Ladestellen",
+                "now_to": "{{end}}",
+                "now_now": "Jetzt",
+                "remaining": "Verbleibende Zeit",
+                "duration": "Dauer",
+                "rangeAdded": "Bereich hinzugefügt",
+                "estimated": "Real World Est. Reichweite",
+                "added": "Hinzugefügt"
+            },
+            "drive": {
+                "fromTo": "{{start}} bis {{finish}}",
+                "infiniteEff": "Infinite Efficiency",
+                "eff": "{{efficiency}} Efficiency",
+                "distance": "Zurückgelegte Entfernung",
+                "depleted": "Reichweite erschöpft",
+                "elevation": "Erhebungen",
+                "temp": "Ø. Temp"
+            },
+            "rangeAndPower": "Reichweite & Leistung",
+            "usage": {
+                "distance": "{{dist}} angetrieben",
+                "map": {
+                    "free": "{free}} Kostenlos",
+                    "unlock": "Karte zur Freischaltung der Nutzung",
+                    "retry": "Wiederholung"
+                }
+            }
+        },
+        "chargeReportModal": {
+            "index": {
+                "noCarbon": "Für diese Gebühr gibt es keine Kohlenstoffdaten.",
+                "noDetail": "Beim Abrufen der detaillierten Informationen zum Ladegerät ist ein Fehler aufgetreten.",
+                "title": "Gebührenbericht"
+            },
+            "nerd": "Metriken aufladen"
+        },
+        "currentCharge": {
+            "index": {
+                "current": "Aktuelle Ladung"
+            },
+            "header": {
+                "connected_yes": "Verbunden",
+                "connected_not": "Nicht verbunden",
+                "realRange": "Real World Est. Reichweite",
+                "remaining": "{{rem}} Verbleibende",
+                "toggle": "Tippen Sie auf die Leiste, um zwischen % und {{units}} umzuschalten.",
+                "kw": "{{power}}kW",
+                "aboutSync": "Über Cost Syncing"
+            },
+            "footer": {
+                "current_name": "{{charger}}",
+                "current_private": "Privates Ladegerät",
+                "current_public": "Öffentliche Ladestation",
+                "updated": "Zuletzt aktualisiert: ",
+                "updating": "Aktualisieren..."
+            }
+        },
+        "driveDetails": {
+            "index": {
+                "header": "Antrieb Details",
+                "avg": "Ø."
+            },
+            "card": {
+                "point": "Punktanalyse",
+                "tap": "Tippen Sie auf die Karte, um einen Punkt abzulegen.",
+                "remove": "Markierung entfernen",
+                "addressHidden": "Adresse Versteckt"
+            },
+            "drawer": {
+                "loading": "Laden",
+                "eff": " Gesamteffizienz",
+                "timedUsage": "Energienutzung / Zeit",
+                "batteryUsage": "Verwendung der Batterie",
+                "velo": "Geschwindigkeit/Zeit",
+                "elevChange": "Höhe / Zeit",
+                "tempChange": "Temp/Zeit",
+                "estUsed": " Schätzung. Gebraucht",
+                "speed": " Ø. Geschwindigkeit",
+                "altitude": " Gesamtveränderung",
+                "temp": " Ø. Temperatur"
+            },
+            "routeMatchHandler": {
+                "matching": "Route Matching",
+                "pro": "TezLab Pro",
+                "automatic": " Nutzer erhalten einen automatischen Routenabgleich, der die Genauigkeit Ihrer Karten erhöht und Ihre tatsächliche Route widerspiegelt.",
+                "freeMatches_one": "1 Free Route Match",
+                "freeMatches_other": "{{count}} Freie Routenübereinstimmungen",
+                "free": "{{num}} Frei",
+                "unlock": "Unlock Route Match"
+            }
+        },
+        "pillButton": {
+            "charge": "Aufladen",
+            "drive": "Fahren",
+            "index": "Fahrzeug aktualisieren..."
+        },
+        "tagControl": {
+            "index": {
+                "new": "Neuer benutzerdefinierter Tag",
+                "retry": "Wiederholung",
+                "apply": "Tags anwenden",
+                "button_retry": "Wiederholung",
+                "button_apply": "Tags anwenden",
+                "close_cancel": "Abbrechen",
+                "close_close": "Schließen Sie"
+            }
+        },
+        "appStatus": {
+            "openStore": "App Store öffnen"
+        },
+        "avatarButton": {
+            "title": "Status-Taste",
+            "refreshing": "Erfrischende Wertmarke:",
+            "stale": "Der aktuelle Stand ist veraltet:",
+            "staleRefreshing": "Veralteter Zustand UND Auffrischungs-Token:",
+            "connected_one": "Vernetzte Fahrzeug-API: ",
+            "connected_other": "APIs für vernetzte Fahrzeuge: ",
+            "error": "Fahrzeugverbindungsfehler: ",
+            "none": "keine"
+        },
+        "carbonSection": {
+            "header": "Kohlenstoffauswirkungen",
+            "infoHeader": "Kohlenstoff-Intensität",
+            "info": "Selbst bei einem Elektroauto wird bei der Stromerzeugung fast immer eine gewisse Menge CO₂ ausgestoßen.\n\nWährend des Ladevorgangs sammelt TezLab die Emissionsdaten aus dem lokalen Stromnetz (sofern verfügbar), um den durchschnittlichen CO₂-Ausstoß pro kWh Strom sowie die Gesamtmenge des CO₂-Ausstoßes für {{ucl1}} zu berechnen.\n\nDer Bereich \"Lokal\" beschreibt die niedrigsten und höchsten beobachteten Kohlenstoffintensitäten für das lokale Stromnetz {{ucl2}}.\n\nDa das freigesetzte CO₂ je nach Stromerzeugungsmethode variiert, beschreibt der Bereich \"Global\" die niedrigsten und höchsten beobachteten Kohlenstoffintensitäten für alle Stromnetze der TezLab-Nutzer {{ucl3}}.\n\nDie Brennstoffäquivalenzzahl beschreibt, wie viel Brennstoff man verbrennen müsste, um die gleiche Menge an erzeugtem CO₂ freizusetzen {{ucl4}}.\n\nIn allen Fällen sind niedrigere CO₂-Zahlen besser.",
+            "delayed": "Der Datenstrom für diesen Bereich ist oft verzögert. Die nachstehenden Angaben sind eine Schätzung.",
+            "perkWh": "Durchschnittliche CO₂/kWh",
+            "total": "CO₂ insgesamt",
+            "equivFuel": "Äquiv. Kraftstoff Vol.",
+            "local": "Standort",
+            "global": "Global",
+            "cleaner": "Sauberer",
+            "dirtier": "Dreckiger",
+            "unavailable": "Live-Daten nicht verfügbar",
+            "unavailableContent": "Aktuelle lokale Daten sind für diesen Bereich zum Zeitpunkt der Erhebung dieser Gebühr nicht verfügbar. Die Kohlenstoffintensität wurde anhand historischer Werte geschätzt.",
+            "unavailableDisplay": "Lebendige Kohlenstoffwerte sind an diesem Ort nicht verfügbar.",
+            "zero": "Null-Emissions-Ausgleich",
+            "zeroContent_herePeriod": "Die Werte für die Kohlenstoffauswirkungen an diesem Standort enthalten den {{factor}}% Null-Emissions-Ausgleich, den Sie für diesen Standort festgelegt haben. Die beobachteten lokalen und globalen Bereiche sind unangepasst.",
+            "zeroContent_chargePeriod": "Die Kohlenstoffauswirkungswerte dieser Ladung enthalten den von Ihnen festgelegten {{factor}}% Null-Emissions-Ausgleich. Die beobachteten lokalen und globalen Bereiche sind unangepasst.",
+            "zeroDisplay": "Beinhaltet {{howMuch}}% Null-Emissions-Ausgleich."
+        },
+        "carImage": {
+            "take": "Ein Foto machen",
+            "add": "Foto aus Kamerarolle hinzufügen",
+            "remove": "Dieses Foto entfernen",
+            "cancel": "Abbrechen",
+            "none": "NO CAR IMAGES",
+            "addPic": "BILD VON IHREM AUTO HINZUFÜGEN"
+        },
+        "chargeEff": {
+            "eff": "{{eff}} efficiency",
+            "delivering": " die die vom Ladegerät bezogene Energie an Ihr Auto weiterleitet.",
+            "drawn": "Gezeichnete Energie",
+            "added": "Hinzugefügte Energie"
+        },
+        "communicating": "Kommunikation mit Fahrzeug...",
+        "reportCardLoading": "Laden aktueller Ladedaten",
+        "currentTrip": {
+            "min_awaitingData": "in Erwartung von Daten",
+            "justStarted": "Gerade erst begonnen",
+            "current": "Stromantrieb",
+            "connected": "Verbunden",
+            "loading": "Laden von Laufwerksdaten",
+            "eff_avg": "Durchschnittlicher vergangener Drive Eff.",
+            "eff_current": "Stromantrieb Eff.",
+            "real": "Reichweite in der realen Welt",
+            "awaiting": "Warten auf Effizienzdaten",
+            "crunching": "Knackige Zahlen",
+            "keepDriving": "Fahren Sie weiter und wir werden Ihre Reichweite auf der Grundlage dieser Fahrt berechnen. Drücken Sie zum Anzeigen ",
+            "vals_live": "Lebendige Werte",
+            "vals_est": "Geschätzte Werte",
+            "speed": "Durchschnittliche Geschwindigkeit",
+            "elevation": "Erhebungen",
+            "temp": "Temperatur",
+            "duration": "Dauer",
+            "distance": "Entfernung",
+            "rangeUsed": "Verwendeter Bereich",
+            "co2": "Schätzung. CO₂",
+            "energyUsed": "Est. Verwendete Energie",
+            "cost": "Schätzung. Kosten",
+            "lastUpdated": "Zuletzt aktualisiert: ",
+            "min_fewSeconds": "vor ein par Sekunden",
+            "min_one": "vor 1 Minute",
+            "min_other": "vor {{count}} Minuten"
+        },
+        "dashAuth": {
+            "error": "Etwas ist schief gelaufen",
+            "errorMessage": "Es tut uns leid, wir konnten keine Verbindung zu dieser Dashboard-Sitzung im Fahrzeug herstellen. Bitte laden Sie das Browserfenster Ihres Fahrzeugs neu und versuchen Sie es erneut.",
+            "continue": "Weiter",
+            "title": "Aktivierung des Armaturenbretts im Fahrzeug",
+            "connected": "Fahrzeuginternes Armaturenbrett Connected",
+            "updating": "Der Bildschirm Ihres Fahrzeugs wird kurzzeitig aktualisiert.",
+            "select": "Bitte wählen Sie das Fahrzeug aus, das Sie mit dem Armaturenbrett verbinden möchten.",
+            "connectDash": "Connect in-car Dashboard für {{name}}?",
+            "blurb": "Sie müssen dies nur einmal tun und können die Verbindung jederzeit unterbrechen.",
+            "success_cont": "Weiter",
+            "success_connect": "Verbinden Sie",
+            "connect": "Verbinden Sie",
+            "cancel": "Abbrechen"
+        },
+        "datePicker": {
+            "today": "Heute",
+            "yesterday": "Gestern",
+            "apply": "Daten anwenden",
+            "ever": "Alle Zeiten",
+            "when_apply": "Daten anwenden",
+            "when_all": "Alle Zeiten",
+            "from": "Von",
+            "to": "Bis"
+        },
+        "dialogInput": {
+            "cancel": "CANCEL",
+            "submit": "SUBMIT"
+        },
+        "electricityAttribution": "Daten zur Kohlenstoffintensität von ",
+        "exportButton": {
+            "today": "Heute",
+            "set": "SETZEN",
+            "drives": "ANTRIEBE",
+            "charges": "CHARGES",
+            "exportSummary": "Exportieren Sie eine Zusammenfassung der Gebühren nach Standort für das aktuelle Fahrzeug.",
+            "reset": "Reset Dates",
+            "exportData": "Export Data",
+            "error": "Es ist ein Fehler aufgetreten.",
+            "pro": "Exportieren Sie Ihre Daten mit TezLab Pro",
+            "requested": "Export Requested",
+            "almost": "Ihr Bericht wird gerade erstellt und ist in Kürze verfügbar.",
+            "export": "Exportieren"
+        },
+        "nearbySuperchargers": "Supercharger in der Nähe",
+        "helpBeacon": "?",
+        "noteControl": {
+            "caption": "Hinweis",
+            "cancel": "Abbrechen",
+            "delete": "Löschen",
+            "save": "Speichern Sie",
+            "add": "Notiz hinzufügen",
+            "new_save": "Speichern Sie",
+            "new_add": "Notiz hinzufügen"
+        },
+        "notifCard": {
+            "pro": "Nur für Profis"
+        },
+        "powerMix": {
+            "fossilFree": "Fossilfrei",
+            "nonRenewable": "Nicht-erneuerbar",
+            "unknown": "Unbekannt",
+            "sources": "Wichtigste Quellen",
+            "title_grid": "Netzstrommix",
+            "title_report": "Strommix-Bericht",
+            "content_zero": "Der Strom aus dem Netz stammt aus einem Mix von Quellen, der je nach Geografie, Datum und Zeit variiert. So kann beispielsweise ein Netz, das hauptsächlich aus Wasserkraft gespeist wird, an einem besonders heißen Tag die zusätzliche Nachfrage durch eine höhere Produktion von Erdgas ausgleichen. Die hier aufgeführten Quellen sind unterteilt in solche, die ohne fossile Brennstoffe auskommen, und solche, die dies nicht tun. Strom, der ohne den Einsatz fossiler Brennstoffe erzeugt wird, hat in der Regel eine geringere Kohlenstoffintensität. Ihre Ladestation hat einen Null-Emissions-Ausgleichssatz. Dieser Strommix basiert auf dem Netz an Ihrem Wohnort und enthält nicht Ihre emissionsfreien Quellen.",
+            "content_default": "Der Strom aus dem Netz stammt aus einem Mix von Quellen, der je nach Geografie, Datum und Zeit variiert. So kann beispielsweise ein Netz, das hauptsächlich aus Wasserkraft gespeist wird, an einem besonders heißen Tag die zusätzliche Nachfrage durch eine höhere Produktion von Erdgas ausgleichen. Die hier aufgeführten Quellen sind unterteilt in solche, die ohne fossile Brennstoffe auskommen, und solche, die dies nicht tun. Strom, der ohne den Einsatz fossiler Brennstoffe erzeugt wird, hat in der Regel eine geringere Kohlenstoffintensität."
+        },
+        "priceAdjust": {
+            "free": "Kostenlose Aufladung",
+            "adjusted": "Angepasste Kosten",
+            "noAccess": "Kein Zugang",
+            "pending": "Anhängig",
+            "estimate": "Schätzung",
+            "unable": "Synchronisierung nicht möglich",
+            "title": "Ladegerät Kosten"
+        },
+        "proIcon": {
+            "tezlab_pro": "TezLab Pro",
+            "tezlab_team": "TezLab-Team"
+        },
+        "proUpgrade": {
+            "upgrade": "Upgrade",
+            "now": "Jetzt aktualisieren"
+        },
+        "publicCharger": {
+            "kw": "{{watts}}kW",
+            "open": "{{open}}/{{total}} Offen"
+        },
+        "publicPost": {
+            "title": "Öffentlicher Dienst",
+            "everyone": "Dieser Beitrag ist für jeden auf TezLab sichtbar."
+        },
+        "superQs": {
+            "tellUs": "Erzählen Sie uns von Ihren Erfahrungen auf der",
+            "name": "{{name}} Supercharger TODO - INTERPOLATION",
+            "qNum": "QUESTION: {{index}}{{Frage}} ALLE - INTERPOLATION",
+            "more": "Gibt es noch etwas, das Sie uns mitteilen möchten?",
+            "comment": "Wie",
+            "problem": "Problem",
+            "nah": "Nein Danke",
+            "added": "Wie Added",
+            "none": "No Comment",
+            "thanks": "Danke, dass Sie ein Teamplayer sind!",
+            "comingUp": "Ihre Antworten werden in Kürze in die Bewertungen einfließen.",
+            "close": "Schließen Sie",
+            "submit": "SUBMIT",
+            "about": "Über diese Frage",
+            "skip": "Frage überspringen",
+            "answered": "Antwortet",
+            "yes": "YES",
+            "no": "NO"
+        },
+        "supportTap": {
+            "alert": "Unterstützung Referenz",
+            "reference": "Die Support-Referenz für diesen {{type}} ist {{id}}",
+            "copy": "Kopierhilfe-Referenz",
+            "copied": "Die Support-Referenz wurde in Ihre Zwischenablage kopiert. Bitte fügen Sie sie in Ihre Kommunikation mit unserem Team ein.",
+            "ok": "Ok",
+            "cancel": "Abbrechen"
+        },
+        "switchMenu": {
+            "previously": "Zuvor verfolgt",
+            "mine": "Meine Fahrzeuge",
+            "rivian": "Wir unterstützen jetzt Rivian. Zum Verbinden antippen",
+            "connectRivian": "Rivian-Konto verbinden",
+            "manage": "Verwalten von Fahrzeugverbindungen"
+        },
+        "vehicleMenu": {
+            "switch": "Fahrzeug wechseln",
+            "loading": "Laden",
+            "tracked_prevDis": "{{vin}} - Zuvor verfolgt - Abruf deaktiviert 🚫",
+            "tracked_ownerDis": "{{vin}} - (Eigentümer) - Abruf deaktiviert 🚫.",
+            "tracked_sharedDis": "{{vin}} - (Gemeinsam) - Abruf deaktiviert 🚫.",
+            "tracked_prev": "{{vin}} - Zuvor verfolgte",
+            "tracked_owner": "{{vin}} - (Eigentümer)",
+            "tracked_shared": "{{vin}} - (Geteilt)"
+        }
+    },
+    "social": {
+        "activityDetail": {
+            "charge": "Gebührendetails anzeigen",
+            "chargeReport": "Details zur Nutzung anzeigen",
+            "drive": "Details zum Laufwerk anzeigen"
+        },
+        "activityItem": {
+            "index": {
+                "naughty": "Dieser Beitrag ist ausgeblendet, weil Sie ihn als unangemessen gekennzeichnet haben.",
+                "view": "Zur Ansicht tippen",
+                "member_one": "1 Mitglied",
+                "member_other": "{{count}} Mitglieder",
+                "privacy_private": "Private Gruppe",
+                "privacy_public": "Öffentliche Gruppe",
+                "stall": "Stall: {{prob}}"
+            },
+            "comment": {
+                "like_one": "1 Wie",
+                "like_other": "{{count}} Mag",
+                "viewAll": "Alle {{num}} Kommentare anzeigen"
+            }
+        },
+        "contentPost": {
+            "index": {
+                "error": "Fehler beim Absenden des Beitrags. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+                "new": "Neuer Beitrag",
+                "shareWith": "Teilen mit...",
+                "remove": "Bild entfernen",
+                "addTitle": "Bild hinzufügen",
+                "add": "Bild aus Bibliothek hinzufügen",
+                "take": "Foto aufnehmen",
+                "android": "Was möchten Sie uns mitteilen?",
+                "message": "Ihre Nachricht",
+                "attach": "Aktivität anhängen",
+                "great": "Tolles Bild!!!",
+                "accompany": "Wir haben einige Aktivitäten gefunden, die zu diesem Bild passen. Wählen Sie eine aus, die Sie anhängen möchten.",
+                "browse": "Aktivitäten durchsuchen",
+                "removeContent": "Inhalt entfernen",
+                "post_error": "Erneut versuchen",
+                "post_success": "Beitrag"
+            },
+            "section": {
+                "detail": "Detail-Ansicht",
+                "location": "Standort",
+                "map": "Karte",
+                "testing_one": "Auf",
+                "testing_other": "Aus"
+            }
+        },
+        "contentSelect": {
+            "index": {
+                "tracked": "Verfolgte Ereignisse",
+                "which": "Welches Ereignis möchten Sie an diesen Beitrag anhängen?"
+            },
+            "item": {
+                "route": "{{from}} bis {{to}}"
+            }
+        },
+        "editPost": {
+            "error": "Fehler beim Aktualisieren des Beitrags. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+            "wait": "Warten Sie!",
+            "cancel": "Abbrechen",
+            "delete": "Löschen",
+            "remove": "Bild entfernen",
+            "restore": "Bild wiederherstellen",
+            "what": "Was möchten Sie uns mitteilen?",
+            "message": "Ihre Nachricht",
+            "content_one": "Aktivität entfernen",
+            "content_other": "Aktivität wiederherstellen",
+            "submit_one": "Erneut versuchen",
+            "submit_other": "Beitrag aktualisieren"
+        },
+        "newPost": {
+            "sharedWith": "Der Beitrag wird geteilt mit: ",
+            "error_one": "Fehler beim Absenden des Problems. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+            "error_other": "Fehler beim Absenden des Problems. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an support@tezlabapp.com.",
+            "shareWith": "Teilen mit...",
+            "new": "Neuer Beitrag",
+            "options": "Aktienoptionen",
+            "problem": "Problem teilen",
+            "sharingIsCaring": "Die Weitergabe eines Problems hilft anderen TezLab-Fahrern, sich über Schäden, Sperrungen oder andere Serviceprobleme an diesem Ort zu informieren.\n\nWenn es ein Problem mit der Genauigkeit dieser Auflistung von Kompressoren gibt, kontaktieren Sie bitte support@tezlabapp.com.",
+            "what": "Was möchten Sie uns mitteilen?",
+            "stallNum": "Nummer des Ladestalls (falls zutreffend)",
+            "message": "Ihre Nachricht",
+            "image_one": "Bild",
+            "image_other": "Bild hinzufügen",
+            "addImage": "Bild aus Bibliothek hinzufügen",
+            "take": "Foto aufnehmen",
+            "remove": "Foto entfernen",
+            "post": "Beitrag"
+        },
+        "commentInput": {
+            "error": "Fehler beim Posten eines Kommentars. Wenn dieses Problem weiterhin besteht, wenden Sie sich an support@tezlabapp.com.",
+            "post": "Beitrag",
+            "add": "Kommentar hinzufügen"
+        },
+        "postAvatar": {
+            "poster_you": "Sie",
+            "poster_other": "{{name}}"
+        },
+        "postSuccess": {
+            "shared": "Ihr Beitrag wurde auf TezLab geteilt!",
+            "outside": "Möchten Sie außerhalb von TezLab teilen?",
+            "link": "Sie können jederzeit einen Link erstellen, um diesen Beitrag zu teilen.",
+            "shareLink": "Link teilen",
+            "view": "Ansicht Post",
+            "close": "Schließen Sie"
+        },
+        "socialMenu": {
+            "noTakebacks": "Dies kann nicht rückgängig gemacht werden.",
+            "flag": "Als unangebracht markieren",
+            "editPost": "Beitrag bearbeiten",
+            "delete": "Beitrag entfernen",
+            "unshare": "Beitrag freigeben",
+            "solved": "Als Gelöst markieren",
+            "sure": "Sind Sie sicher?",
+            "cancel": "Abbrechen",
+            "yes": "Ja",
+            "options": "Optionen",
+            "zapMenu": "Menü Zap",
+            "request": "Request"
+        }
+    },
+    "styled": {
+        "loadingModal": "Teilen auf TezLab",
+        "messageFlash": "Erneut versuchen",
+        "menuDefault": "Menü"
+    },
+    "tracking": {
+        "chargePriceSegment": {
+            "index": {
+                "confirm": "Bestätigen Löschen",
+                "irreversible": "Wenn Sie diese Kosten löschen, werden auch alle zugehörigen Zeitabschnitte gelöscht. Dies kann nicht rückgängig gemacht werden.",
+                "cancel": "Abbrechen",
+                "delete": "Löschen",
+                "sure": "Sind Sie sicher, dass Sie dieses Zeitsegment löschen wollen?",
+                "costEditor_one": "Zeit des Tages",
+                "costEditor_other": "Zusätzliche Kosten hinzufügen",
+                "options": "Optionen",
+                "deleteTOD": "Tageszeit löschen Kosten",
+                "perKwh": "Preis pro kWh",
+                "apply": "Bewerbung",
+                "addNew_one": "Weiteres Segment hinzufügen",
+                "addNew_other": "Zeitsegment hinzufügen"
+            },
+            "days": [
+                "SO",
+                "MO",
+                "DI",
+                "MI",
+                "DO",
+                "F",
+                "SA"
+            ],
+            "timeSegment": {
+                "segment": "Zeitsegment",
+                "start": "Startzeit",
+                "end": "Endzeit",
+                "apply": "Bewerbung"
+            }
+        },
+        "roadTripList": {
+            "index": {
+                "header": "Autoreisen",
+                "blurb": "Behalten Sie Ihre Road-Trip-Erinnerungen im Auge und kombinieren Sie alle Fahrten, Gebühren, Snack-Stopps und majestätischen Aussichtspunkte.",
+                "trips_one": "1 Road Trip",
+                "trips_other": "{{count}} Road Trips",
+                "free_one": "1 kostenloser Road Trip",
+                "free_other": "{{count}} Kostenlose Road Trips",
+                "unlock": "Road Trips freischalten",
+                "loading": "Laden",
+                "sort": "Sortieren nach",
+                "created": "Erstellt",
+                "start": "Start",
+                "sortBy_created": "Nach Erstellungsdatum",
+                "sortBy_start": "By Start Date"
+            },
+            "edit": {
+                "title": "Road Trip bearbeiten",
+                "previously": "Zuvor: {{name}}",
+                "update": "Titel aktualisieren"
+            },
+            "empty": {
+                "title": "Road Trips sind knallhart!",
+                "create": "Einen Road Trip erstellen",
+                "trips": "Autoreisen",
+                "available": "{{num}} Frei",
+                "unlock": "Road Trips freischalten"
+            },
+            "card": {
+                "edit": "Road Trip bearbeiten",
+                "deleteTrip": "Road Trip löschen",
+                "sure": "Sind Sie sicher? Das kann nicht rückgängig gemacht werden",
+                "free_one": ". Du hast noch {{num}} Roadtrip-Kreationen übrig.",
+                "free_other": "!",
+                "cancel": "Abbrechen",
+                "delete": "Löschen",
+                "options": "Road Trip Optionen"
+            }
+        },
+        "roadTripModal": {
+            "index": {
+                "error": "Etwas ist schief gelaufen",
+                "new": "Neuer Roadtrip",
+                "start": "Wählen Sie den Startpunkt Ihrer Reise",
+                "end": "Wählen Sie das Ende Ihres Roadtrips",
+                "continue": "Weiter",
+                "preview": "Road Trip Vorschau",
+                "create": "Road Trip erstellen"
+            },
+            "calendarWhen": "Wann hat Ihr Roadtrip begonnen?",
+            "selectPanel": {
+                "setStart": "Startpunkt setzen",
+                "setEnd": "Endpunkt setzen",
+                "start": "Beginn der Reise",
+                "end": "Ende der Rundreise",
+                "none": "Keine Aktivitäten"
+            }
+        },
+        "summary": {
+            "index": {
+                "filter": "Filtern & Zusammenfassen",
+                "drive": "Laufwerk Zusammenfassung",
+                "charge": "Zusammenfassung der Ladung",
+                "loading": "Zusammenfassende Daten laden...",
+                "none_one": "Keine Aktivitäten zum Zusammenfassen",
+                "none_other": "Es ist ein Fehler beim Abrufen von Zusammenfassungsdaten aufgetreten",
+                "retry": "Wiederholung",
+                "custom": "Custom Filters"
+            }
+        },
+        "batteryUsage": {
+            "index": {
+                "all": "Alle Berichte",
+                "charges": "Nur Gebühren",
+                "drives": "Laufwerke",
+                "allTime": "Alle Zeiten",
+                "between": "Zwischen",
+                "last": "In Der Letzte",
+                "noData": "Keine Aktivitätsdaten",
+                "waiting": "Warten Sie auf Ihre erste Fahrt oder Ladung",
+                "noPolling": "Der Abruf ist für dieses Fahrzeug deaktiviert",
+                "loading": "Laden Fahrzeug Aktivität...",
+                "here": "Während Sie fahren und laden, können Sie all diese Aktivitäten hier verfolgen.",
+                "unlimited": "Unbegrenzte Historie freischalten"
+            },
+            "launchDash": {
+                "current": "Stromantrieb",
+                "loading": "Laden der aktuellen Antriebsdaten",
+                "eff_one": "Durchschnittlicher vergangener Drive Eff.",
+                "eff_other": "Stromantrieb Eff.",
+                "range_one": "Schätzung. Reichweite basierend auf den letzten 2 Wochen",
+                "range_other": "Reichweite in der realen Welt",
+                "awaiting": "Warten auf Effizienzdaten",
+                "live": "Live Drive View starten"
+            },
+            "listHeader": {
+                "clear": "Klar",
+                "drives": "Laufwerke",
+                "charges": "Entgelte",
+                "location": "Standort: {{name}}",
+                "shortCharge": "Gezeigte kurze Ladungen",
+                "shortDrive": "Kurze Fahrten werden gezeigt"
+            },
+            "selectedDriveButtons": {
+                "tag_one": "Tag Drive",
+                "tag_other": "Tag Antriebe",
+                "share": "Antrieb teilen"
+            },
+            "tagControl": "Ausgewählte Laufwerke markieren ({{num}})",
+            "to": " zu "
+        },
+        "trackingLocations": {
+            "index": {
+                "seeMore": "Möchten Sie mehr als nur die Orte sehen, die Sie in den letzten 7 Tagen besucht haben?",
+                "upgrade": "Aktualisieren Sie auf TezLab Pro, um unbegrenzte Daten und mehr freizuschalten!",
+                "none": "Keine weiteren Standorte",
+                "noCharge": "Noch keine kostenpflichtigen Standorte",
+                "charge": "Laden Sie Ihr Auto auf, und die Standorte werden hier angezeigt.",
+                "loading": "Laden Sie Ladung Standorte..."
+            },
+            "locationCard": {
+                "copyright": "© Mapbox © OpenStreetMap",
+                "charge_one": "Laden Sie",
+                "charge_other": "Entgelte",
+                "range": "Bereich hinzugefügt",
+                "cost": "Gesamtkosten"
+            }
+        },
+        "exportsHeader": {
+            "retry": "Wiederholung von Exporten",
+            "exports_one": "Exporte Laden",
+            "exports_other": "Ausfuhren"
+        },
+        "settingsModal": {
+            "days": [
+                "SO",
+                "MO",
+                "DI",
+                "MI",
+                "DO",
+                "F",
+                "SA"
+            ],
+            "reminder": "Plug-in-Erinnerung",
+            "time": "Alert-Zeit",
+            "earliest": "Früheste Warnung",
+            "active": "Ihre Erinnerung wird an den unten ausgewählten Tagen ab dieser Uhrzeit bis zum Ende des Tages aktiv sein.",
+            "activeDays": "Aktive Tage",
+            "alertLevel": "Warnung Batteriestand",
+            "batteryReminder": "Wenn Ihr Akku unter diesen Wert fällt, wird eine Erinnerung gesendet.",
+            "minState": "Mindestladungszustand"
+        },
+        "starResponses": "{{Anzahl}} Antworten"
+    },
+    "userProfile": {
+        "awaitingApproval": {
+            "accept": "Akzeptieren",
+            "reject": "Ablehnen"
+        },
+        "findFriends": "Menschen suchen"
+    },
+    "rootView": {
+        "noConnection": "Keine Internetverbindung",
+        "again": "Erneut versuchen"
+    },
+    "interpolation": "{{fill}}",
+    "apos": "{{fill}}'s Post",
+    "actions": {
+        "wrong": "Etwas ist schief gelaufen",
+        "again": "Es ist ein Fehler aufgetreten.\nBitte versuchen Sie es erneut.",
+        "near": "In der Nähe von ",
+        "profile": {
+            "name": "Ihr Name konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+            "email": "Ihre E-Mail konnte nicht aktualisiert werden. Bitte stellen Sie sicher, dass Sie eine gültige E-Mail-Adresse eingegeben haben, die nicht von einem anderen Konto verwendet wird, und versuchen Sie es erneut.",
+            "bio": "Ihr Lebenslauf konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut!"
+        },
+        "purchase": {
+            "gotIt": "Ich hab's!",
+            "beta": "Käufe sind in der Beta-Version nicht möglich. Bitte laden Sie die App Store-Version herunter, um zu aktualisieren."
+        },
+        "tracking": "Fehler beim Abrufen von Daten."
+    },
+    "util": {
+        "badges": {
+            "rankings": "Rockstar",
+            "camper": "Camper",
+            "longTrip": "Watt Geizhals",
+            "distance": "Marathonläufer",
+            "manySC": "Meister der Ladung",
+            "tripper": "Auslöser",
+            "sailor": "Glatter Segler",
+            "update": "Neues Spielzeug",
+            "demon": "Geschwindigkeitsdämon",
+            "explorer": "Entdecker",
+            "teamPlayer": "Teamplayer",
+            "saver": "Saver",
+            "blocker": "Blocker",
+            "mayor": "Supercharger Bürgermeister",
+            "cic": "Ladegerät im Einsatz",
+            "v3": "V3 Supercharger Bürgermeister"
+        }
+    },
+    "na": "K.A.",
+    "integrations": {
+        "vehicleConnect": {
+            "noDeep": "Deep Sleep Assist nicht verfügbar",
+            "noDeepDrive": "Das Fahrzeug ist derzeit in Betrieb und schläft nicht.",
+            "noDeepCharge": "Das Fahrzeug wird gerade aufgeladen und geht nicht schlafen.",
+            "noDeepSentry": "Der Überwachungsmodus ist aktiviert und verhindert, dass das Fahrzeug schläft.",
+            "noDeepClimate": "Die Klimatisierung ist derzeit eingeschaltet und verhindert, dass das Fahrzeug schläft.",
+            "sure": "Sind Sie sicher?",
+            "unlockDoors": "Entriegeln Sie Ihre Türen aus der Ferne?",
+            "cancel": "Abbrechen",
+            "unlock": "freischalten",
+            "openTrunk_remote": "So öffnen Sie Ihren Kofferraum aus der Ferne",
+            "openTrunk_noClose": "Dadurch wird Ihr Kofferraum geöffnet. Er kann nicht aus der Ferne geschlossen werden.",
+            "trunk": "Öffne den Kofferraum",
+            "frunk": "Damit wird Ihr Frunk geöffnet. Er kann nicht aus der Ferne geschlossen werden.",
+            "openFrunk": "Öffne den Frunk",
+            "vent": "Dadurch werden Ihre Fenster entlüftet. Einige Fahrzeuge können die Fenster nicht aus der Ferne schließen.",
+            "ventWindows": "Wind Windows",
+            "dog_vented": "Hundemodus aktiv & Fenster belüftet",
+            "dog_closed": "Hundemodus aktiv und Fenster geschlossen",
+            "dogConfirm": "Bitte vergewissern Sie sich, dass keine pelzigen Freunde derzeit auf den Hundemodus angewiesen sind, um ihre Sicherheit zu gewährleisten. Möchten Sie die Klimaanlage des Fahrzeugs ausschalten?",
+            "active_camp": "Camp-Modus Aktiv",
+            "active_climate": "Climate Keeper Aktiv",
+            "safety_camp": "Bitte vergewissern Sie sich, dass sich niemand im Fahrzeug zu seiner Sicherheit auf den Camp-Modus verlässt. Möchten Sie die Klimaanlage des Fahrzeugs ausschalten?",
+            "safety_climate": "Bitte vergewissern Sie sich, dass niemand im Fahrzeug zu seiner Sicherheit auf den Climate Keeper angewiesen ist. Möchten Sie die Klimaanlage des Fahrzeugs ausschalten?",
+            "climateOff": "Klima ausschalten",
+            "homelink": "HomeLink",
+            "homelinkActivate": "Sind Sie sicher, dass Sie HomeLink aus der Ferne aktivieren möchten?",
+            "activate": "Aktivieren Sie",
+            "enable": "Aktivieren Sie das Fahren?",
+            "remoteAlert": "Der Fernstart ermöglicht das Fahren für 2 Minuten.",
+            "remote": "Fernstart",
+            "remoteActive": "Fernstart aktiv",
+            "remoteExpiring": "Der Fernstart wird in Kürze ablaufen. Bitte warten Sie ein paar Augenblicke und versuchen Sie es erneut.",
+            "ok": "OK",
+            "unsuccessful": "Befehl erfolglos",
+            "lowBattery": "Der Batteriestand ist zu niedrig",
+            "badCommand": "Dieser Befehl ist zur Zeit nicht erlaubt. Bitte versuchen Sie es später noch einmal.",
+            "parkCar": "Das Fahrzeug muss geparkt sein.",
+            "cantProcess_error": "Ihr Fahrzeug ist derzeit nicht in der Lage, diesen Befehl zu verarbeiten.\n\n Fehler: {{reason}}",
+            "cantProcess_default": "Ihr Fahrzeug ist derzeit nicht in der Lage, diesen Befehl zu verarbeiten.\n\n Fehler: UNBEKANNT"
+        },
+        "authentication": {
+            "imageError": "Beim Hochladen Ihres Bildes ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+            "rivian": "Beim Verbinden Ihres Rivian-Kontos ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+            "disconnect": "Es gab ein Problem beim Trennen der Verbindung zu Ihrem Fahrzeug, bitte versuchen Sie es erneut."
+        }
+    }
+}
