@@ -148,13 +148,13 @@
                     "ratedBlurb_rivian": "Esta es la autonomía que tu coche y RJ creen que conseguirás... si conduces cuesta abajo y te saltas el almuerzo."
                 },
                 "recent": {
-                    "drives": "What if...",
+                    "drives": "Viajes",
                     "charges": "Cargos",
                     "emptyDriveTitle_pro": "Aún no hay viajes",
                     "emptyDriveTitle_free": "¡No ha conducido en los últimos 7 días!",
                     "emptyDriveBody": "¡Da una vuelta y aparecerá aquí!",
                     "emptyChargeBody": "Enchúfalo y cárgalo, ¡y aparecerá aquí!",
-                    "title": "What's going on here, eh?",
+                    "title": "Seguimiento Reciente",
                     "view": "Ver todos"
                 },
                 "updateConnection": {
